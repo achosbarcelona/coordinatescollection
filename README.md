@@ -1,4 +1,5 @@
 coordinatescollection
 =====================
 
-Coordinates Collection website
+Coordinates Collection homepage section
+
