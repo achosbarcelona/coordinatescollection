@@ -13,8 +13,8 @@ html{
 }
 /*------------------------ Navigation Content ---------------------*/
 .wrapper{
-	background: #fff;
-	opacity: 0.5;
+	background: #ddd;
+	opacity: 0.8;
 	width: 100%;
 	height: 35px;
 	font-family: 'ProximaNova-Regular',sans-serif;
@@ -25,12 +25,17 @@ html{
 nav{margin: 0 0 0 0;padding: 0 0 0 0;font-family: 'ProximaNova-Regular',sans-serif;color: #333;font-size: 11px;text-transform: uppercase;}
 nav li{display: inline-block;margin-right: 10px;line-height: 35px;}
 .logo{margin: 3px auto;width: 199px;}
+/*------------------------ Feature Content ------------------------*/
+.bx-controls-direction a.icon-angle-left,
+.bx-controls-direction a.icon-angle-right{font-size: 30px;color: #fff;}
+/*------------------------ Container Content ------------------------*/
+.low-container{position:absolute;bottom: 50px;width: 100%;}
 /*------------------------ Footer Content ------------------------*/
 footer{
 	position:absolute;
 	bottom: 0;
-	background: #fff;
-	opacity: 0.5;
+	background: #ddd;
+	opacity: 0.8;
 	width: 100%;
 	height: 50px;
 	font-family: 'ProximaNova-Regular',sans-serif;
