@@ -4,26 +4,19 @@ html,body{
 	height: 100%;
 }
 body{background:transparent;}
-html{ 
-  background: url(/img/bg/coordinates.jpg) no-repeat top center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 /*------------------------ Navigation Content ---------------------*/
 .wrapper{
-	background: #ddd;
+	background: transparent;
 	opacity: 0.8;
 	width: 100%;
-	height: 35px;
-	font-family: 'ProximaNova-Regular',sans-serif;
-	color: #333;
-	font-size: 11px;
-	text-transform: uppercase;
+	height: 100%;
 }
-nav{margin: 0 0 0 0;padding: 0 0 0 0;font-family: 'ProximaNova-Regular',sans-serif;color: #333;font-size: 11px;text-transform: uppercase;}
-nav li{display: inline-block;margin-right: 10px;line-height: 35px;}
+.navigation{
+	float: right;
+	background: transparent;
+}
+nav{margin: 0 10px 0 0;padding: 0 0 0 0;font-family: 'ProximaNova-Regular',sans-serif;color: #333;font-size: 11px;text-transform: uppercase;}
+nav li{display: inline-block;margin-right: 5px;line-height: 35px;}
 .logo{margin: 3px auto;width: 199px;}
 /*------------------------ Feature Content ------------------------*/
 .bx-controls-direction a.icon-angle-left,
@@ -31,10 +24,97 @@ nav li{display: inline-block;margin-right: 10px;line-height: 35px;}
 /*------------------------ Container Content ------------------------*/
 .low-container{position:absolute;bottom: 50px;width: 100%;}
 /*------------------------ Footer Content ------------------------*/
+.medium{
+	width: 980px;
+	margin: 0 auto;
+}
+#home{
+	background: url(/img/bg/main.png) no-repeat left center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	height: 750px;
+}
+#home button{
+	width: 300px;
+	color: #fff;
+	padding: 10px;
+	text-transform: uppercase;
+	float: right;
+	margin: 600px 0 0 0;
+	background: #888;
+	border: none;
+	font: 22px "Times New Roman", sans-serif;
+	font-style: italic;
+	border-style: solid;
+	border-width: 1px;
+}
+#home .medium{
+	margin: 0 auto;
+	width: 980px;
+	height: 100%;
+}
+#home .medium img{
+	width: 51px;
+	height: 26px;
+	display: block;
+	cursor: pointer;
+	float: left;
+	margin: 710px 0 0 450px;
+}
+#about-us{
+	margin: 0 0 0 0;
+	clear: both;
+}
+#about-us .medium{
+	height: 900px;
+}
+#about-us .medium .left-icon{
+	float: left;
+	width: 260px;
+	height: 260px;
+	margin: 140px 0 0 0;
+	text-align: center;
+}
+#about-us .medium .left-icon .icon-globe{
+	color: #ffd67f;
+	font-size: 259px;
+}
+#about-us .medium .right-content{
+	float: right;
+	font: 14px 'Open Sans',sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: #888;
+	width: 720px;
+	margin: 132px 0 0 0;
+	padding: 0 0 0 20px;
+	text-transform:inherit;
+}
+#about-us .medium .right-content h3{
+	font: 50px 'Open Sans',sans-serif;
+	font-weight: 300;
+	color: #888;
+	text-transform: uppercase;
+}
+#about-us .medium .right-content p{
+	font: 14px 'Open Sans',sans-serif;
+	font-weight: 300;
+	color: #888;
+	text-transform: inherit;
+}
+#about-us .medium .right-content .time-font{
+	font: 53px 'Times',sans-serif;
+	font-weight: 300;
+	color: #888;
+	font-style: italic;
+}
 footer{
-	position:absolute;
+	position:relative;
 	bottom: 0;
-	background: #ddd;
+	background: transparent;
 	opacity: 0.8;
 	width: 100%;
 	height: 50px;
@@ -45,3 +125,10 @@ footer{
 }
 footer ul#footer-wrapper{margin: 15px auto;padding:0;width:980px;}
 footer ul#footer-wrapper li{display: inline-block;width: 160px;text-align: center;}
+
+@media only screen and (max-width: 1000px) {
+  .first-section .medium {
+    width: 1005px;
+    left: 0;
+    }
+  }

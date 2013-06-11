@@ -13,4 +13,8 @@ $(document).ready(function(){
     auto: false,
     pause: 8000
 	});
-});
+  $(".scroll").click(function(event){
+    event.preventDefault();
+    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
+  });
+});//End
