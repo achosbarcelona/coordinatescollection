@@ -150,9 +150,10 @@ nav li{display: inline-block;margin-right: 5px;line-height: 35px;}
 #ways{
 	margin: 200px 0 0 0;
 	clear: both;
+	background: #f9f9f9;
 }
 #ways .medium{
-	height: 900px;
+	height: 600px;
 }
 #ways .medium h3{
 	font: 50px 'Open Sans',sans-serif;
@@ -160,6 +161,7 @@ nav li{display: inline-block;margin-right: 5px;line-height: 35px;}
 	color: #888;
 	text-transform: uppercase;
 	margin-bottom: 0;
+	padding-top: 20px;
 }
 #ways .medium p{
 	font: 16px/30px 'Open Sans',sans-serif;
@@ -193,6 +195,87 @@ nav li{display: inline-block;margin-right: 5px;line-height: 35px;}
 	border-bottom: 1px solid #888;
 	padding-bottom: 2px;
 }
+#personalize{
+	margin: 150px 0 0 0;
+	clear: both;
+}
+#personalize .medium{
+	height: 600px;
+}
+#personalize .medium h3{
+	font: 50px 'Open Sans',sans-serif;
+	font-weight: 300;
+	color: #888;
+	text-transform: uppercase;
+	margin-bottom: 0;
+	padding-top: 20px;
+}
+#personalize .medium p{
+	font: 16px/30px 'Open Sans',sans-serif;
+	font-weight: 300;
+	color: #888;
+	text-transform: inherit;
+}
+#personalize .medium .right-content .time-font{
+	font: 53px 'Times',sans-serif;
+	font-weight: 300;
+	color: #888;
+	font-style: italic;
+}
+#personalize .medium a,
+#personalize .medium a:link,
+#personalize .medium a:active{
+	text-decoration: none;
+	color: #999;
+	border-bottom: 1px solid #999;
+	padding-bottom: 2px;
+	font-weight: 400;
+}
+#personalize .medium a:hover{
+	text-decoration: none;
+	color: #888;
+	border-bottom: 1px solid #888;
+	padding-bottom: 2px;
+}
+#personalize .medium .products{
+	float: left;
+	margin: 100px 0 0 0;
+	width: 980px;
+}
+#personalize .medium .products ul.product-images{
+	width: 850px;
+	margin: 0 auto;
+}
+#personalize .medium .products ul.product-names{
+	width: 850px;
+	margin: 20px auto;
+}
+#personalize .medium .products ul.product-images li{
+	list-style: none;
+	display: inline-block;
+	width: 150px;
+	text-align: center;
+}
+#personalize .medium .products ul.product-names li{
+	list-style: none;
+	display: inline-block;
+	width: 260px;
+	text-align: center;
+	font: 16px/30px 'Open Sans',sans-serif;
+	font-weight: 300;
+	color: #888;
+	text-transform: inherit;
+}
+
+
+
+
+
+
+
+
+
+
 #home-scroll{
 	display: block;
 	width: 60px;
@@ -213,6 +296,9 @@ nav li{display: inline-block;margin-right: 5px;line-height: 35px;}
 #map_canvas{
 	width: 980px;
 	height: 400px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
 }
 /* Footer Content */
 footer{
