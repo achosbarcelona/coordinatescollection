@@ -196,11 +196,11 @@ nav li{display: inline-block;margin-right: 5px;line-height: 35px;}
 	padding-bottom: 2px;
 }
 #personalize{
-	margin: 150px 0 0 0;
+	margin: 100px 0 0 0;
 	clear: both;
 }
 #personalize .medium{
-	height: 600px;
+	height: 850px;
 }
 #personalize .medium h3{
 	font: 50px 'Open Sans',sans-serif;
@@ -259,23 +259,28 @@ nav li{display: inline-block;margin-right: 5px;line-height: 35px;}
 #personalize .medium .products ul.product-names li{
 	list-style: none;
 	display: inline-block;
-	width: 260px;
+	width: 150px;
 	text-align: center;
 	font: 16px/30px 'Open Sans',sans-serif;
 	font-weight: 300;
 	color: #888;
 	text-transform: inherit;
+	vertical-align: top;
 }
-
-
-
-
-
-
-
-
-
-
+#personalize .medium button{
+	width: 300px;
+	color: #fff;
+	padding: 10px;
+	text-transform: uppercase;
+	float: right;
+	margin: 50px 0 0 0;
+	background: #888;
+	border: none;
+	font: 22px "Times New Roman", sans-serif;
+	font-style: italic;
+	border-style: solid;
+	border-width: 1px;
+}
 #home-scroll{
 	display: block;
 	width: 60px;
