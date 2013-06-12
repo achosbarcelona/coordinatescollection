@@ -15,7 +15,7 @@ body{background:transparent;}
 	float: right;
 	background: transparent;
 }
-nav{margin: 0 10px 0 0;padding: 0 0 0 0;font-family: 'ProximaNova-Regular',sans-serif;color: #333;font-size: 11px;text-transform: uppercase;}
+nav{margin: 0 10px 0 0;padding: 0 0 0 0;font-family: 'Open Sans',sans-serif;color: #333;font-size: 11px;text-transform: uppercase;}
 nav li{display: inline-block;margin-right: 5px;line-height: 35px;}
 .logo{margin: 3px auto;width: 199px;}
 /*------------------------ Feature Content ------------------------*/
@@ -29,7 +29,7 @@ nav li{display: inline-block;margin-right: 5px;line-height: 35px;}
 	margin: 0 auto;
 }
 #home{
-	background: url(/img/bg/main.png) no-repeat left center scroll;
+	background: url(/img/bg/main.png) no-repeat left top scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -67,6 +67,7 @@ nav li{display: inline-block;margin-right: 5px;line-height: 35px;}
 #about-us{
 	margin: 0 0 0 0;
 	clear: both;
+	height: 900px;
 }
 #about-us .medium{
 	height: 900px;
@@ -112,23 +113,25 @@ nav li{display: inline-block;margin-right: 5px;line-height: 35px;}
 	font-style: italic;
 }
 #about-us .medium .how-it-works{
-	margin: 100px auto;
-	width: 800px;
-	height: 100%;
+	float: left;
+	margin: 100px 0 0 0;
+	width: 980px;
 }
-#about-us .medium .how-it-works .steps li{
+#about-us .medium .how-it-works ul.steps{
+	width: 850px;
+	margin: 0 auto;
+}
+#about-us .medium .how-it-works ul.steps-content{
+	width: 850px;
+	margin: 20px auto;
+}
+#about-us .medium .how-it-works ul.steps li{
 	list-style: none;
 	display: inline-block;
 	width: 260px;
 	text-align: center;
 }
-#about-us .medium .how-it-works img{
-	display: block;
-	width: 41px;
-	height: 41px;
-	margin: 0 auto;
-}
-#about-us .medium .how-it-works .steps-content li{
+#about-us .medium .how-it-works ul.steps-content li{
 	list-style: none;
 	display: inline-block;
 	width: 260px;
@@ -138,6 +141,45 @@ nav li{display: inline-block;margin-right: 5px;line-height: 35px;}
 	color: #888;
 	text-transform: inherit;
 }
+#about-us .medium .how-it-works .steps img{
+	display: block;
+	width: 41px;
+	height: 41px;
+	margin: 0 auto;
+}
+#ways{
+	margin: 0 0 0 0;
+	clear: both;
+}
+#ways .medium{
+	height: 900px;
+}
+#ways .medium .right-content h3{
+	font: 50px 'Open Sans',sans-serif;
+	font-weight: 300;
+	color: #888;
+	text-transform: uppercase;
+}
+#ways .medium .right-content p{
+	font: 16px/30px 'Open Sans',sans-serif;
+	font-weight: 300;
+	color: #888;
+	text-transform: inherit;
+}
+#ways .medium .right-content .time-font{
+	font: 53px 'Times',sans-serif;
+	font-weight: 300;
+	color: #888;
+	font-style: italic;
+}
+
+
+.continue-arrow{
+	float: left;
+	width: 76px;
+	height:51px;
+}
+/* Footer Content */
 footer{
 	position:relative;
 	bottom: 0;
@@ -145,7 +187,7 @@ footer{
 	opacity: 0.8;
 	width: 100%;
 	height: 50px;
-	font-family: 'ProximaNova-Regular',sans-serif;
+	font-family: 'Open Sans',sans-serif;
 	color: #333;
 	font-size: 11px;
 	text-transform: uppercase;
