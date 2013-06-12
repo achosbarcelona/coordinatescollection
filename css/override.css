@@ -100,7 +100,7 @@ nav li{display: inline-block;margin-right: 5px;line-height: 35px;}
 	text-transform: uppercase;
 }
 #about-us .medium .right-content p{
-	font: 14px 'Open Sans',sans-serif;
+	font: 16px/30px 'Open Sans',sans-serif;
 	font-weight: 300;
 	color: #888;
 	text-transform: inherit;
@@ -110,6 +110,33 @@ nav li{display: inline-block;margin-right: 5px;line-height: 35px;}
 	font-weight: 300;
 	color: #888;
 	font-style: italic;
+}
+#about-us .medium .how-it-works{
+	margin: 100px auto;
+	width: 800px;
+	height: 100%;
+}
+#about-us .medium .how-it-works .steps li{
+	list-style: none;
+	display: inline-block;
+	width: 260px;
+	text-align: center;
+}
+#about-us .medium .how-it-works img{
+	display: block;
+	width: 41px;
+	height: 41px;
+	margin: 0 auto;
+}
+#about-us .medium .how-it-works .steps-content li{
+	list-style: none;
+	display: inline-block;
+	width: 260px;
+	text-align: center;
+	font: 16px/30px 'Open Sans',sans-serif;
+	font-weight: 300;
+	color: #888;
+	text-transform: inherit;
 }
 footer{
 	position:relative;
