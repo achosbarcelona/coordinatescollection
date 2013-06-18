@@ -29,9 +29,4 @@ $(document).ready(function(){
           });
         });
         });
-  // Tell the user that theres an arrow to be clicked on
-  /*function pulsate(){
-    $('#home-scroll').animate({opacity: 0.2}, 2000, 'linear').animate({opacity: 1}, 2000, 'linear');
-  };pulsate();
-  */
 });
