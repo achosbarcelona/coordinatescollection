@@ -87,7 +87,7 @@ nav li{display: inline-block;margin-right: 5px;line-height: 35px;}
 	float: left;
 	width: 260px;
 	height: 260px;
-	margin: 140px 0 0 0;
+	margin: 50px 0 0 0;
 	text-align: center;
 }
 #about-us .medium .left-icon .icon-globe{
@@ -101,7 +101,7 @@ nav li{display: inline-block;margin-right: 5px;line-height: 35px;}
 	font-style: normal;
 	color: #888;
 	width: 720px;
-	margin: 132px 0 0 0;
+	margin: 52px 0 0 0;
 	padding: 0 0 0 10px;
 	text-transform:inherit;
 }
@@ -162,6 +162,7 @@ nav li{display: inline-block;margin-right: 5px;line-height: 35px;}
 	margin: 200px 0 0 0;
 	clear: both;
 	background: #f9f9f9;
+	height: 100%;
 }
 #ways .medium{
 	height: 750px;
@@ -174,6 +175,7 @@ nav li{display: inline-block;margin-right: 5px;line-height: 35px;}
 	margin-bottom: 0;
 	padding-top: 20px;
 }
+#ways .medium article,
 #ways .medium p{
 	font: 16px/30px 'Open Sans',sans-serif;
 	font-weight: 300;
@@ -364,6 +366,11 @@ footer{
 footer ul#footer-wrapper{margin: 15px auto;padding:0;width:850px;}
 footer ul#footer-wrapper li{display: inline-block;width: 160px;text-align: center;}
 
+.nofocusoperandi {
+  visibility:visible;
+  opacity:1;
+}
+
 /* ----------------------------- Scrolls Bars ---------------------------------------*/
 
 /* ----------------------------- Media Queries ---------------------------------------*/
@@ -392,7 +399,8 @@ footer ul#footer-wrapper li{display: inline-block;width: 160px;text-align: cente
 	#ways .medium h3{
 		padding-left: 10px;
 	}
-	#ways .medium p{
+	#ways .medium p,
+	#ways .medium article{
 		padding-left: 10px;
 	}
 	#ways .medium a{
