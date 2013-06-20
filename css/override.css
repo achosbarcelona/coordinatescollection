@@ -192,6 +192,9 @@ nav li{display: inline-block;margin-right: 5px;line-height: 35px;}
 	color: #888;
 	text-transform: inherit;
 }
+#ways .medium article{
+	margin-bottom: 20px;
+}
 #ways .medium #map_canvas p{
 	font: 13px Arial,Helvetica,sans-serif;
 	color: #999;
@@ -295,8 +298,8 @@ nav li{display: inline-block;margin-right: 5px;line-height: 35px;}
 	vertical-align: top;
 }
 #personalize .medium button{
-	width: 300px;
-	color: #fff;
+	width: 350px;
+	color: #111;
 	padding: 10px;
 	text-transform: uppercase;
 	float: right;
@@ -307,6 +310,16 @@ nav li{display: inline-block;margin-right: 5px;line-height: 35px;}
 	font-style: italic;
 	border-style: solid;
 	border-width: 1px;
+	background: transparent;
+	border-color: #111;
+}
+#personalize .medium button .icon-angle-right{
+	padding-left: 10px;
+	font-size: 25px;
+}
+#personalize .medium button:hover{
+	border-color: #999;
+	color: #999;
 }
 #continue-arrow{
 	-webkit-animation: pulsate 3s ease-in-out 0s infinite alternate;
