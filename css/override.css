@@ -170,7 +170,8 @@ nav li{display: inline-block;margin-right: 5px;line-height: 35px;}
 	float:left;
 	margin: 200px 0 0 0;
 	clear: both;
-	background: #f9f9f9;
+	/*background: #f9f9f9;*/
+	background: url(/img/patterns/dust_@2X.png);
 	width: 100%;
 	height: 100%;
 }
@@ -194,6 +195,13 @@ nav li{display: inline-block;margin-right: 5px;line-height: 35px;}
 }
 #ways .medium article{
 	margin-bottom: 20px;
+}
+#ways .medium #map{
+}
+#ways .medium #map_canvas{
+	border-radius: 2px;
+	border-color: #ffd67f;
+	border: 6px solid #ffd67f;
 }
 #ways .medium #map_canvas p{
 	font: 13px Arial,Helvetica,sans-serif;
