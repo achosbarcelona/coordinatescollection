@@ -395,8 +395,25 @@ footer{
 	font-size: 11px;
 	text-transform: uppercase;
 }
-footer ul#footer-wrapper{margin: 15px auto;padding:0;width:850px;}
+footer ul#footer-wrapper{margin: 15px auto;padding:0;width:550px;}
 footer ul#footer-wrapper li{display: inline-block;width: 160px;text-align: center;}
+footer ul#footer-wrapper li a{color: #333;}
+footer ul#footer-wrapper li a:hover{text-decoration: underline;color: #333;}
+/* Modals */
+.reveal-modal p, .reveal-modal ul li{
+	font-size: 13px;
+	font: 13px/18px 'Open Sans',sans-serif;
+	font-weight: 300;
+}
+.reveal-modal ul li{
+	margin-left: 30px;
+}
+.reveal-modal h3{
+	font: 16px/22px 'Open Sans',sans-serif;
+	color: #111;
+	text-transform: uppercase;
+	font-weight: 300;
+}
 
 /* ----------------------------- Scrolls Bars ---------------------------------------*/
 
