@@ -78,7 +78,7 @@ nav li{display: inline-block;margin-right: 5px;line-height: 35px;}
 #about-us{
 	margin: 0 0 0 0;
 	clear: both;
-	height: 900px;
+	height: 100%;
 }
 #about-us .medium{
 	height: 900px;
@@ -235,9 +235,10 @@ nav li{display: inline-block;margin-right: 5px;line-height: 35px;}
 #personalize{
 	margin: 100px 0 0 0;
 	clear: both;
+	height: 100%;
 }
 #personalize .medium{
-	height: 850px;
+	height: 100%;
 }
 #personalize .medium h3{
 	font: 50px 'Open Sans',sans-serif;
@@ -397,14 +398,64 @@ footer{
 footer ul#footer-wrapper{margin: 15px auto;padding:0;width:850px;}
 footer ul#footer-wrapper li{display: inline-block;width: 160px;text-align: center;}
 
-.nofocusoperandi {
-  visibility:visible;
-  opacity:1;
-}
-
 /* ----------------------------- Scrolls Bars ---------------------------------------*/
 
 /* ----------------------------- Media Queries ---------------------------------------*/
+@media only screen and(min-height: 900px){
+	#home button{
+		margin: 800px 0 10px 0;
+	}
+	#home .medium{
+
+	}
+	#home-scroll{
+		margin: 800px 0 0 460px;
+	}
+}
+@media only screen and(min-height: 1000px){
+	#home button{
+		margin: 890px 0 10px 0;
+	}
+	#home .medium{
+
+	}
+	#home-scroll{
+		margin: 920px 0 0 460px;
+	}
+}
+@media only screen and(min-height: 1100px){
+	#home button{
+		margin: 950px 0 10px 0;
+	}
+	#home .medium{
+
+	}
+	#home-scroll{
+		margin: 1050px 0 0 460px;
+	}
+}
+@media only screen and(min-height: 1200px){
+	#home button{
+		margin: 1000px 0 10px 0;
+	}
+	#home .medium{
+
+	}
+	#home-scroll{
+		margin: 1100px 0 0 460px;
+	}
+}
+@media only screen and(min-height: 1300px){
+	#home button{
+		margin: 1200px 0 10px 0;
+	}
+	#home .medium{
+
+	}
+	#home-scroll{
+		margin: 1250px 0 0 460px;
+	}
+}
 @media only screen and (max-width: 980px){
 	#home{
 		width: 100%;
