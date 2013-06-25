@@ -442,7 +442,7 @@ footer{
 	font-size: 11px;
 	text-transform: uppercase;
 }
-footer ul#footer-wrapper{margin: 15px auto;padding:0;width:550px;}
+footer ul#footer-wrapper{margin: 15px auto;padding:0;width:800px;}
 footer ul#footer-wrapper li{display: inline-block;width: 160px;text-align: center;}
 footer ul#footer-wrapper li a{color: #333;}
 footer ul#footer-wrapper li a:hover{text-decoration: underline;color: #333;}
