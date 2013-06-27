@@ -7,7 +7,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1" />
-<meta name="keywords" content="fd9 group, fdrgroup, fashion directive 9, fashion incubator, consultant firm, assists new brands">
+<meta name="keywords" content="fd9 group, fd9group, fashion directive 9, fashion incubator, consultant firm, assists new brands">
 <meta name="description" content="The Coordinates Collection is the world’s first customizable wearable memory. The brand launches June 2013 in the jewelry vertical with a collection consisting of bracelets and rings. Each piece combines chic sophistication and jet set glamour displaying the latitude and longitude of any place that holds a special memory to you.">
 <meta property="og:title" content="CoordinatesCollection" />
 <meta property="og:description" content="The Coordinates Collection is the world’s first customizable wearable memory. The brand launches June 2013 in the jewelry vertical with a collection consisting of bracelets and rings. Each piece combines chic sophistication and jet set glamour displaying the latitude and longitude of any place that holds a special memory to you." />
@@ -15,40 +15,33 @@
 <meta property="og:url" content="http://wwww.coordinatescollection.com/" />
 <meta name='robots' content='index,follow'>
 <link rel="icon" href="/img/favicon/favicon.png" type="image/x-icon" />
-<link rel="stylesheet" href="css/foundation.css" />
-<link rel="stylesheet" href="css/override.css" />
-<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/core.css" />
 <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' />
-<link rel="stylesheet" href="css/font-awesome.css" />
-<script src="js/vendor/custom.modernizr.js"></script>
-<script src="js/vendor/zepto.js"></script>
 </head>
 <body>
-<div class="wrapper">
-  <section class="navigation">
-    <nav>
-      <ul>
-        <li>Sign Up</li>
-        <li style="padding-right: 30px;">Log In</li>
-        <li style="clear: left;"><i class="icon-phone"></i>1-888-878-7120</li>
-      </ul>
-    </nav>
-  </section>
-  <section id="home">
-    <div class="medium">
-      <button>Personalize your piece</button>
-      <a href="#about-us" class="scroll" id="home-scroll">
+<section class="navigation">
+  <nav>
+    <ul>
+      <li>Sign Up</li>
+      <li>Log In</li>
+      <li><i class="icon-phone"></i>1-888-878-7120</li>
+    </ul>
+  </nav>
+</section>
+<section id="home">
+  <button>Personalize your piece</button>
+    <div id="continue-arrow-wrapper">
+      <a href="#about-us" class="scroll" id="continue-arrow">
         <i class="icon-angle-down"></i>
       </a>
     </div>
-  </section>
-  <section id="about-us">
-    <div class="medium">
-      <div class="left-icon">
-        <i class="icon-globe"></i>
-      </div>
-      <div class="right-content">
-        <article>
+</section>
+<section id="about-us">
+    <div class="left-icon">
+      <i class="icon-globe"></i>
+    </div>
+    <div class="right-content">
+      <article>
         <h3>Every <span class="time-font">memory</span> has a <span class="time-font">place</span></h3>
         <p>The Coordinates Collection is the world’s first customizable wearable memory. Each piece is a combination of chic sophistication and jet set glamour displaying the latitude and longitude of any place that holds a special memory to you.</p>
         <p>The Coordinates collection is fully customizable with a variety of choices of metals, gems, and customized inscriptions.  Each Coordinates Collection piece has a unique serial ID which can be registered at Whatareyours, which is the official spot to share and discover memories, experiences, and stories from around the world.</p>
@@ -58,7 +51,7 @@
         <ul class="steps-content">
           <li style="margin-right: 20px;">
             <img src="/img/circle1.png" alt="First step" class="circles" />
-            <p>Choose a memory close to your heart Let us know where that memory happened</p>
+            <p>Choose a memory close to your heart let us know where that memory happened</p>
             <img src="/img/step1.png" width="62" height="88" />
           </li>
           <li style="margin-right: 40px;">
@@ -70,13 +63,16 @@
             <img src="/img/step3.png" width="92" height="86" /></li>
         </ul>
       </div>
+      <div id="continue-arrow-wrapper">
         <a href="#ways" class="scroll" id="continue-arrow">
           <i class="icon-angle-down"></i>
         </a>
-    </div>
-  </section>
+      </div>
+</section>
+
+
+
   <section id="ways">
-    <div class="medium">
       <h3>Whatareyours</h3>
       <article>
         Go to Whatareyours.com to share your memories and where they happened!  If you already own a Coordinates Collection piece you can register it and unlock additional benefits and rewards.
@@ -101,10 +97,11 @@
             <img src="/img/social-icon.png" width="63" height="32" /></li>
         </ul>
       </div>
+    <div id="continue-arrow-wrapper">
       <a href="#personalize" class="scroll" id="continue-arrow">
-        <i class="icon-angle-down"></i>
-      </a>
-    </div>
+      <i class="icon-angle-down"></i>
+    </a>
+  </div>
   </section>
   <section id="personalize">
     <div class="medium">
@@ -238,7 +235,6 @@ For international orders, we process through a third party service called intern
 <p>The recipient of the package is responsible for these fees. These fees are not included in the pricing or shipping/handling charges on our website. It is strongly recommended to check with your local agency for an estimate of these fees prior to placing the order. International Checkout allows you to prepay the DUTIES and TAXES on an international shipment.</p>
 <a class="close-reveal-modal">&#215;</a>
 </div>
-</div>
 <script src="js/vendor/jquery.js"></script>
 <script src="https://maps.google.com/maps/api/js?sensor=true"></script>
 <script>
@@ -246,7 +242,6 @@ For international orders, we process through a third party service called intern
     + ('__proto__' in {} ? 'zepto' : 'jquery')
     + '.js><\/script>');
 </script>
-<script src="js/vendor/bxslider.min.js"></script>
 <script src="js/foundation.min.js"></script>
 <script src="js/load.js"></script>
 <script src="js/jquery.ui.map.full.min.js"></script>

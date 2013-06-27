@@ -1,19 +1,6 @@
 //Custom
 google.maps.visualRefresh = true;
 $(document).ready(function(){
-	$('.feature').bxSlider({
-  	slideWidth: 470,
-    minSlides: 4,
-    maxSlides: 4,
-    slideMargin: 1,
-    moveSlides: 1,
-    pager: false,
-    controls: true,
-    prevText: "",
-    nextText: "",
-    auto: false,
-    pause: 8000
-	});
   $(".scroll").click(function(event){
     event.preventDefault();
     $('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
