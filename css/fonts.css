@@ -7,7 +7,6 @@
     font-weight: 300;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'ProximaNova-Bold';
     src: url('/fonts/proximanova-sbold-webfont.eot');
@@ -16,6 +15,28 @@
          url('/fonts/proximanova-sbold-webfont.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
+}
+@font-face {
+    font-family: 'Didot';
+    font-weight: 200;
+    font-style: normal;
+    src: url('/fonts/didot.eot');
+    src: url('/fonts/didot.eot?#iefix') format('embedded-opentype'),
+          url('/fonts/didot.woff') format('woff'),
+          url('/fonts/didot.ttf') format('truetype'),
+          url('/fonts/didot.svg#Didot') format('svg');
+
+}
+@font-face {
+    font-family: 'Didot';
+    font-weight: 200;
+    font-style: italic;
+    src: url('/fonts/didot-italic.eot');
+    src: url('/fonts/didot-italic.eot?#iefix') format('embedded-opentype'),
+          url('/fonts/didot-italic.woff') format('woff'),
+          url('/fonts/didot-italic.ttf') format('truetype'),
+          url('/fonts/didot-italic.svg#Didot') format('svg');
+
 }
 /*!
  *  Font Awesome 3.1.0
