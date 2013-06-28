@@ -120,63 +120,70 @@ nav li{
 	height: 100%;
 	min-height: 100%;
 }
-#about-us .left-icon{
-	position: absolute;
-	top: 0;
-	left: 28%;
-	margin: 50px 0 0 0;
-	text-align: center;
+#about-us .wrap{
+	width: 92%;
+	height: 100%;
+	padding: 0 10px 0 10px;
+	margin: 0 auto;
+	position:relative;
 }
-#about-us .left-icon .icon-globe{
+#about-us .wrap .left-icon{
+	float: left;
+	margin: 50px 0 0 0;
+	max-width: 100%;
+	height: auto;
+}
+#about-us .wrap .left-icon img{
+	max-width: 80%;
+	height: auto;
+}
+#about-us .wrap .left-icon .icon-globe{
 	color: #ffd67f;
 	font-size: 259px;
 }
-#about-us .right-content{
-	position: absolute;
-	top: 0;
-	right: 30%;
+#about-us .wrap .right-content{
+	float: right;
 	color: #888;
-	max-width: 720px;
+	max-width: 745px;
 	margin: 2px 0 0 0;
 	padding: 0 0 0 10px;
 	text-transform:inherit;
 }
-#about-us .right-content h3{
+#about-us .wrap .right-content h3{
 	font-size: 50px;
 	color: #888;
 	text-transform: uppercase;
 }
-#about-us .right-content p{
+#about-us .wrap .right-content p{
 	color: #888;
 	text-transform: inherit;
 }
-#about-us .right-content .time-font{
+#about-us .wrap .right-content .time-font{
 	font: 48px 'Didot',sans-serif;
 	font-weight: 300;
 	color: #888;
 	font-style: italic;
 }
-#about-us .how-it-works{
+#about-us .wrap .how-it-works{
 	float: left;
-	margin: 50px 0 0 0;
-	width: 980px;
-	display: none;
+	margin: 190px 0 0 0;
+	width: 100%;
 }
-#about-us .how-it-works ul.steps{
-	width: 850px;
+#about-us .wrap .how-it-works ul.steps{
+	width: 92%;
 	margin: 0 auto;
 }
-#about-us .how-it-works ul.steps-content{
-	width: 850px;
+#about-us .wrap .how-it-works ul.steps-content{
+	max-width: 100%;
 	margin: 20px auto;
 }
-#about-us .how-it-works ul.steps li{
+#about-us .wrap .how-it-works ul.steps li{
 	list-style: none;
 	display: inline-block;
 	width: 260px;
 	text-align: center;
 }
-#about-us .how-it-works ul.steps-content li{
+#about-us .wrap .how-it-works ul.steps-content li{
 	list-style: none;
 	display: inline-block;
 	width: 260px;
@@ -185,14 +192,16 @@ nav li{
 	font-weight: 300;
 	color: #888;
 	text-transform: inherit;
+	vertical-align: top;
+	margin: 0 50px 0 50px;
 }
-#about-us .how-it-works ul.steps-content li .circles{
+#about-us .wrap .how-it-works ul.steps-content li .circles{
 	display: block;
 	width: 41px;
 	height: 41px;
 	margin: 0 auto;
 }
-#about-us .how-it-works .steps-content p{
+#about-us .wrap .how-it-works .steps-content p{
 	font: 16px/30px 'Open Sans',sans-serif;
 	font-weight: 300;
 	color: #888;
@@ -208,37 +217,39 @@ nav li{
 	min-height: 100%;
 	background: url(/img/patterns/dust_@2X.png);
 }
-#ways h3{
-	position:absolute;
-	left: 15%;
-	top: 5%;
+#ways .wrap{
+	width: 92%;
+	height: 100%;
+	padding: 0 10px 0 10px;
+	margin: 0 auto;
+	position:relative;
+}
+#ways .wrap h3{
 	color: #888;
 	text-transform: uppercase;
 	margin-bottom: 0;
 	padding-top: 20px;
 }
-#ways article{
+#ways .wrap article{
 	margin-bottom: 20px;
 }
-#ways #map{
-	position:absolute;
-	top: 0;
-	left: 10%;
-	width: 80%;
+#ways .wrap #map{
+	margin: 0 auto;
+	width: 100%;
 }
-#ways #map_canvas{
+#ways .wrap #map_canvas{
 	border-radius: 2px;
 	border-color: #ffd67f;
 	border: 6px solid #ffd67f;
 	width: 100%;
 	max-width: 100%;
 }
-#ways #map_canvas p{
+#ways .wrap #map_canvas p{
 	font: 13px Arial,Helvetica,sans-serif;
 	color: #999;
 	padding-top: 8px;
 }
-#ways .right-content .time-font{
+#ways .wrap .right-content .time-font{
 	font: 53px 'Times',sans-serif;
 	font-weight: 300;
 	color: #888;
@@ -259,27 +270,26 @@ nav li{
 	border-bottom: 1px solid #888;
 	padding-bottom: 2px;
 }
-#ways .how-it-works{
+#ways .wrap .how-it-works{
 	float: left;
-	margin: 50px 0 0 0;
-	width: 980px;
-	height: 318px;
+	margin: 100px 0 0 0;
+	width: 100%;
 }
-#ways .how-it-works ul.steps{
-	width: 850px;
+#ways .wrap .how-it-works ul.steps{
+	width: 92%;
 	margin: 0 auto;
 }
-#ways .how-it-works ul.steps-content{
-	width: 850px;
+#ways .wrap .how-it-works ul.steps-content{
+	max-width: 100%;
 	margin: 20px auto;
 }
-#ways .how-it-works ul.steps li{
+#ways .wrap .how-it-works ul.steps li{
 	list-style: none;
 	display: inline-block;
 	width: 260px;
 	text-align: center;
 }
-#ways .how-it-works ul.steps-content li{
+#ways .wrap .how-it-works ul.steps-content li{
 	list-style: none;
 	display: inline-block;
 	width: 260px;
@@ -289,14 +299,15 @@ nav li{
 	color: #888;
 	text-transform: inherit;
 	vertical-align: top;
+	margin: 0 50px 0 50px;
 }
-#ways .how-it-works ul.steps-content li .circles{
+#ways .wrap .how-it-works ul.steps-content li .circles{
 	display: block;
 	width: 41px;
 	height: 41px;
 	margin: 0 auto;
 }
-#ways .how-it-works .steps-content p{
+#ways .wrap .how-it-works .steps-content p{
 	font: 16px/30px 'Open Sans',sans-serif;
 	font-weight: 300;
 	color: #888;
@@ -560,13 +571,13 @@ footer ul#footer-wrapper li a:hover{
 	}
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1300px){
 	#home{
 		width: 100%;
 		height: 100%;
 	}
 	#home button{
-		right: 30%;
+		right: 10%;
 		width: 300px;
 	}
 	#map{
@@ -578,10 +589,6 @@ footer ul#footer-wrapper li a:hover{
 	}
 	#about-us .left-icon .icon-globe{
 		font-size: 14.5em;
-	}
-	#about-us .right-content{
-		right: 8%;
-		width: 600px;
 	}
 	#about-us .right-content h3{
 		font-size: 40px;
