@@ -1,63 +1,101 @@
-/*--------------------------- Overrides -----------------------------*/
+/* ------------------------ Core Externals ---------------------------- */
+@import url(normalize.css);
+@import url(font-awesome.css);
+@import url(fonts.css);
+
 html,body{
 	width:100%;
 	height: 100%;
 }
-body{background:transparent;}
+body{
+	background:transparent;
+	font: 16px/30px 'Open Sans',sans-serif;
+	font-weight: 300;
+	color: #888;
+}
+h3{
+	font: 50px 'Open Sans',sans-serif;
+	font-weight: 300;
+}
+a,a:link,a:active,a:visited{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
 /*------------------------ Navigation Content ---------------------*/
-.wrapper{
-	background: transparent;
-	width: 100%;
-	height: 100%;
-}
 .navigation{
-	float: right;
-	background: transparent;
+	position:absolute;
+	top: 0;
+	right: 0;
+	z-index: 1;
+	width: 300px;
 }
-nav{margin: 0 10px 0 0;padding: 0 0 0 0;font-family: 'Open Sans',sans-serif;color: #333;font-size: 11px;text-transform: uppercase;}
-nav li{display: inline-block;margin-right: 5px;line-height: 35px;}
-.logo{margin: 3px auto;width: 199px;}
-/*------------------------ Feature Content ------------------------*/
-.bx-controls-direction a.icon-angle-left,
-.bx-controls-direction a.icon-angle-right{font-size: 30px;color: #fff;}
+nav{
+	margin: 0 10px 0 0;
+	padding: 0 0 0 0;
+	color: #333;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+nav li{
+	display: inline-block;
+	margin-right: 5px;
+	line-height: 35px;
+}
+.logo{
+	margin: 3px auto;
+	width: 199px;
+}
 /*------------------------ Container Content ------------------------*/
-.low-container{position:absolute;bottom: 50px;width: 100%;}
-/*------------------------ Footer Content ------------------------*/
-.medium{
-	width: 980px;
-	margin: 0 auto;
-}
-#continue-arrow{
-	float: left;
-	margin: 100px 0 100px 460px;
+.low-container{
+	position:absolute;
+	bottom: 50px;
+	width: 100%;}
+/* ------------------------ Arrow Content ------------------------- */
+#continue-arrow-wrapper{
+	width: 40px;
+	height: 40px;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	position: absolute;
+	left: 50%;
+	bottom: 14px;
 }
 #continue-arrow .icon-angle-down{
 	font-size: 60px;
+	-webkit-animation: pulsate 3s ease-in-out 0s infinite alternate;
+	-moz-animation: pulsate 3s ease-in-out 0s infinite alternate;
+	animation: pulsate 3s ease-in-out 0s infinite alternate;
 }
 #continue-arrow a,
 #continue-arrow a:link,
 #continue-arrow a:active{
 	border: none;
 }
+/* ------------------------ Home Sections -------------------------- */
 #home{
-	background: url(/img/bg/main.png) no-repeat top center scroll;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	background: url(/img/bg/main-alt.jpg) no-repeat top center scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	width: 100%;
-	height: 100%;
 }
 #home button{
+	position:absolute;
+	right: 10%;
+	bottom: 22%;
 	width: 300px;
 	color: #fff;
 	padding: 10px;
 	text-transform: uppercase;
-	float: right;
-	margin: 600px 0 0 0;
 	background: #888;
 	border: none;
-	font: 22px "Times New Roman", sans-serif;
+	font: 18px "Didot", sans-serif;
 	font-style: italic;
 	border-style: solid;
 	border-width: 1px;
@@ -75,180 +113,77 @@ nav li{display: inline-block;margin-right: 5px;line-height: 35px;}
 	float: left;
 	margin: 710px 0 0 450px;
 }
+/* ------------------------ About Us Sections -------------------------- */
 #about-us{
-	margin: 0 0 0 0;
-	clear: both;
+	position: relative;
+	width: 100%;
 	height: 100%;
+	min-height: 100%;
 }
-#about-us .medium{
+#about-us .wrap{
+	width: 92%;
 	height: 100%;
+	padding: 0 10px 0 10px;
+	margin: 0 auto;
+	position:relative;
 }
-#about-us .medium .left-icon{
+#about-us .wrap .left-icon{
 	float: left;
-	width: 260px;
-	height: 260px;
 	margin: 50px 0 0 0;
-	text-align: center;
+	max-width: 100%;
+	height: auto;
 }
-#about-us .medium .left-icon .icon-globe{
+#about-us .wrap .left-icon img{
+	max-width: 80%;
+	height: auto;
+}
+#about-us .wrap .left-icon .icon-globe{
 	color: #ffd67f;
 	font-size: 259px;
 }
-#about-us .medium .right-content{
+#about-us .wrap .right-content{
 	float: right;
-	font: 14px 'Open Sans',sans-serif;
-	font-weight: 300;
-	font-style: normal;
 	color: #888;
-	width: 720px;
-	margin: 52px 0 0 0;
+	max-width: 745px;
+	margin: 2px 0 0 0;
 	padding: 0 0 0 10px;
 	text-transform:inherit;
 }
-#about-us .medium .right-content h3{
-	font: 50px 'Open Sans',sans-serif;
-	font-weight: 300;
+#about-us .wrap .right-content h3{
+	font-size: 50px;
 	color: #888;
 	text-transform: uppercase;
 }
-#about-us .medium .right-content p{
-	font: 16px/30px 'Open Sans',sans-serif;
-	font-weight: 300;
+#about-us .wrap .right-content p{
 	color: #888;
 	text-transform: inherit;
 }
-#about-us .medium .right-content .time-font{
-	font: 53px 'Times',sans-serif;
+#about-us .wrap .right-content .time-font{
+	font: 48px 'Didot',sans-serif;
 	font-weight: 300;
 	color: #888;
 	font-style: italic;
 }
-#about-us .medium .how-it-works{
+#about-us .wrap .how-it-works{
 	float: left;
-	margin: 50px 0 0 0;
-	width: 980px;
-}
-#about-us .medium .how-it-works ul.steps{
-	width: 850px;
-	margin: 0 auto;
-}
-#about-us .medium .how-it-works ul.steps-content{
-	width: 850px;
-	margin: 20px auto;
-}
-#about-us .medium .how-it-works ul.steps li{
-	list-style: none;
-	display: inline-block;
-	width: 260px;
-	text-align: center;
-}
-#about-us .medium .how-it-works ul.steps-content li{
-	list-style: none;
-	display: inline-block;
-	width: 260px;
-	text-align: center;
-	font: 16px/30px 'Open Sans',sans-serif;
-	font-weight: 300;
-	color: #888;
-	text-transform: inherit;
-}
-#about-us .medium .how-it-works ul.steps-content li .circles{
-	display: block;
-	width: 41px;
-	height: 41px;
-	margin: 0 auto;
-}
-#about-us .medium .how-it-works .steps-content p{
-	font: 16px/30px 'Open Sans',sans-serif;
-	font-weight: 300;
-	color: #888;
-	text-transform: inherit;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-#ways{
-	margin: 0 0 0 0;
-	clear: both;
-	background: url(/img/patterns/dust_@2X.png);
+	margin: 190px 0 0 0;
 	width: 100%;
-	height: 100%;
-	min-height: 1300px;
 }
-#ways .medium{
-	height: 100%;
-}
-#ways .medium h3{
-	font: 50px 'Open Sans',sans-serif;
-	font-weight: 300;
-	color: #888;
-	text-transform: uppercase;
-	margin-bottom: 0;
-	padding-top: 20px;
-}
-#ways .medium article,
-#ways .medium p{
-	font: 16px/30px 'Open Sans',sans-serif;
-	font-weight: 300;
-	color: #888;
-	text-transform: inherit;
-}
-#ways .medium article{
-	margin-bottom: 20px;
-}
-#ways .medium #map{
-}
-#ways .medium #map_canvas{
-	border-radius: 2px;
-	border-color: #ffd67f;
-	border: 6px solid #ffd67f;
-}
-#ways .medium #map_canvas p{
-	font: 13px Arial,Helvetica,sans-serif;
-	color: #999;
-	padding-top: 8px;
-}
-#ways .medium .right-content .time-font{
-	font: 53px 'Times',sans-serif;
-	font-weight: 300;
-	color: #888;
-	font-style: italic;
-}
-#ways .medium a,
-#ways .medium a:link,
-#ways .medium a:active{
-	text-decoration: none;
-	color: #999;
-	border-bottom: 1px solid #999;
-	padding-bottom: 2px;
-	font-weight: 400;
-}
-#ways .medium a:hover{
-	text-decoration: none;
-	color: #888;
-	border-bottom: 1px solid #888;
-	padding-bottom: 2px;
-}
-#ways .medium .how-it-works{
-	float: left;
-	margin: 50px 0 0 0;
-	width: 980px;
-	height: 318px;
-}
-#ways .medium .how-it-works ul.steps{
-	width: 850px;
+#about-us .wrap .how-it-works ul.steps{
+	width: 92%;
 	margin: 0 auto;
 }
-#ways .medium .how-it-works ul.steps-content{
-	width: 850px;
+#about-us .wrap .how-it-works ul.steps-content{
+	max-width: 100%;
 	margin: 20px auto;
 }
-#ways .medium .how-it-works ul.steps li{
+#about-us .wrap .how-it-works ul.steps li{
 	list-style: none;
 	display: inline-block;
 	width: 260px;
 	text-align: center;
 }
-#ways .medium .how-it-works ul.steps-content li{
+#about-us .wrap .how-it-works ul.steps-content li{
 	list-style: none;
 	display: inline-block;
 	width: 260px;
@@ -258,14 +193,15 @@ nav li{display: inline-block;margin-right: 5px;line-height: 35px;}
 	color: #888;
 	text-transform: inherit;
 	vertical-align: top;
+	margin: 0 50px 0 50px;
 }
-#ways .medium .how-it-works ul.steps-content li .circles{
+#about-us .wrap .how-it-works ul.steps-content li .circles{
 	display: block;
 	width: 41px;
 	height: 41px;
 	margin: 0 auto;
 }
-#ways .medium .how-it-works .steps-content p{
+#about-us .wrap .how-it-works .steps-content p{
 	font: 16px/30px 'Open Sans',sans-serif;
 	font-weight: 300;
 	color: #888;
@@ -273,12 +209,113 @@ nav li{display: inline-block;margin-right: 5px;line-height: 35px;}
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
-#ways .medium #continue-arrow{
+/* -------------------- What Are Yours --------------------- */
+#ways{
+	position:relative;
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	background: url(/img/patterns/dust_@2X.png);
 }
-#ways .medium a#continue-arrow{
-	border: none;
-
+#ways .wrap{
+	width: 92%;
+	height: 100%;
+	padding: 0 10px 0 10px;
+	margin: 0 auto;
+	position:relative;
 }
+#ways .wrap h3{
+	color: #888;
+	text-transform: uppercase;
+	margin-bottom: 0;
+	padding-top: 20px;
+}
+#ways .wrap article{
+	margin-bottom: 20px;
+}
+#ways .wrap #map{
+	margin: 0 auto;
+	width: 100%;
+}
+#ways .wrap #map_canvas{
+	border-radius: 2px;
+	border-color: #ffd67f;
+	border: 6px solid #ffd67f;
+	width: 100%;
+	max-width: 100%;
+}
+#ways .wrap #map_canvas p{
+	font: 13px Arial,Helvetica,sans-serif;
+	color: #999;
+	padding-top: 8px;
+}
+#ways .wrap .right-content .time-font{
+	font: 53px 'Times',sans-serif;
+	font-weight: 300;
+	color: #888;
+	font-style: italic;
+}
+#ways a,
+#ways a:link,
+#ways a:active{
+	text-decoration: none;
+	color: #999;
+	border-bottom: 1px solid #999;
+	padding-bottom: 2px;
+	font-weight: 400;
+}
+#ways a:hover{
+	text-decoration: none;
+	color: #888;
+	border-bottom: 1px solid #888;
+	padding-bottom: 2px;
+}
+#ways .wrap .how-it-works{
+	float: left;
+	margin: 100px 0 0 0;
+	width: 100%;
+}
+#ways .wrap .how-it-works ul.steps{
+	width: 92%;
+	margin: 0 auto;
+}
+#ways .wrap .how-it-works ul.steps-content{
+	max-width: 100%;
+	margin: 20px auto;
+}
+#ways .wrap .how-it-works ul.steps li{
+	list-style: none;
+	display: inline-block;
+	width: 260px;
+	text-align: center;
+}
+#ways .wrap .how-it-works ul.steps-content li{
+	list-style: none;
+	display: inline-block;
+	width: 260px;
+	text-align: center;
+	font: 16px/30px 'Open Sans',sans-serif;
+	font-weight: 300;
+	color: #888;
+	text-transform: inherit;
+	vertical-align: top;
+	margin: 0 50px 0 50px;
+}
+#ways .wrap .how-it-works ul.steps-content li .circles{
+	display: block;
+	width: 41px;
+	height: 41px;
+	margin: 0 auto;
+}
+#ways .wrap .how-it-works .steps-content p{
+	font: 16px/30px 'Open Sans',sans-serif;
+	font-weight: 300;
+	color: #888;
+	text-transform: inherit;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+/* -------------------- Personalize --------------------- */
 #personalize{
 	margin: 0 0 0 0;
 	clear: both;
@@ -376,11 +413,6 @@ nav li{display: inline-block;margin-right: 5px;line-height: 35px;}
 	border-color: #999;
 	color: #999;
 }
-#continue-arrow{
-	-webkit-animation: pulsate 3s ease-in-out 0s infinite alternate;
-	-moz-animation: pulsate 3s ease-in-out 0s infinite alternate;
-	animation: pulsate 3s ease-in-out 0s infinite alternate;
-}
 #home-scroll{
 	display: block;
 	width: 60px;
@@ -429,7 +461,7 @@ nav li{display: inline-block;margin-right: 5px;line-height: 35px;}
 	font-size: 100px;
 	margin: 0 auto;
 }
-/* Footer Content */
+/* ---------------------------- Footer Content ------------------------------------ */
 footer{
 	position:relative;
 	bottom: 0;
@@ -442,11 +474,24 @@ footer{
 	font-size: 11px;
 	text-transform: uppercase;
 }
-footer ul#footer-wrapper{margin: 15px auto;padding:0;width:800px;}
-footer ul#footer-wrapper li{display: inline-block;width: 160px;text-align: center;}
-footer ul#footer-wrapper li a{color: #333;}
-footer ul#footer-wrapper li a:hover{text-decoration: underline;color: #333;}
-/* Modals */
+footer ul#footer-wrapper{
+	margin: 15px auto;
+	padding:0;
+	width:800px;
+}
+footer ul#footer-wrapper li{
+	display: inline-block;
+	width: 160px;
+	text-align: center;
+}
+footer ul#footer-wrapper li a{
+	color: #333;
+}
+footer ul#footer-wrapper li a:hover{
+	text-decoration: underline;
+	color: #333;
+}
+/* ----------------------------- Modals ------------------------------------------- */
 .reveal-modal p, .reveal-modal ul li{
 	font-size: 13px;
 	font: 13px/18px 'Open Sans',sans-serif;
@@ -461,74 +506,17 @@ footer ul#footer-wrapper li a:hover{text-decoration: underline;color: #333;}
 	text-transform: uppercase;
 	font-weight: 300;
 }
+/* ----------------------------- Scrolls Bars ------------------------------------- */
 
-/* ----------------------------- Scrolls Bars ---------------------------------------*/
-
-/* ----------------------------- Media Queries ---------------------------------------*/
-@media only screen and(max-height: 769px){
-	#ways .medium .how-it-works{
-		height: 400px;
-	}
-}
-@media only screen and(min-height: 900px){
-	#home button{
-		margin: 800px 0 10px 0;
-	}
-	#home .medium{
-
-	}
-	#home-scroll{
-		margin: 800px 0 0 460px;
-	}
-}
-@media only screen and(min-height: 1000px){
-	#home button{
-		margin: 890px 0 10px 0;
-	}
-	#home .medium{
-
-	}
-	#home-scroll{
-		margin: 920px 0 0 460px;
-	}
-}
-@media only screen and(min-height: 1100px){
-	#home button{
-		margin: 950px 0 10px 0;
-	}
-	#home .medium{
-
-	}
-	#home-scroll{
-		margin: 1050px 0 0 460px;
-	}
-}
-@media only screen and(min-height: 1200px){
-	#home button{
-		margin: 1000px 0 10px 0;
-	}
-	#home .medium{
-
-	}
-	#home-scroll{
-		margin: 1100px 0 0 460px;
-	}
-}
-@media only screen and(min-height: 1300px){
-	#home button{
-		margin: 1200px 0 10px 0;
-	}
-	#home .medium{
-
-	}
-	#home-scroll{
-		margin: 1250px 0 0 460px;
-	}
-}
-@media only screen and (max-width: 980px){
+/* ----------------------------- Media Queries -------------------------------------*/
+@media only screen and (max-width: 1024px){
 	#home{
 		width: 100%;
 		height: 100%;
+	}
+	#home button{
+		right: 30%;
+		width: 300px;
 	}
 	#map{
 		width: 100%;
@@ -537,60 +525,18 @@ footer ul#footer-wrapper li a:hover{text-decoration: underline;color: #333;}
 	#map_canvas{
 		width: 100%;
 	}
-	#about-us .medium .right-content{
-		padding-left: 5px;
+	#about-us .left-icon .icon-globe{
+		font-size: 14.5em;
 	}
-	#ways{
-		width: 100%;
+	#about-us .right-content{
+		right: 8%;
+		width: 600px;
 	}
-	#ways .medium{
-		width: 100%;
-		margin: 0 auto;
+	#about-us .right-content h3{
+		font-size: 40px;
 	}
-	#ways .medium h3{
-		padding-left: 10px;
-	}
-	#ways .medium p,
-	#ways .medium article{
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-	#ways .medium a{
-		border: none;
-	}
-	#personalize{
-		width: 978px;
-	}
-	#personalize .medium{
-		width: 978px;
-		margin: 0 auto;
-	}
-	#personalize .medium h3{
-		padding-left: 10px;
-	}
-	#personalize .medium button{
-		margin: 50px 100px 0 0;
-	}
-}
-@media only screen and (max-width: 901px){
-	#home-scroll{
-		width: 39px;
-		height: 61px;
-		margin: 70% 0% 0 45%;
-	}
-	#home{
-		width: 100%;
-		height: 100%;
-	}
-	#map{
-		width: 100%;
-		margin: 0 auto;
-	}
-	#map_canvas{
-		width: 100%;
-	}
-	#about-us .medium .right-content{
-		padding-left: 5px;
+	#about-us .right-content .time-font{
+		font-size: 39px;
 	}
 	#ways{
 		width: 100%;
@@ -625,164 +571,253 @@ footer ul#footer-wrapper li a:hover{text-decoration: underline;color: #333;}
 	}
 }
 
-@media only screen and (max-width: 480px){
-	#home-scroll{
-			margin-top: 20px;
-			margin-left: 230px;
-			color: #999;
-		}
-		#home{
-			background: url(/img/bg/main.png) no-repeat right top scroll;
-			width: 100%;
-			height: 368px;
-		}
-		#home .medium{
-			width: 100%;
-		}
-		#home button{
-			margin: 250px 0px 0 0;
-			font-size: 18px;
-			width: 250px;
-		}
-		#about-us .medium .left-icon{
-			margin: 50px 0 0 140px;
-			width: 200px;
-		}
-		#about-us .medium .right-content{
-			clear: both;
-			margin: 0 auto;
-			font-size: 13px;
-			width: 478px;
-			padding-right: 20px;
-		}
-		#about-us .medium .right-content p{
-			padding: 0 0px 0 0;
-		}
-		#about-us .medium .right-content h3{
-			font-size: 30px;
-		}
-		#about-us .medium .right-content .time-font{
-			font-size: 32px;
-		}
-		#about-us{
-			height: 1500px;
-			width: 478px;
-		}
-		#about-us .medium{
-			height: 1500px;
-			width: 478px;
-		}
-		#about-us .medium .how-it-works{
-			margin-top: 150px;
-		}
-		#about-us .medium #continue-arrow{
-			float: left;
-			margin-top: 100px;
-			margin-left: 210px;
-		}
-		#about-us .medium .left-icon .icon-globe{
-			font-size: 200px;
-		}
-		#about-us .medium .left-icon{
-			clear: both;
-		}
-		#about-us .medium .how-it-works{
-		}
-
-		#ways{
-			height: 1500px;
-		}
-		#personalize{
-		}
-		footer ul#footer-wrapper{
-			width: 478px;
-		}
-		footer ul#footer-wrapper li{
-			display: block;
-			text-align: center;
-		}
+@media only screen and (max-width: 1300px){
+	#home{
+		width: 100%;
+		height: 100%;
+	}
+	#home button{
+		right: 10%;
+		width: 300px;
+	}
+	#map{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#map_canvas{
+		width: 100%;
+	}
+	#about-us .left-icon .icon-globe{
+		font-size: 14.5em;
+	}
+	#about-us .right-content h3{
+		font-size: 40px;
+	}
+	#about-us .right-content .time-font{
+		font-size: 39px;
+	}
+	#ways{
+		width: 100%;
+	}
+	#ways .medium{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#ways .medium h3{
+		padding-left: 10px;
+	}
+	#ways .medium p,
+	#ways .medium article{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#ways .medium a{
+		border: none;
+	}
+	#personalize{
+		width: 978px;
+	}
+	#personalize .medium{
+		width: 978px;
+		margin: 0 auto;
+	}
+	#personalize .medium h3{
+		padding-left: 10px;
+	}
+	#personalize .medium button{
+		margin: 50px 100px 0 0;
+	}
 }
-@media only screen and (max-width: 401px){
-	#home-scroll{
-			margin-top: 20px;
-			margin-left: 180px;
-			color: #999;
-		}
-		#home{
-			background: url(/img/bg/main.png) no-repeat right center scroll;
-			width: 100%;
-			height: 368px;
-		}
-		#home .medium{
-			width: 100%;
-		}
-		#home button{
-			margin: 200px 45px 0 0;
-			font-size: 22px;
-			width: 300px;
-		}
-		#about-us{
-			height: 1500px;
-			width: 390px;
-		}
-		#about-us .medium{
-			height: 1500px;
-			width: 390px;
-		}
-		#about-us .medium .left-icon{
-			margin: 50px 0 0 95px;
-			width: 200px;
-		}
-		#about-us .medium .right-content{
-			clear: both;
-			margin: 0 auto;
-			font-size: 13px;
-			width: 390px;
-			padding-right: 20px;
-		}
-		#about-us .medium .right-content p{
-			padding: 0 0px 0 0;
-		}
-		#about-us .medium .right-content h3{
-			font-size: 25px;
-		}
-		#about-us .medium .right-content .time-font{
-			font-size: 26px;
-		}
-		#about-us .medium .how-it-works{
-			margin-top: 150px;
-		}
-		#about-us .medium #continue-arrow{
-			float: left;
-			margin-top: 100px;
-			margin-left: 210px;
-		}
-		#about-us .medium .left-icon .icon-globe{
-			font-size: 200px;
-		}
-		#about-us .medium .left-icon{
-			clear: both;
-		}
-		#about-us .medium .how-it-works{
-		}
-		#about-us .medium #continue-arrow{
-			margin-left: 170px;
-		}
-
-		#ways{
-			height: 1500px;
-		}
-		#personalize{
-		}
-		footer ul#footer-wrapper{
-			width: 390px;
-		}
-		footer ul#footer-wrapper li{
-			display: block;
-			text-align: center;
-		}
+@media only screen and (max-width: 950px){
+	#home{
+		width: 100%;
+		height: 100%;
+	}
+	#home button{
+		right: 30%;
+		width: 300px;
+	}
+	#map{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#map_canvas{
+		width: 100%;
+	}
+	#about-us .left-icon .icon-globe{
+		font-size: 12.5em;
+	}
+	#about-us .right-content{
+		right: 8%;
+		width: 600px;
+	}
+	#about-us .right-content h3{
+		font-size: 40px;
+	}
+	#about-us .right-content .time-font{
+		font-size: 39px;
+	}
+	#ways{
+		width: 100%;
+	}
+	#ways .medium{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#ways .medium h3{
+		padding-left: 10px;
+	}
+	#ways .medium p,
+	#ways .medium article{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#ways .medium a{
+		border: none;
+	}
+	#personalize{
+		width: 978px;
+	}
+	#personalize .medium{
+		width: 978px;
+		margin: 0 auto;
+	}
+	#personalize .medium h3{
+		padding-left: 10px;
+	}
+	#personalize .medium button{
+		margin: 50px 100px 0 0;
+	}
 }
-/* ---------------------------------- Device Widths/Heights ----------------------------------- */
+@media only screen and (max-width: 900px){
+	#home{
+		width: 100%;
+		height: 100%;
+	}
+	#home button{
+		right: 30%;
+		width: 300px;
+	}
+	#map{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#map_canvas{
+		width: 100%;
+	}
+	#about-us .left-icon .icon-globe{
+		font-size: 8.5em;
+	}
+	#about-us .right-content{
+		right: 8%;
+		width: 600px;
+	}
+	#about-us .right-content h3{
+		font-size: 40px;
+	}
+	#about-us .right-content .time-font{
+		font-size: 39px;
+	}
+	#ways{
+		width: 100%;
+	}
+	#ways .medium{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#ways .medium h3{
+		padding-left: 10px;
+	}
+	#ways .medium p,
+	#ways .medium article{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#ways .medium a{
+		border: none;
+	}
+	#personalize{
+		width: 978px;
+	}
+	#personalize .medium{
+		width: 978px;
+		margin: 0 auto;
+	}
+	#personalize .medium h3{
+		padding-left: 10px;
+	}
+	#personalize .medium button{
+		margin: 50px 100px 0 0;
+	}
+}
+@media only screen and (max-width: 850px){
+	#home{
+		width: 100%;
+		height: 100%;
+	}
+	#home button{
+		right: 30%;
+		width: 300px;
+	}
+	#map{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#map_canvas{
+		width: 100%;
+	}
+	#about-us .left-icon{
+		left: 40%;
+		margin-top: 0;
+	}
+	#about-us .left-icon .icon-globe{
+		font-size: 15.5em;
+	}
+	#about-us .right-content{
+		right: 12%;
+		top: 30%;
+		width: 600px;
+	}
+	#about-us .right-content h3{
+		font-size: 40px;
+	}
+	#about-us .right-content .time-font{
+		font-size: 39px;
+	}
+	#ways{
+		width: 100%;
+	}
+	#ways .medium{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#ways .medium h3{
+		padding-left: 10px;
+	}
+	#ways .medium p,
+	#ways .medium article{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#ways .medium a{
+		border: none;
+	}
+	#personalize{
+		width: 978px;
+	}
+	#personalize .medium{
+		width: 978px;
+		margin: 0 auto;
+	}
+	#personalize .medium h3{
+		padding-left: 10px;
+	}
+	#personalize .medium button{
+		margin: 50px 100px 0 0;
+	}
+}
+
+/* ---------------------- Device Widths/Heights --------------------------------- */
 @media only screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2){
 	#home{
 		background: url(/img/bg/main.png) no-repeat right bottom scroll;
@@ -909,14 +944,14 @@ footer ul#footer-wrapper li a:hover{text-decoration: underline;color: #333;}
 	}
 	#personalize .medium .products ul.product-names li:active{
 		-webkit-transform:scale(0.9);
-		    -moz-transform:scale(0.9);
-		    -ms-transform:scale(0.9);
-		    -o-transform:scale(0.9);
-		    transform:scale(0.9);
-		    -webkit-box-shadow:0px 0px 20px #111;
-		    -moz-box-shadow:0px 0px 20px #111;
-		    -o-box-shadow:0px 0px 20px #111;
-		    box-shadow:0px 0px 20px #111;
+		-moz-transform:scale(0.9);
+		-ms-transform:scale(0.9);
+		-o-transform:scale(0.9);
+		transform:scale(0.9);
+		-webkit-box-shadow:0px 0px 20px #111;
+		-moz-box-shadow:0px 0px 20px #111;
+		-o-box-shadow:0px 0px 20px #111;
+		box-shadow:0px 0px 20px #111;
 	}
 	#personalize .medium button{
 		margin: 50px 10px 0 0;
