@@ -21,7 +21,7 @@ a,a:link,a:active,a:visited{
 	text-decoration: none;
 }
 a:hover{
-	text-decoration: underline;
+	text-decoration: none;
 }
 /*------------------------ Navigation Content ---------------------*/
 .navigation{
@@ -100,6 +100,10 @@ nav li{
 	border-style: solid;
 	border-width: 1px;
 }
+#home button:hover{
+	background: #ccc;
+	color: #fff;
+}
 #home .medium{
 	margin: 0 auto;
 	width: 980px;
@@ -121,7 +125,7 @@ nav li{
 	min-height: 100%;
 }
 #about-us .wrap{
-	width: 92%;
+	width: 1000px;
 	height: 100%;
 	padding: 0 10px 0 10px;
 	margin: 0 auto;
@@ -144,7 +148,7 @@ nav li{
 #about-us .wrap .right-content{
 	float: right;
 	color: #888;
-	max-width: 745px;
+	max-width: 740px;
 	margin: 2px 0 0 0;
 	padding: 0 0 0 10px;
 	text-transform:inherit;
@@ -218,17 +222,17 @@ nav li{
 	background: url(/img/patterns/dust_@2X.png);
 }
 #ways .wrap{
-	width: 92%;
+	width: 1000px;
 	height: 100%;
-	padding: 0 10px 0 10px;
+	padding: 30px 10px 0 10px;
 	margin: 0 auto;
 	position:relative;
 }
 #ways .wrap h3{
 	color: #888;
 	text-transform: uppercase;
-	margin-bottom: 0;
-	padding-top: 20px;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
 }
 #ways .wrap article{
 	margin-bottom: 20px;
@@ -260,15 +264,11 @@ nav li{
 #ways a:active{
 	text-decoration: none;
 	color: #999;
-	border-bottom: 1px solid #999;
-	padding-bottom: 2px;
 	font-weight: 400;
 }
 #ways a:hover{
 	text-decoration: none;
 	color: #888;
-	border-bottom: 1px solid #888;
-	padding-bottom: 2px;
 }
 #ways .wrap .how-it-works{
 	float: left;
@@ -282,6 +282,7 @@ nav li{
 #ways .wrap .how-it-works ul.steps-content{
 	max-width: 100%;
 	margin: 20px auto;
+	padding: 0;
 }
 #ways .wrap .how-it-works ul.steps li{
 	list-style: none;
@@ -317,14 +318,19 @@ nav li{
 }
 /* -------------------- Personalize --------------------- */
 #personalize{
-	margin: 0 0 0 0;
-	clear: both;
+	position:relative;
+	width: 100%;
 	height: 100%;
+	min-height: 100%;
 }
-#personalize .medium{
+#personalize .wrap{
+	width: 92%;
 	height: 100%;
+	padding: 0 10px 0 10px;
+	margin: 0 auto;
+	position:relative;
 }
-#personalize .medium h3{
+#personalize .wrap h3{
 	font: 50px 'Open Sans',sans-serif;
 	font-weight: 300;
 	color: #888;
@@ -332,53 +338,53 @@ nav li{
 	margin-bottom: 0;
 	padding-top: 20px;
 }
-#personalize .medium p{
+#personalize .wrap p{
 	font: 16px/30px 'Open Sans',sans-serif;
 	font-weight: 300;
 	color: #888;
 	text-transform: inherit;
 }
-#personalize .medium .right-content .time-font{
+#personalize .wrap .right-content .time-font{
 	font: 53px 'Times',sans-serif;
 	font-weight: 300;
 	color: #888;
 	font-style: italic;
 }
-#personalize .medium a,
-#personalize .medium a:link,
-#personalize .medium a:active{
+#personalize .wrap a,
+#personalize .wrap a:link,
+#personalize .wrap a:active{
 	text-decoration: none;
 	color: #999;
 	border-bottom: 1px solid #999;
 	padding-bottom: 2px;
 	font-weight: 400;
 }
-#personalize .medium a:hover{
+#personalize .wrap a:hover{
 	text-decoration: none;
 	color: #888;
 	border-bottom: 1px solid #888;
 	padding-bottom: 2px;
 }
-#personalize .medium .products{
+#personalize .wrap .products{
 	float: left;
 	margin: 100px 0 0 0;
 	width: 980px;
 }
-#personalize .medium .products ul.product-images{
+#personalize .wrap .products ul.product-images{
 	width: 850px;
 	margin: 0 auto;
 }
-#personalize .medium .products ul.product-names{
+#personalize .wrap .products ul.product-names{
 	width: 850px;
 	margin: 20px auto;
 }
-#personalize .medium .products ul.product-images li{
+#personalize .wrap .products ul.product-images li{
 	list-style: none;
 	display: inline-block;
 	width: 150px;
 	text-align: center;
 }
-#personalize .medium .products ul.product-names li{
+#personalize .wrap .products ul.product-names li{
 	list-style: none;
 	display: inline-block;
 	width: 150px;
@@ -389,7 +395,7 @@ nav li{
 	text-transform: inherit;
 	vertical-align: top;
 }
-#personalize .medium button{
+#personalize .wrap button{
 	width: 350px;
 	color: #111;
 	padding: 10px;
@@ -405,14 +411,18 @@ nav li{
 	background: transparent;
 	border-color: #111;
 }
-#personalize .medium button .icon-angle-right{
+#personalize .wrap button .icon-angle-right{
 	padding-left: 10px;
 	font-size: 25px;
 }
-#personalize .medium button:hover{
+#personalize .wrap button:hover{
 	border-color: #999;
 	color: #999;
 }
+#personalize .wrap #mc_embed_signup h3{
+font-size: 16px;
+}
+/* -------------------------------------------------------- */
 #home-scroll{
 	display: block;
 	width: 60px;
@@ -509,7 +519,7 @@ footer ul#footer-wrapper li a:hover{
 /* ----------------------------- Scrolls Bars ------------------------------------- */
 
 /* ----------------------------- Media Queries -------------------------------------*/
-@media only screen and (max-width: 1024px){
+@media only screen and (min-width: 1000px){
 	#home{
 		width: 100%;
 		height: 100%;
@@ -525,21 +535,40 @@ footer ul#footer-wrapper li a:hover{
 	#map_canvas{
 		width: 100%;
 	}
-	#about-us .left-icon .icon-globe{
-		font-size: 14.5em;
+	#ways .wrap #map_canvas{
+		width: 99%;
 	}
-	#about-us .right-content{
-		right: 8%;
-		width: 600px;
+	#about-us .wrap{
+		height: 100%;
 	}
-	#about-us .right-content h3{
-		font-size: 40px;
+	#about-us .wrap .left-icon{
+		width: 33%;
 	}
-	#about-us .right-content .time-font{
-		font-size: 39px;
+	#about-us .wrap .left-icon img{
+		height: auto;
+	}
+	#about-us .wrap .right-content{
+		width: 650px;
+	}
+	#about-us .wrap .right-content h3{
+		font-size: 45px;
+	}
+	#about-us .wrap .right-content .time-font{
+		font-size: 43px;
+	}
+	#about-us .wrap .how-it-works ul.steps-content{
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	#about-us .wrap .how-it-works ul.steps-content li{
+		width: 23%;
 	}
 	#ways{
 		width: 100%;
+	}
+	#ways .wrap .how-it-works ul.steps-content li{
+		width: 23%;
 	}
 	#ways .medium{
 		width: 100%;
@@ -557,20 +586,12 @@ footer ul#footer-wrapper li a:hover{
 		border: none;
 	}
 	#personalize{
-		width: 978px;
+		width: 100%;
 	}
-	#personalize .medium{
-		width: 978px;
-		margin: 0 auto;
-	}
-	#personalize .medium h3{
-		padding-left: 10px;
-	}
-	#personalize .medium button{
-		margin: 50px 100px 0 0;
+	#personalize .wrap{
+		width: 1000px;
 	}
 }
-
 @media only screen and (max-width: 1300px){
 	#home{
 		width: 100%;
@@ -615,7 +636,7 @@ footer ul#footer-wrapper li a:hover{
 		border: none;
 	}
 	#personalize{
-		width: 978px;
+		width: 100%;
 	}
 	#personalize .medium{
 		width: 978px;
@@ -628,7 +649,7 @@ footer ul#footer-wrapper li a:hover{
 		margin: 50px 100px 0 0;
 	}
 }
-@media only screen and (max-width: 950px){
+@media only screen and (max-width: 980px){
 	#home{
 		width: 100%;
 		height: 100%;
@@ -644,8 +665,9 @@ footer ul#footer-wrapper li a:hover{
 	#map_canvas{
 		width: 100%;
 	}
-	#about-us .left-icon .icon-globe{
-		font-size: 12.5em;
+	#about-us .wrap .left-icon{
+		width: 25%;
+		height: auto;
 	}
 	#about-us .right-content{
 		right: 8%;
@@ -676,17 +698,7 @@ footer ul#footer-wrapper li a:hover{
 		border: none;
 	}
 	#personalize{
-		width: 978px;
-	}
-	#personalize .medium{
-		width: 978px;
-		margin: 0 auto;
-	}
-	#personalize .medium h3{
-		padding-left: 10px;
-	}
-	#personalize .medium button{
-		margin: 50px 100px 0 0;
+		width: 100%;
 	}
 }
 @media only screen and (max-width: 900px){
