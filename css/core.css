@@ -43,15 +43,27 @@ nav li{
 	margin-right: 5px;
 	line-height: 35px;
 }
-.logo{
-	margin: 3px auto;
-	width: 199px;
-}
 /*------------------------ Container Content ------------------------*/
 .low-container{
 	position:absolute;
 	bottom: 50px;
-	width: 100%;}
+	width: 100%;
+}
+.middle{
+	height: auto;
+	width: 92%;
+	max-width: 1000px;
+	padding: 0 4%;
+	margin: 0 auto;
+	position: relative;
+}
+.clear{
+	height: 0;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	clear: both;
+}
 /* ------------------------ Arrow Content ------------------------- */
 #continue-arrow-wrapper{
 	width: 40px;
@@ -60,7 +72,7 @@ nav li{
 	padding: 0 0 0 0;
 	position: absolute;
 	left: 50%;
-	bottom: 14px;
+	bottom: 2%;
 }
 #continue-arrow .icon-angle-down{
 	font-size: 60px;
@@ -83,22 +95,21 @@ nav li{
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
-}
+	background-size: cover;}
 #home .logo{
 	position:absolute;
 	top: 20%;
-	left: 0%;
-	width: 100%;
+	right: 5%;
+	width: auto;
 	height: auto;
 }
-#home .wrap{
+#home .middle{
 	margin: 0 auto;
 	width: 1000px;
 	height: 100%;
 	position:relative;
 }
-#home .wrap button{
+#home .middle button{
 	position:absolute;
 	right: 0;
 	bottom: 22%;
@@ -113,7 +124,7 @@ nav li{
 	border-style: solid;
 	border-width: 1px;
 }
-#home .wrap button:hover{
+#home .middle button:hover{
 	background: #ccc;
 	color: #fff;
 }
@@ -124,94 +135,104 @@ nav li{
 	height: 100%;
 	min-height: 100%;
 }
-#about-us .wrap{
-	width: 1000px;
-	height: 100%;
-	padding: 0 10px 0 10px;
-	margin: 0 auto;
-	position:relative;
+#about-us .middle{
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin:-360px 0 0 -500px;
+	padding: 0;
 }
-#about-us .wrap .left-icon{
+#about-us .middle .left-icon{
 	float: left;
-	margin: 50px 0 0 0;
-	max-width: 100%;
+	margin: 30px 0 0 0;
+	width: 29%;
+	max-width: 300px;
 	height: auto;
+	text-align: center;
 }
-#about-us .wrap .left-icon img{
-	max-width: 80%;
-	height: auto;
+#about-us .middle .left-icon img{
+	width: 100%;
 }
-#about-us .wrap .left-icon .icon-globe{
+#about-us .middle .left-icon .icon-globe{
 	color: #ffd67f;
 	font-size: 259px;
 }
-#about-us .wrap .right-content{
+#about-us .middle .right-content{
 	float: right;
 	color: #888;
-	max-width: 740px;
-	margin: 2px 0 0 0;
-	padding: 0 0 0 10px;
+	width: 65%;
+	max-width: 650px;
+	margin: 0;
+	padding: 0;
 	text-transform:inherit;
 }
-#about-us .wrap .right-content h3{
-	font-size: 50px;
+#about-us .middle  .right-content h3{
+	font-size: 45px;
 	color: #888;
 	text-transform: uppercase;
+	text-align: left;
+	margin: 0;
+	padding: 0;
 }
-#about-us .wrap .right-content p{
+#about-us .middle  .right-content p{
 	color: #888;
 	text-transform: inherit;
 }
-#about-us .wrap .right-content .time-font{
-	font: 48px 'Didot',sans-serif;
+#about-us .middle .right-content .time-font{
+	font: 44px 'Didot',sans-serif;
 	font-weight: 300;
 	color: #888;
 	font-style: italic;
 }
-#about-us .wrap .how-it-works{
-	float: left;
+#about-us .middle .how-it-works{
 	margin: 130px 0 0 0;
 	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
 }
-#about-us .wrap .how-it-works ul.steps{
+#about-us .middle .how-it-works ul.steps{
 	width: 92%;
 	margin: 0 auto;
 }
-#about-us .wrap .how-it-works ul.steps-content{
-	max-width: 100%;
-	margin: 20px auto;
+#about-us .middle .how-it-works ul.steps-content{
+	width: 100%;
+	margin: 40px auto 0 auto;
+	padding: 0;
 }
-#about-us .wrap .how-it-works ul.steps li{
+#about-us .middle .how-it-works ul.steps li{
 	list-style: none;
 	display: inline-block;
-	width: 260px;
+	width: 33%;
 	text-align: center;
 }
-#about-us .wrap .how-it-works ul.steps-content li{
+#about-us .middle .how-it-works ul.steps-content li{
 	list-style: none;
 	display: inline-block;
-	width: 260px;
+	width: 23%;
 	text-align: center;
 	font: 16px/30px 'Open Sans',sans-serif;
 	font-weight: 300;
 	color: #888;
 	text-transform: inherit;
 	vertical-align: top;
-	margin: 0 50px 0 50px;
+	margin: 0 5%;
 }
-#about-us .wrap .how-it-works ul.steps-content li .circles{
+#about-us .middle .how-it-works ul.steps-content li img{
+	width: 40%;
+	padding: 5% 0;
+}
+#about-us .middle  .how-it-works ul.steps-content li .circles{
 	display: block;
 	width: 41px;
-	height: 41px;
 	margin: 0 auto;
 }
-#about-us .wrap .how-it-works .steps-content p{
+#about-us .middle .how-it-works .steps-content p{
 	font: 16px/30px 'Open Sans',sans-serif;
 	font-weight: 300;
 	color: #888;
 	text-transform: inherit;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding: 5px 0 0 0;
 }
 /* -------------------- What Are Yours --------------------- */
 #ways{
@@ -221,39 +242,35 @@ nav li{
 	min-height: 100%;
 	background: url(/img/patterns/dust_@2X.png);
 }
-#ways .wrap{
-	width: 1000px;
-	height: 100%;
-	padding: 30px 10px 0 10px;
-	margin: 0 auto;
-	position:relative;
+#ways .middle{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -470px 0 0 -500px;
+	padding: 0;
+	overflow: hidden;
 }
-#ways .wrap h3{
+#ways .middle h3{
 	color: #888;
 	text-transform: uppercase;
 	margin: 0 0 0 0;
 	padding: 0 0 0 0;
 }
-#ways .wrap article{
+#ways .middle article{
 	margin-bottom: 20px;
 }
-#ways .wrap #map{
-	margin: 0 auto;
-	width: 100%;
+#ways .middle #map{
+	padding: 6px;
+	background: #ffd67f;
 }
-#ways .wrap #map_canvas{
-	border-radius: 2px;
-	border-color: #ffd67f;
-	border: 6px solid #ffd67f;
-	width: 100%;
-	max-width: 100%;
+#ways .middle #map_canvas{
 }
 #ways .wrap #map_canvas p{
 	font: 13px Arial,Helvetica,sans-serif;
 	color: #999;
 	padding-top: 8px;
 }
-#ways .wrap .right-content .time-font{
+#ways .middle .right-content .time-font{
 	font: 53px 'Times',sans-serif;
 	font-weight: 300;
 	color: #888;
@@ -270,45 +287,45 @@ nav li{
 	text-decoration: none;
 	color: #888;
 }
-#ways .wrap .how-it-works{
+#ways .middle .how-it-works{
 	float: left;
-	margin: 100px 0 0 0;
+	margin: 50px 0 0 0;
 	width: 100%;
 }
-#ways .wrap .how-it-works ul.steps{
+#ways .middle .how-it-works ul.steps{
 	width: 92%;
 	margin: 0 auto;
 }
-#ways .wrap .how-it-works ul.steps-content{
+#ways .middle .how-it-works ul.steps-content{
 	max-width: 100%;
 	margin: 20px auto;
 	padding: 0;
 }
-#ways .wrap .how-it-works ul.steps li{
+#ways .middle .how-it-works ul.steps li{
 	list-style: none;
 	display: inline-block;
-	width: 260px;
+	width: 22%;
 	text-align: center;
 }
-#ways .wrap .how-it-works ul.steps-content li{
+#ways .middle .how-it-works ul.steps-content li{
 	list-style: none;
 	display: inline-block;
-	width: 260px;
+	width: 22%;
 	text-align: center;
 	font: 16px/30px 'Open Sans',sans-serif;
 	font-weight: 300;
 	color: #888;
 	text-transform: inherit;
 	vertical-align: top;
-	margin: 0 50px 0 50px;
+	margin: 0 5%;
 }
-#ways .wrap .how-it-works ul.steps-content li .circles{
+#ways .middle .how-it-works ul.steps-content li .circles{
 	display: block;
 	width: 41px;
 	height: 41px;
 	margin: 0 auto;
 }
-#ways .wrap .how-it-works .steps-content p{
+#ways .middle .how-it-works .steps-content p{
 	font: 16px/30px 'Open Sans',sans-serif;
 	font-weight: 300;
 	color: #888;
@@ -322,6 +339,7 @@ nav li{
 	width: 100%;
 	height: 100%;
 	min-height: 100%;
+	display: none;
 }
 #personalize .wrap{
 	width: 92%;
@@ -460,11 +478,8 @@ font-size: 16px;
 	margin: 0 auto;
 }
 #map_canvas{
-	width: 980px;
+	width: 100%;
 	height: 400px;
-	-webkit-border-radius: 2px;
-	-moz-border-radius: 2px;
-	border-radius: 2px;
 }
 .icon-angle-down{
 	color: #d4d4d4;
@@ -516,519 +531,647 @@ footer ul#footer-wrapper li a:hover{
 	text-transform: uppercase;
 	font-weight: 300;
 }
-/* ----------------------------- Scrolls Bars ------------------------------------- */
-
-/* ----------------------------- Media Queries -------------------------------------*/
-@media only screen and (min-height: 1000px){
-	#home {
-		height: 50%;
-		min-height: 50%;
-	}
-	#home .logo{
-	left: 70%;
-	width: 438px;
+/* -------------------------------------------------------------------------------- */
+/* ----------------------------- Media Queries ------------------------------------ */
+/* ------------------------------------------------------------------------------- */
+@media only screen and (max-width: 1100px){
+/* ------------------------ About Us Sections -------------------------- */
+/* ------------------------ Home Sections -------------------------- */
+#home{
+	position: relative;
+	width: 100%;
+	min-height: 100%;
+	background: url(/img/bg/sliderimage-alt.jpg) no-repeat right center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;}
+#home .logo{
+	position:absolute;
+	top: 20%;
+	right: 5%;
+	width: auto;
 	height: auto;
-	}
-	#home .logo img{
-		width: 22%;
-		height: auto;
-		min-width: 438px;
-	}
 }
-@media only screen and (max-height: 767px){
-	#home .logo{
-	left: 75%;
-	width: 438px;
+#home .middle{
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	position:relative;
+	padding: 0;
+}
+#home .middle button{
+	position:absolute;
+	right: 0;
+	bottom: 22%;
+	width: 300px;
+	color: #fff;
+	padding: 10px;
+	text-transform: uppercase;
+	background: #888;
+	border: none;
+	font: 18px "Didot", sans-serif;
+	font-style: italic;
+	border-style: solid;
+	border-width: 1px;
+}
+#home .middle button:hover{
+	background: #ccc;
+	color: #fff;
+}
+#about-us{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+}
+#about-us .middle{
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin:-360px 0 0 -475px;
+	padding: 0;
+	width: 100%;
+	max-width: 900px;
+}
+#about-us .middle .left-icon{
+	float: left;
+	margin: 30px 0 0 0;
+	width: 29%;
+	max-width: 300px;
 	height: auto;
-	}
-	#home .logo img{
-		width: 85%;
-		height: auto;
-		opacity: 0.3;
-	}
+	text-align: center;
 }
-@media only screen and (min-height: 800px){
-	#home .logo{
-	left: 75%;
-	width: 438px;
+#about-us .middle .left-icon img{
+	width: 100%;
+}
+#about-us .middle .left-icon .icon-globe{
+	color: #ffd67f;
+	font-size: 259px;
+}
+#about-us .middle .right-content{
+	float: right;
+	color: #888;
+	width: 65%;
+	max-width: 650px;
+	margin: 0;
+	padding: 0;
+	text-transform:inherit;
+}
+#about-us .middle  .right-content h3{
+	font-size: 40px;
+	color: #888;
+	text-transform: uppercase;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+#about-us .middle  .right-content p{
+	color: #888;
+	text-transform: inherit;
+}
+#about-us .middle .right-content .time-font{
+	font: 40px 'Didot',sans-serif;
+	font-weight: 300;
+	color: #888;
+	font-style: italic;
+}
+#about-us .middle .how-it-works{
+	margin: 130px 0 0 0;
+	width: 100%;
 	height: auto;
-	}
-	#home .logo img{
-		width: 100%;
-		height: auto;
-		opacity: 0.3;
-	}
+	margin: 0;
+	padding: 0;
 }
-@media only screen and (min-height: 768px){
-	#home .logo{
-	left: 75%;
-	width: 438px;
-	height: auto;
-	}
-	#home .logo img{
-		width: 85%;
-		height: auto;
-		opacity: 0.3;
-	}
+#about-us .middle .how-it-works ul.steps{
+	width: 92%;
+	margin: 0 auto;
 }
-@media only screen and (min-width: 1000px){
-	#home{
-		width: 100%;
-		height: 100%;
-	}
-	#home button{
-		right: 30%;
-		width: 300px;
-	}
-	#map{
-		width: 100%;
-		margin: 0 auto;
-	}
-	#map_canvas{
-		width: 100%;
-	}
-	#ways .wrap #map_canvas{
-		width: 99%;
-	}
-	#about-us .wrap{
-		height: 100%;
-	}
-	#about-us .wrap .left-icon{
-		width: 33%;
-	}
-	#about-us .wrap .left-icon img{
-		height: auto;
-	}
-	#about-us .wrap .right-content{
-		width: 650px;
-	}
-	#about-us .wrap .right-content h3{
-		font-size: 45px;
-	}
-	#about-us .wrap .right-content .time-font{
-		font-size: 44px;
-	}
-	#about-us .wrap .how-it-works ul.steps-content{
-		width: 100%;
-		padding: 0;
-		margin: 0;
-	}
-	#about-us .wrap .how-it-works ul.steps-content li{
-		width: 23%;
-	}
-	#ways{
-		width: 100%;
-	}
-	#ways .wrap .how-it-works ul.steps-content li{
-		width: 23%;
-	}
-	#ways .medium{
-		width: 100%;
-		margin: 0 auto;
-	}
-	#ways .medium h3{
-		padding-left: 10px;
-	}
-	#ways .medium p,
-	#ways .medium article{
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-	#ways .medium a{
-		border: none;
-	}
-	#personalize{
-		width: 100%;
-	}
-	#personalize .wrap{
-		width: 1000px;
-	}
+#about-us .middle .how-it-works ul.steps-content{
+	width: 100%;
+	margin: 40px auto 0 auto;
+	padding: 0;
 }
-@media only screen and (max-width: 1300px){
-	#home{
-		width: 100%;
-		height: 100%;
-	}
-	#home button{
-		right: 10%;
-		width: 300px;
-	}
-	#map{
-		width: 100%;
-		margin: 0 auto;
-	}
-	#map_canvas{
-		width: 100%;
-	}
-	#about-us .left-icon .icon-globe{
-		font-size: 14.5em;
-	}
-	#about-us .right-content h3{
-		font-size: 40px;
-	}
-	#about-us .right-content .time-font{
-		font-size: 39px;
-	}
-	#ways{
-		width: 100%;
-	}
-	#ways .medium{
-		width: 100%;
-		margin: 0 auto;
-	}
-	#ways .medium h3{
-		padding-left: 10px;
-	}
-	#ways .medium p,
-	#ways .medium article{
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-	#ways .medium a{
-		border: none;
-	}
-	#personalize{
-		width: 100%;
-	}
-	#personalize .medium{
-		width: 978px;
-		margin: 0 auto;
-	}
-	#personalize .medium h3{
-		padding-left: 10px;
-	}
-	#personalize .medium button{
-		margin: 50px 100px 0 0;
-	}
+#about-us .middle .how-it-works ul.steps li{
+	list-style: none;
+	display: inline-block;
+	width: 33%;
+	text-align: center;
 }
-@media only screen and (max-width: 980px){
-	#home{
-		width: 100%;
-		height: 100%;
-	}
-	#home button{
-		right: 30%;
-		width: 300px;
-	}
-	#map{
-		width: 100%;
-		margin: 0 auto;
-	}
-	#map_canvas{
-		width: 100%;
-	}
-	#about-us .wrap .left-icon{
-		width: 25%;
-		height: auto;
-	}
-	#about-us .right-content{
-		right: 8%;
-		width: 600px;
-	}
-	#about-us .right-content h3{
-		font-size: 40px;
-	}
-	#about-us .right-content .time-font{
-		font-size: 39px;
-	}
-	#ways{
-		width: 100%;
-	}
-	#ways .medium{
-		width: 100%;
-		margin: 0 auto;
-	}
-	#ways .medium h3{
-		padding-left: 10px;
-	}
-	#ways .medium p,
-	#ways .medium article{
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-	#ways .medium a{
-		border: none;
-	}
-	#personalize{
-		width: 100%;
-	}
-}
-@media only screen and (max-width: 900px){
-	#home{
-		width: 100%;
-		height: 100%;
-	}
-	#home button{
-		right: 30%;
-		width: 300px;
-	}
-	#map{
-		width: 100%;
-		margin: 0 auto;
-	}
-	#map_canvas{
-		width: 100%;
-	}
-	#about-us .left-icon .icon-globe{
-		font-size: 8.5em;
-	}
-	#about-us .right-content{
-		right: 8%;
-		width: 600px;
-	}
-	#about-us .right-content h3{
-		font-size: 40px;
-	}
-	#about-us .right-content .time-font{
-		font-size: 39px;
-	}
-	#ways{
-		width: 100%;
-	}
-	#ways .medium{
-		width: 100%;
-		margin: 0 auto;
-	}
-	#ways .medium h3{
-		padding-left: 10px;
-	}
-	#ways .medium p,
-	#ways .medium article{
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-	#ways .medium a{
-		border: none;
-	}
-	#personalize{
-		width: 978px;
-	}
-	#personalize .medium{
-		width: 978px;
-		margin: 0 auto;
-	}
-	#personalize .medium h3{
-		padding-left: 10px;
-	}
-	#personalize .medium button{
-		margin: 50px 100px 0 0;
-	}
-}
-@media only screen and (max-width: 850px){
-	#home{
-		width: 100%;
-		height: 100%;
-	}
-	#home button{
-		right: 30%;
-		width: 300px;
-	}
-	#map{
-		width: 100%;
-		margin: 0 auto;
-	}
-	#map_canvas{
-		width: 100%;
-	}
-	#about-us .left-icon{
-		left: 40%;
-		margin-top: 0;
-	}
-	#about-us .left-icon .icon-globe{
-		font-size: 15.5em;
-	}
-	#about-us .right-content{
-		right: 12%;
-		top: 30%;
-		width: 600px;
-	}
-	#about-us .right-content h3{
-		font-size: 40px;
-	}
-	#about-us .right-content .time-font{
-		font-size: 39px;
-	}
-	#ways{
-		width: 100%;
-	}
-	#ways .medium{
-		width: 100%;
-		margin: 0 auto;
-	}
-	#ways .medium h3{
-		padding-left: 10px;
-	}
-	#ways .medium p,
-	#ways .medium article{
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-	#ways .medium a{
-		border: none;
-	}
-	#personalize{
-		width: 978px;
-	}
-	#personalize .medium{
-		width: 978px;
-		margin: 0 auto;
-	}
-	#personalize .medium h3{
-		padding-left: 10px;
-	}
-	#personalize .medium button{
-		margin: 50px 100px 0 0;
-	}
+#about-us .middle .how-it-works ul.steps-content li{
+	list-style: none;
+	display: inline-block;
+	width: 23%;
+	text-align: center;
+	font: 16px/30px 'Open Sans',sans-serif;
+	font-weight: 300;
+	color: #888;
+	text-transform: inherit;
+	vertical-align: top;
+	margin: 0 5%;
 }
 
-/* ---------------------- Device Widths/Heights --------------------------------- */
-@media only screen and (device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2){
-	#home{
-		background: url(/img/bg/main.png) no-repeat right bottom scroll;
-		width: 100%;
-		height: 100%;
-	}
-	#home .medium{
-		width: 100%;
-	}
-	#home button{
-		margin: 280px 35px 0 0;
-		font-size: 18px;
-		width: 250px;
-	}
-	#home-scroll{
-		margin-top: 10px;
-		margin-left: 140px;
-		color: #d4d4d4;
-	}
-	#about-us{
-		height: 100%;
-		width: 100%;
-	}
-	#about-us .medium{
-		height: 100%;
-		width: 100%;
-	}
-	#about-us .medium .how-it-works{
-		width: 100%;
-		height: 1200px;
-		margin-top: 30px;
-	}
-	#about-us .medium .how-it-works ul.steps{
-		width: 100%;
-		height: 100%;
-	}
-	#about-us .medium .how-it-works ul.steps-content li{
-		display: block;
-		margin-bottom: 50px;
-		margin-left: 30px;
-	}
-	#about-us .medium .how-it-works ul.steps-content li:nth-last-child(1){
-		margin-bottom: 0px;
-	}
-	#about-us .medium article{
-		width: 100%;
-		padding-left: 10px;
-		padding-right: 10px;
-		text-align: justify;
-	}
-	#about-us .medium .left-icon{
-		margin: 30px 0 0 60px;
-		width: 200px;
-	}
-	#about-us .medium .right-content{
-		clear: both;
-		font-size: 13px;
-		line-height: 24px;
-		width: 100%;
-		padding-right: 0px;
-	}
-	#about-us .medium .right-content p{
-		padding: 0 0px 0 0;
-		font-size: 13px;
-		line-height: 24px;
-	}
-	#about-us .medium .right-content h3{
-		font-size: 20px;
-	}
-	#about-us .medium .right-content .time-font{
-		font-size: 22px;
-	}
-	#about-us .medium .left-icon .icon-globe{
-		font-size: 200px;
-	}
-	#about-us .medium .left-icon{
-		clear: both;
-	}
-	#about-us .medium #continue-arrow{
-		margin-top: 0px;
-		margin-left: 150px;
-	}
-	#ways{
-		margin-top: 150px;
-		height: 1000px;
-		width: 100%;
-	}
-	#ways .medium{
-		height: 100%;
-		width: 100%;
-	}
-	#ways .medium h3{
-		font-size: 26px;
-		text-align: center;
-	}
-	#ways .medium article{
-		font-size: 13px;
-		text-align: justify;
-		line-height: 24px;
-	}
-	#ways .medium #continue-arrow{
-		margin-top: 30px;
-		margin-left: 150px;
-	}
-	#personalize{
-		width: 100%;
-		height: 100%;
-	}
-	#personalize .medium{
-		width: 100%;
-		height: 100%;
-	}
-	#personalize .medium h3{
-		font-size: 26px;
-		text-align: center;
-	}
-	#personalize .medium .products{
-		width: 100%;
-		margin-left: 85px;
-	}
-	#personalize .medium .products ul.product-names li{
-		display: block;
-		margin-bottom: 50px;
-	}
-	#personalize .medium .products ul.product-names li:active{
-		-webkit-transform:scale(0.9);
-		-moz-transform:scale(0.9);
-		-ms-transform:scale(0.9);
-		-o-transform:scale(0.9);
-		transform:scale(0.9);
-		-webkit-box-shadow:0px 0px 20px #111;
-		-moz-box-shadow:0px 0px 20px #111;
-		-o-box-shadow:0px 0px 20px #111;
-		box-shadow:0px 0px 20px #111;
-	}
-	#personalize .medium button{
-		margin: 50px 10px 0 0;
-		background: transparent;
-		border-color: #111;
-		color: #111;
-	}
-	footer{
-	}
-	footer ul#footer-wrapper{
-		width: 100%;
-	}
-	footer ul#footer-wrapper li{
-		text-align: center;
-	}
+#about-us .middle .how-it-works .steps-content p{
+	font: 16px/30px 'Open Sans',sans-serif;
+	font-weight: 300;
+	color: #888;
+	text-transform: inherit;
+	padding: 5px 0 0 0;
 }
+/* -------------------- What Are Yours --------------------- */
+#ways{
+	position:relative;
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	background: url(/img/patterns/dust_@2X.png);
+}
+#ways .middle{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -470px 0 0 -500px;
+	padding: 0;
+}
+#ways .middle h3{
+	color: #888;
+	text-transform: uppercase;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+#ways .middle article{
+	margin-bottom: 20px;
+}
+#ways .middle #map_canvas{
+}
+#ways .wrap #map_canvas p{
+	font: 13px Arial,Helvetica,sans-serif;
+	color: #999;
+	padding-top: 8px;
+}
+#ways .middle .right-content .time-font{
+	font: 53px 'Times',sans-serif;
+	font-weight: 300;
+	color: #888;
+	font-style: italic;
+}
+#ways a,
+#ways a:link,
+#ways a:active{
+	text-decoration: none;
+	color: #999;
+	font-weight: 400;
+}
+#ways a:hover{
+	text-decoration: none;
+	color: #888;
+}
+#ways .middle .how-it-works{
+	float: left;
+	margin: 50px 0 0 0;
+	width: 100%;
+}
+#ways .middle .how-it-works ul.steps{
+	width: 92%;
+	margin: 0 auto;
+}
+#ways .middle .how-it-works ul.steps-content{
+	max-width: 100%;
+	margin: 20px auto;
+	padding: 0;
+}
+#ways .middle .how-it-works ul.steps li{
+	list-style: none;
+	display: inline-block;
+	width: 22%;
+	text-align: center;
+}
+#ways .middle .how-it-works ul.steps-content li{
+	list-style: none;
+	display: inline-block;
+	width: 22%;
+	text-align: center;
+	font: 16px/30px 'Open Sans',sans-serif;
+	font-weight: 300;
+	color: #888;
+	text-transform: inherit;
+	vertical-align: top;
+	margin: 0 5%;
+}
+#ways .middle .how-it-works ul.steps-content li .circles{
+	display: block;
+	width: 41px;
+	height: 41px;
+	margin: 0 auto;
+}
+#ways .middle .how-it-works .steps-content p{
+	font: 16px/30px 'Open Sans',sans-serif;
+	font-weight: 300;
+	color: #888;
+	text-transform: inherit;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+}
+@media only screen and(max-width: 1000px){
+#ways .middle {
+	/*position: absolute;
+	top: 50%;	
+	left: 50%;
+	margin: -470px 0 0 -455px;
+	padding: 0;	
+	*/
+	position: relative;
+	height:auto;
+	margin:0 auto;
+	padding:0 4%; 
+	top:auto;
+	left: auto;
+	width: 92%;
+	max-width: 92%;
+}
+@media only screen and (max-width: 950px){
+/* ------------------------ About Us Sections -------------------------- */
+#about-us {
+	height:auto;
+	min-height:auto;
+	padding: 70px 0 0 0;
+}
+#about-us .middle{
+	position: relative;
+	height:auto;
+	margin:0 auto;
+	padding:0 4%; 
+	top:auto;
+	left: auto;
+	width: 92%;
+	max-width: 92%;
+}
+#about-us .middle .left-icon, #about-us .middle .right-content{
+	width: 100%;
+	max-width: 100%;
+}
+#about-us .middle .left-icon img{
+	width: 40%;
+	display: inline-block;
+	padding:0 0 40px 0;
+}
+
+
+#about-us .middle .how-it-works ul.steps li{
+	width: 100%;
+}
+
+#about-us .middle .how-it-works ul.steps-content li{
+	width: 100%;
+	margin: 0%;
+	padding-bottom: 40px;
+}
+
+#about-us .middle .how-it-works ul.steps-content li .circles{
+	margin: 0;
+	padding: 0;
+	display: block;
+	float: left;
+	width: 6%;
+}
+#about-us .middle .how-it-works ul.steps-content li img{
+	margin: 0;
+	padding: 0;
+	display: block;
+	float: left;
+	width: 8%;
+}
+#about-us .middle .how-it-works .steps-content p{
+	width: 70%;
+	margin: 0;
+	padding: 0 6%;
+	text-align: left;
+	display: block;
+	float: left;
+}
+#ways .middle .how-it-works ul.steps-content li img{
+	margin: 0 auto;
+	padding: 0 0 0 0;
+	display: block;
+}
+/* -------------------- What Are Yours --------------------- */
+#ways{
+	position:relative;
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	background: url(/img/patterns/dust_@2X.png);
+}
+#ways .middle{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -470px 0 0 -445px;
+	padding: 0;
+}
+#ways .middle h3{
+	color: #888;
+	text-transform: uppercase;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+#ways .middle article{
+	margin-bottom: 20px;
+}
+#ways .middle #map_canvas{
+
+}
+#ways .wrap #map_canvas p{
+	font: 13px Arial,Helvetica,sans-serif;
+	color: #999;
+	padding-top: 8px;
+}
+#ways .middle .right-content .time-font{
+	font: 53px 'Times',sans-serif;
+	font-weight: 300;
+	color: #888;
+	font-style: italic;
+}
+#ways a,
+#ways a:link,
+#ways a:active{
+	text-decoration: none;
+	color: #999;
+	font-weight: 400;
+}
+#ways a:hover{
+	text-decoration: none;
+	color: #888;
+}
+#ways .middle .how-it-works{
+	float: left;
+	margin: 50px 0 0 0;
+	width: 100%;
+}
+#ways .middle .how-it-works ul.steps{
+	width: 92%;
+	margin: 0 auto;
+}
+#ways .middle .how-it-works ul.steps-content{
+	max-width: 100%;
+	margin: 20px auto;
+	padding: 0;
+}
+#ways .middle .how-it-works ul.steps li{
+	list-style: none;
+	display: inline-block;
+	width: 22%;
+	text-align: center;
+}
+#ways .middle .how-it-works ul.steps-content li{
+	list-style: none;
+	display: inline-block;
+	width: 22%;
+	text-align: center;
+	font: 16px/30px 'Open Sans',sans-serif;
+	font-weight: 300;
+	color: #888;
+	text-transform: inherit;
+	vertical-align: top;
+	margin: 0 5%;
+}
+#ways .middle .how-it-works ul.steps-content li .circles{
+	display: block;
+	width: 41px;
+	height: 41px;
+	margin: 0 auto;
+}
+#ways .middle .how-it-works .steps-content p{
+	font: 16px/30px 'Open Sans',sans-serif;
+	font-weight: 300;
+	color: #888;
+	text-transform: inherit;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+}
+@media only screen and(max-width: 900px){
+#ways .middle {
+	position: absolute;
+	top: 50%;	
+	left: 50%;
+	margin: -470px 0 0 -420px;
+	padding: 0;	
+}
+@media only screen and(max-width: 850px){
+#ways .middle {
+	position: absolute;
+	top: 50%;	
+	left: 50%;
+	margin: -470px 0 0 -400px;
+	padding: 0;	
+}
+@media only screen and(max-width: 800px){
+#ways .middle {
+	position: absolute;
+	top: 50%;	
+	left: 50%;
+	margin: -470px 0 0 -375px;
+	padding: 0;	
+}
+@media only screen and (max-width: 500px){
+/* ------------------------ About Us Sections -------------------------- */
+
+#about-us {
+	height:auto;
+	min-height:auto;
+	padding: 70px 0;
+}
+#about-us .middle{
+	position: relative;
+	height:auto;
+	margin:0 auto;
+	padding:0; 
+	top:auto;
+	left: auto;
+}
+#about-us .middle .left-icon, #about-us .middle .right-content{
+	width: 100%;
+	max-width: 100%;
+}
+#about-us .middle .right-content h3{
+	text-align: center;
+}
+#about-us .middle .left-icon img{
+	width: 40%;
+	display: inline-block;
+	padding:0 0 40px 0;
+}
+
+
+#about-us .middle .how-it-works ul.steps li{
+	width: 100%;
+}
+
+#about-us .middle .how-it-works ul.steps-content li{
+	width: 100%;
+	margin: 0 0 15% 0;
+	padding: 0;
+}
+
+#about-us .middle .how-it-works ul.steps-content li .circles{
+	margin: 0 auto 5% auto;
+	padding: 0;
+}
+#about-us .middle .how-it-works .steps-content p{
+	width: 90%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+/* -------------------- What Are Yours --------------------- */
+#ways{
+	position:relative;
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	background: url(/img/patterns/dust_@2X.png);
+}
+#ways .middle{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -470px 0 0 -325px;
+	padding: 0;
+}
+#ways .middle h3{
+	color: #888;
+	text-transform: uppercase;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+#ways .middle article{
+	margin-bottom: 20px;
+}
+#ways .middle #map_canvas{
+
+}
+#ways .wrap #map_canvas p{
+	font: 13px Arial,Helvetica,sans-serif;
+	color: #999;
+	padding-top: 8px;
+}
+#ways .middle .right-content .time-font{
+	font: 53px 'Times',sans-serif;
+	font-weight: 300;
+	color: #888;
+	font-style: italic;
+}
+#ways a,
+#ways a:link,
+#ways a:active{
+	text-decoration: none;
+	color: #999;
+	font-weight: 400;
+}
+#ways a:hover{
+	text-decoration: none;
+	color: #888;
+}
+#ways .middle .how-it-works{
+	float: left;
+	margin: 50px 0 0 0;
+	width: 100%;
+}
+#ways .middle .how-it-works ul.steps{
+	width: 92%;
+	margin: 0 auto;
+}
+#ways .middle .how-it-works ul.steps-content{
+	max-width: 100%;
+	margin: 20px auto;
+	padding: 0;
+}
+#ways .middle .how-it-works ul.steps li{
+	list-style: none;
+	display: inline-block;
+	width: 22%;
+	text-align: center;
+}
+#ways .middle .how-it-works ul.steps-content li{
+	list-style: none;
+	display: inline-block;
+	width: 22%;
+	text-align: center;
+	font: 16px/30px 'Open Sans',sans-serif;
+	font-weight: 300;
+	color: #888;
+	text-transform: inherit;
+	vertical-align: top;
+	margin: 0 5%;
+}
+#ways .middle .how-it-works ul.steps-content li .circles{
+	display: block;
+	width: 41px;
+	height: 41px;
+	margin: 0 auto;
+}
+#ways .middle .how-it-works .steps-content p{
+	font: 16px/30px 'Open Sans',sans-serif;
+	font-weight: 300;
+	color: #888;
+	text-transform: inherit;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+
+}
+
+
+@media only screen and (max-height: 680px){
+/* ------------------------ About Us Sections -------------------------- */
+#about-us .middle{
+}
+
+@media only screen and (max-height: 1000px){
+/* ------------------------ About Us Sections -------------------------- */
+
+#about-us {
+	height:auto;
+	min-height:auto;
+	padding: 70px 0;
+}
+#about-us .middle{
+	position: relative;
+	height:auto;
+	margin:0 auto;
+	padding:0; 
+	top:auto;
+	left: auto;
+}
+#about-us .middle .left-icon {
+	width: 26%;
+	max-width: 26%;
+}
+#about-us .middle .right-content{
+	width: 68%;
+	max-width: 68%;
+}
+#about-us .middle  .right-content h3{
+	font-size: 40px;
+}
+#about-us .middle  .right-content p{
+	font-size:15px;
+}
+#about-us .middle .right-content .time-font{
+	font: 40px 'Didot',sans-serif;
+}
+
+
+
+}
+
+
+
+
