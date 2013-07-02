@@ -29,7 +29,7 @@ a:hover{
 	top: 0;
 	right: 0;
 	z-index: 1;
-	width: 300px;
+	width: 240px;
 }
 nav{
 	margin: 0 10px 0 0;
@@ -77,17 +77,30 @@ nav li{
 #home{
 	position: relative;
 	width: 100%;
-	height: 100%;
+	height: auto;
 	min-height: 100%;
-	background: url(/img/bg/main-alt.jpg) no-repeat top center scroll;
+	background: url(/img/bg/sliderimage-alt.jpg) no-repeat right center scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 }
-#home button{
+#home .logo{
 	position:absolute;
-	right: 10%;
+	top: 20%;
+	left: 0%;
+	width: 100%;
+	height: auto;
+}
+#home .wrap{
+	margin: 0 auto;
+	width: 1000px;
+	height: 100%;
+	position:relative;
+}
+#home .wrap button{
+	position:absolute;
+	right: 0;
 	bottom: 22%;
 	width: 300px;
 	color: #fff;
@@ -100,22 +113,9 @@ nav li{
 	border-style: solid;
 	border-width: 1px;
 }
-#home button:hover{
+#home .wrap button:hover{
 	background: #ccc;
 	color: #fff;
-}
-#home .medium{
-	margin: 0 auto;
-	width: 980px;
-	height: 100%;
-}
-#home .medium img{
-	width: 51px;
-	height: 26px;
-	display: block;
-	cursor: pointer;
-	float: left;
-	margin: 710px 0 0 450px;
 }
 /* ------------------------ About Us Sections -------------------------- */
 #about-us{
@@ -170,7 +170,7 @@ nav li{
 }
 #about-us .wrap .how-it-works{
 	float: left;
-	margin: 190px 0 0 0;
+	margin: 130px 0 0 0;
 	width: 100%;
 }
 #about-us .wrap .how-it-works ul.steps{
@@ -519,6 +519,58 @@ footer ul#footer-wrapper li a:hover{
 /* ----------------------------- Scrolls Bars ------------------------------------- */
 
 /* ----------------------------- Media Queries -------------------------------------*/
+@media only screen and (min-height: 1000px){
+	#home {
+		height: 50%;
+		min-height: 50%;
+	}
+	#home .logo{
+	left: 70%;
+	width: 438px;
+	height: auto;
+	}
+	#home .logo img{
+		width: 22%;
+		height: auto;
+		min-width: 438px;
+	}
+}
+@media only screen and (max-height: 767px){
+	#home .logo{
+	left: 75%;
+	width: 438px;
+	height: auto;
+	}
+	#home .logo img{
+		width: 85%;
+		height: auto;
+		opacity: 0.3;
+	}
+}
+@media only screen and (min-height: 800px){
+	#home .logo{
+	left: 75%;
+	width: 438px;
+	height: auto;
+	}
+	#home .logo img{
+		width: 100%;
+		height: auto;
+		opacity: 0.3;
+	}
+}
+@media only screen and (min-height: 768px){
+	#home .logo{
+	left: 75%;
+	width: 438px;
+	height: auto;
+	}
+	#home .logo img{
+		width: 85%;
+		height: auto;
+		opacity: 0.3;
+	}
+}
 @media only screen and (min-width: 1000px){
 	#home{
 		width: 100%;
@@ -554,7 +606,7 @@ footer ul#footer-wrapper li a:hover{
 		font-size: 45px;
 	}
 	#about-us .wrap .right-content .time-font{
-		font-size: 43px;
+		font-size: 44px;
 	}
 	#about-us .wrap .how-it-works ul.steps-content{
 		width: 100%;
