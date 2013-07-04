@@ -718,19 +718,17 @@ footer ul#footer-wrapper li a:hover{
 }
 
 
-
-
-
-
-
-
-
 @media only screen and (max-width: 1100px){
+.navigation{
+	width: 100%;
+	max-width: 150px;
+	right: 1%;
+}
 #home{
 	position: relative;
 	width: 100%;
 	min-height: 100%;
-	background: url(/img/bg/sliderimage-alt.jpg) no-repeat right center scroll;
+	background: url(/img/bg/sliderimage-alt.jpg) no-repeat -1000px scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -738,9 +736,13 @@ footer ul#footer-wrapper li a:hover{
 #home .logo{
 	position:absolute;
 	top: 20%;
-	right: 5%;
+	right: 2%;
 	width: auto;
 	height: auto;
+}
+#home .logo img{
+	max-width: 270px;
+	width: 100%;
 }
 #home .middle{
 	margin: 0 auto;
@@ -1028,7 +1030,44 @@ footer ul#footer-wrapper li a:hover{
 
 }
 }
+
+
 @media only screen and(max-width: 1000px){
+	.navigation{
+		width: 100%;
+		max-width: 150px;
+	}
+	#home{
+		position: relative;
+		width: 100%;
+		min-height: 100%;
+		background: url(/img/bg/sliderimage-alt.jpg) no-repeat -1000px scroll;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;}
+	#home .logo{
+		position:absolute;
+		top: 20%;
+		right: 8%;
+		width: 100%;
+		height: 100%;
+		max-width: 39px;
+		max-height:46px;
+		background: url(/img/logo/coordinates-logo-sml.png) no-repeat;
+	}
+	#home .logo img{
+		max-width: 270px;
+		width: 100%;
+		display: none;
+	}
+	#home .middle{
+		margin: 0 auto;
+		width: 100%;
+		height: 100%;
+		position:relative;
+		padding: 0;
+	}
 #ways .middle {
 	/*position: absolute;
 	top: 50%;
@@ -1045,7 +1084,73 @@ footer ul#footer-wrapper li a:hover{
 	width: 92%;
 	max-width: 92%;
 }
-@media only screen and (max-width: 950px){
+}
+@media only screen and(max-width: 900px){
+	.navigation{
+		right:0%;
+		width: 100%;
+		max-width: 100%;
+		background: #fff;
+		opacity: 0.9;
+	}
+	.navigation nav{
+		float: right;
+		width: 100%;
+		max-width: 150px;
+		margin: 0;
+		padding: 0;
+	}
+	#home{
+		position: relative;
+		width: 100%;
+		min-height: 100%;
+		background: url(/img/bg/sliderimage-alt.jpg) no-repeat -1000px scroll;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;}
+	#home .logo{
+		position:absolute;
+		top: 0;
+		right: 25%;
+		width: 100%;
+		height: 100%;
+		max-width: 398px;
+		max-height: 51px;
+		background: none;
+		z-index: 2;
+		padding-top: 6px;
+	}
+	#home .logo img{
+		max-width: 80%;
+		width: 100%;
+		display: block;
+	}
+	#home .middle{
+		margin: 0 auto;
+		width: 100%;
+		height: 100%;
+		position:relative;
+		padding: 0;
+	}
+#ways .middle {
+	/*position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -470px 0 0 -455px;
+	padding: 0;
+	*/
+	position: relative;
+	height:auto;
+	margin:0 auto;
+	padding:0 4%;
+	top:auto;
+	left: auto;
+	width: 92%;
+	max-width: 92%;
+}
+}
+@media only screen and (max-width: 960px){
 /* ------------------------ About Us Sections -------------------------- */
 #about-us {
 	height:auto;

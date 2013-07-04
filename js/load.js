@@ -3,8 +3,10 @@ google.maps.visualRefresh = true;
 $(document).ready(function(){
   $(".scroll").click(function(event){
     event.preventDefault();
-    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
+    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 1500);
   });
+
+
   $('#map_canvas').gmap({'scrollwheel': false,'disableDefaultUI':true}).bind('init', function() {
   $.getJSON('find.json', function(data){
             $.each(data.markers, function(i, marker){
