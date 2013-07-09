@@ -19,47 +19,4 @@ $(document).ready(function(){
         });
         });
 
-  $('article').imagesLoaded({
-      callback: function ($images, $proper, $broken) {
-        $images.each( function() {
-          var $h = this.height;
-          var $w = parseInt(this.width, 10);
-
-
-          if (parseInt(this.width, 10) > $('article').width()) {
-            $marginLeft = -(parseInt(this.width, 10) - $('article').width()) / 2;
-          } else {
-            $marginLeft = 'auto';
-          }
-
-          $(this).css({
-            height: parseInt(this.height, 10),
-            width: $w,
-            'margin-left': $marginLeft
-          });
-        });
-        $('article:not(.nofocusoperandi)').focusoperandi({
-          ignoreClass: 'ignore',
-          totalWords: words,
-          onScroll: scroll,
-          scrollComplete: complete,
-          startShow: $('.header-inner').find('h2').offset().top + $('.header-inner').find('h2').height() + 100
-        });
-        function words(data) {
-          $('#totalWords').text(data);
-        }
-        function scroll(data) {
-         $('#leftcount').text(data['totalLeft']);
-          if(data['totalLeft'] <= 0 ) {
-            $("#leftcount").fadeOut(200);
-          }
-        }
-        function complete(data) {
-          $('#next').fadeIn(800);
-          $("#leftcount").fadeOut(200);
-        }
-      }
-    });
-
-
 });
