@@ -711,13 +711,10 @@ footer ul#footer-wrapper li a:hover{
 
 }
 @media only screen and (max-height: 680px){
-/* ------------------------ About Us Sections -------------------------- */
 #about-us .middle{
 
+	}
 }
-}
-
-
 @media only screen and (max-width: 1100px){
 .navigation{
 	width: 100%;
@@ -974,7 +971,7 @@ footer ul#footer-wrapper li a:hover{
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	margin: -470px 0 0 -500px;
+	margin: -300px 0 0 -500px;
 	padding: 0;
 }
 #personalize .middle h3{
@@ -1069,12 +1066,6 @@ footer ul#footer-wrapper li a:hover{
 		padding: 0;
 	}
 #ways .middle {
-	/*position: absolute;
-	top: 50%;
-	left: 50%;
-	margin: -470px 0 0 -455px;
-	padding: 0;
-	*/
 	position: relative;
 	height:auto;
 	margin:0 auto;
@@ -1083,7 +1074,7 @@ footer ul#footer-wrapper li a:hover{
 	left: auto;
 	width: 92%;
 	max-width: 92%;
-}
+	}
 }
 @media only screen and(max-width: 900px){
 	.navigation{
@@ -1134,29 +1125,33 @@ footer ul#footer-wrapper li a:hover{
 		position:relative;
 		padding: 0;
 	}
-#ways .middle {
-	/*position: absolute;
-	top: 50%;
-	left: 50%;
-	margin: -470px 0 0 -455px;
-	padding: 0;
-	*/
-	position: relative;
-	height:auto;
-	margin:0 auto;
-	padding:0 4%;
-	top:auto;
-	left: auto;
-	width: 92%;
-	max-width: 92%;
-}
-#personalize .middle{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin: -200px 0 0 -430px;
-	padding: 0;
-}
+	#about-us .middle .right-content h3{
+		text-align: center;
+	}
+	/*#ways .middle{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin: -470px 0 0 -415px;
+		padding: 0;
+	}*/
+	#ways .middle{
+		position: relative;
+		height:auto;
+		margin:0 auto;
+		padding:0 4%;
+		top:auto;
+		left: auto;
+		width: 92%;
+		max-width: 92%;
+	}
+	#personalize .middle{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin: -200px 0 0 -430px;
+		padding: 0;
+	}
 }
 @media only screen and (max-width: 960px){
 /* ------------------------ About Us Sections -------------------------- */
@@ -1184,18 +1179,14 @@ footer ul#footer-wrapper li a:hover{
 	display: inline-block;
 	padding:0 0 40px 0;
 }
-
-
 #about-us .middle .how-it-works ul.steps li{
 	width: 100%;
 }
-
 #about-us .middle .how-it-works ul.steps-content li{
 	width: 100%;
 	margin: 0%;
 	padding-bottom: 40px;
 }
-
 #about-us .middle .how-it-works ul.steps-content li .circles{
 	margin: 0;
 	padding: 0;
@@ -1232,11 +1223,14 @@ footer ul#footer-wrapper li a:hover{
 	background: url(/img/patterns/dust_@2X.png);
 }
 #ways .middle{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin: -470px 0 0 -445px;
-	padding: 0;
+	position: relative;
+	height:auto;
+	margin:0 auto;
+	padding:2% 4%;
+	top:auto;
+	left: auto;
+	width: 92%;
+	max-width: 92%;
 }
 #ways .middle h3{
 	color: #888;
@@ -1318,83 +1312,67 @@ footer ul#footer-wrapper li a:hover{
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
-
-}
-@media only screen and(max-width: 900px){
-#ways .middle {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin: -470px 0 0 -420px;
-	padding: 0;
-}
-@media only screen and(max-width: 850px){
-#ways .middle {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin: -470px 0 0 -400px;
-	padding: 0;
-}
-@media only screen and(max-width: 800px){
-#ways .middle {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin: -470px 0 0 -375px;
-	padding: 0;
-}
-@media only screen and (max-width: 500px){
-/* ------------------------ About Us Sections -------------------------- */
-
-#about-us {
-	height:auto;
-	min-height:auto;
-	padding: 70px 0;
-}
-#about-us .middle{
+#personalize .middle{
 	position: relative;
 	height:auto;
 	margin:0 auto;
-	padding:0;
+	padding:25% 4%;
 	top:auto;
 	left: auto;
+	width: 92%;
+	max-width: 92%;
+	}
 }
-#about-us .middle .left-icon, #about-us .middle .right-content{
-	width: 100%;
-	max-width: 100%;
-}
-#about-us .middle .right-content h3{
-	text-align: center;
-}
-#about-us .middle .left-icon img{
-	width: 40%;
-	display: inline-block;
-	padding:0 0 40px 0;
-}
+@media only screen and(max-width: 850px){
 
+}
+@media only screen and(max-width: 800px){
 
-#about-us .middle .how-it-works ul.steps li{
-	width: 100%;
 }
-
-#about-us .middle .how-it-works ul.steps-content li{
-	width: 100%;
-	margin: 0 0 15% 0;
-	padding: 0;
-}
-
-#about-us .middle .how-it-works ul.steps-content li .circles{
-	margin: 0 auto 5% auto;
-	padding: 0;
-}
-#about-us .middle .how-it-works .steps-content p{
-	width: 90%;
-	margin: 0;
-	padding: 0;
-	text-align: center;
-}
-/* -------------------- What Are Yours --------------------- */
+@media only screen and (max-width: 500px){
+	#about-us {
+		height:auto;
+		min-height:auto;
+		padding: 70px 0;
+	}
+	#about-us .middle{
+		position: relative;
+		height:auto;
+		margin:0 auto;
+		padding:0;
+		top:auto;
+		left: auto;
+	}
+	#about-us .middle .left-icon, #about-us .middle .right-content{
+		width: 100%;
+		max-width: 100%;
+	}
+	#about-us .middle .right-content h3{
+		text-align: center;
+	}
+	#about-us .middle .left-icon img{
+		width: 40%;
+		display: inline-block;
+		padding:0 0 40px 0;
+	}
+	#about-us .middle .how-it-works ul.steps li{
+		width: 100%;
+	}
+	#about-us .middle .how-it-works ul.steps-content li{
+		width: 100%;
+		margin: 0 0 15% 0;
+		padding: 0;
+	}
+	#about-us .middle .how-it-works ul.steps-content li .circles{
+		margin: 0 auto 5% auto;
+		padding: 0;
+	}
+	#about-us .middle .how-it-works .steps-content p{
+		width: 90%;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
 #ways{
 	position:relative;
 	width: 100%;
@@ -1488,7 +1466,7 @@ footer ul#footer-wrapper li a:hover{
 	text-transform: inherit;
 	padding-top: 20px;
 	padding-bottom: 20px;
-}
+	}
 }
 
 
