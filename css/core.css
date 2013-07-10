@@ -135,7 +135,7 @@ nav li{
 		right: 1%;
 		width: auto;
 		height: auto;
-		opacity: 0.3;
+		opacity: 1;
 	}
 #home .middle{
 	margin: 0 auto;
@@ -1070,7 +1070,6 @@ footer ul#footer-wrapper li a:hover{
 		height: 100%;
 		max-width: 131px;
 		max-height:138px;
-		opacity: 0.5;
 	}
 }
 @media only screen and(max-width: 1000px){
