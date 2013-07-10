@@ -19,6 +19,7 @@ h3{
 }
 a,a:link,a:active,a:visited{
 	text-decoration: none;
+	color: #333;
 }
 a:hover{
 	text-decoration: none;
@@ -29,7 +30,22 @@ a:hover{
 	top: 0;
 	right: 0;
 	z-index: 1;
-	width: 240px;
+	max-width: 400px;
+}
+.navigation a:hover{
+	text-decoration: none;
+	border-bottom: 1px solid #333;
+	padding-bottom: 3px;
+	color: #333;
+	-webkit-transition-property: color;
+	-webkit-transition-duration: .4s, .4s;
+	-webkit-transition-timing-function: linear, ease-in;
+	-moz-transition-property: color;
+	-moz-transition-duration: .4s;
+	-moz-transition-timing-function: linear, ease-in;
+	-o-transition-property: color;
+	-o-transition-duration: .4s;
+	-o-transition-timing-function: linear, ease-in;
 }
 nav{
 	margin: 0 10px 0 0;
@@ -40,7 +56,7 @@ nav{
 }
 nav li{
 	display: inline-block;
-	margin-right: 5px;
+	margin-right: 10px;
 	line-height: 35px;
 }
 /*------------------------ Container Content ------------------------*/
@@ -113,6 +129,14 @@ nav li{
 	width: auto;
 	height: auto;
 }
+#home .made-in-la-logo{
+		position:absolute;
+		bottom: 2%;
+		right: 2%;
+		width: auto;
+		height: auto;
+		opacity: 0.3;
+	}
 #home .middle{
 	margin: 0 auto;
 	width: 1000px;
@@ -1028,7 +1052,27 @@ footer ul#footer-wrapper li a:hover{
 }
 }
 
-
+@media only screen and(max-width: 1440px){
+	#home .logo{
+		position:absolute;
+		top: 20%;
+		right: 2%;
+		width: 90%;
+		height: 100%;
+		max-width: 532px;
+		max-height:129px;
+	}
+	#home .made-in-la-logo{
+		position:absolute;
+		bottom: 2%;
+		right: 2%;
+		width: 100%;
+		height: 100%;
+		max-width: 131px;
+		max-height:138px;
+		opacity: 0.5;
+	}
+}
 @media only screen and(max-width: 1000px){
 	.navigation{
 		width: 100%;
