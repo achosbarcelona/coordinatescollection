@@ -125,14 +125,14 @@ nav li{
 #home .logo{
 	position:absolute;
 	top: 20%;
-	right: 5%;
+	right: 1%;
 	width: auto;
 	height: auto;
 }
 #home .made-in-la-logo{
 		position:absolute;
 		bottom: 2%;
-		right: 2%;
+		right: 1%;
 		width: auto;
 		height: auto;
 		opacity: 0.3;
