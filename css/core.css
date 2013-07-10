@@ -111,6 +111,18 @@ nav li{
 #continue-arrow a:active{
 	border: none;
 }
+#continue-arrow-first .icon-angle-down{
+	color: #fff;
+	font-size: 60px;
+	-webkit-animation: pulsate 3s ease-in-out 0s infinite alternate;
+	-moz-animation: pulsate 3s ease-in-out 0s infinite alternate;
+	animation: pulsate 3s ease-in-out 0s infinite alternate;
+}
+#continue-arrow-first a,
+#continue-arrow-first a:link,
+#continue-arrow-first a:active{
+	border: none;
+}
 /* ------------------------ Home Sections -------------------------- */
 #home{
 	position: relative;
