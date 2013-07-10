@@ -8,7 +8,7 @@ $(document).ready(function(){
 
 
   $('#map_canvas').gmap({'scrollwheel': false,'disableDefaultUI':true}).bind('init', function() {
-  $.getJSON('find.json', function(data){
+  /*$.getJSON('find.json', function(data){
             $.each(data.markers, function(i, marker){
               $('#map_canvas').gmap('addMarker', {
                 'position': new google.maps.LatLng(marker.latitude, marker.longitude), 'bounds': true }
@@ -17,6 +17,7 @@ $(document).ready(function(){
             });
           });
         });
+*/
         });
 
 });
