@@ -305,17 +305,15 @@ nav li{
 	background: #fff;
 	border: 2px solid #a8a8a8;
 	max-width: 600px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 20px;
 }
 #about-us .middle .collection-description h3{
 	font: 35px "Didot",sans-serif;
 	font-style: normal;
-
 	text-transform: uppercase;
 	color: #9e9e9e;
 	text-align: center;
+	margin: 0;
+	padding: 15px;
 }
 #about-us .middle .collection-description p{
 	color: #9e9e9e;
