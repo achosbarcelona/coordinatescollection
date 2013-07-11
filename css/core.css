@@ -93,6 +93,32 @@ nav{
 	*/
 }
 /* ------------------------ Arrow Content ------------------------- */
+#learn-more-home{
+	width: 450px;
+	height: auto;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	position: absolute;
+	left: 45%;
+	bottom: 4%;
+	opacity: 0;
+}
+#learn-more-home span{
+	border: 3px solid #fff;
+	color: #fff;
+	font: 30px "Open Sans",sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	padding: 8px 8px 8px 8px;
+}
+#learn-more-home a,
+#learn-more-home a:active,
+#learn-more-home a:visited{
+	color: #fff;
+}
+#learn-more-home a:hover{
+
+}
 #continue-arrow-wrapper{
 	width: 65px;
 	height: 65px;
