@@ -1015,7 +1015,7 @@ footer ul#footer-wrapper li a:hover{
 @media only screen and (max-height: 800px){
 /* ------------------------ About Us Sections -------------------------- */
 #about-us .middle{
-
+	margin: -360px 0 0 -500px;
 }
 #about-us .middle .how-it-works{
 	margin: 50px 0 0 0;

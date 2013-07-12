@@ -11,4 +11,5 @@ $(document).ready(function(){
   $(".logo").delay(1000).animate({"opacity":"1"}, 700);
   $(".made-in-la-logo").delay(1500).animate({"opacity":"1"}, 700);
   $("#learn-more-home").delay(1800).animate({"opacity":"1"}, 700);
+  $("#p-line").delay(1800).animate({"opacity":"1"}, 700);
 });
