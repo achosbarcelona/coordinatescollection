@@ -61,6 +61,30 @@ nav{
 	line-height: 35px;
 	opacity: 0;
 }
+#mini-globe{
+	opacity: 0;
+}
+#every-memory{
+	opacity: 0;
+}
+#hiw{
+	opacity: 0;
+}
+#p-line{
+	opacity: 0;
+}
+#p-desc{
+	opacity: 0;
+}
+#header{
+	opacity: 0;
+}
+#products-load{
+	opacity: 0;
+}
+#no-border{
+	opacity: 0;
+}
 /*------------------------ Container Content ------------------------*/
 .low-container{
 	position:absolute;
@@ -139,6 +163,23 @@ nav{
 #continue-arrow a:active{
 	border: none;
 }
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
+/* Hinting */
+.scroll .icon-angle-down{
+	-webkit-animation: pulsate 3s ease-in-out 0s infinite alternate;
+	-moz-animation: pulsate 3s ease-in-out 0s infinite alternate;
+	animation: pulsate 3s ease-in-out 0s infinite alternate;
+}
+.scroll a,
+.scroll a:link,
+.scroll a:active{
+	border: none;
+}
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
 
 #continue-arrow-wrapper .icon-stack .icon-angle-down,
 #continue-arrow-wrapper .icon-stack .icon-circle-blank,
@@ -238,7 +279,7 @@ nav{
 }
 #about-us .middle .left-icon{
 	float: left;
-	margin: 30px 0 0 0;
+	margin: 0 0 0 0;
 	width: 29%;
 	max-width: 300px;
 	height: auto;
