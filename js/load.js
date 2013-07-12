@@ -35,6 +35,14 @@ $(document).ready(function(){
   });
 
   $("#jump-3").click(function(){
+    $("#title").delay(1000).animate({"opacity":"1"}, 700);
+    $("#mini-desc").delay(1300).animate({"opacity":"1"}, 700);
+    $("#map").delay(1500).animate({"opacity":"1","margin-top":"20px"}, 700);
+    $("#hiw-2").delay(1700).animate({"opacity":"1","margin-top":"20px"}, 700);
+  });
+
+
+  $("#jump-4").click(function(){
     $("#header").delay(1000).animate({"opacity":"1"}, 700);
     $("#products-load").delay(1300).animate({"opacity":"1"}, 700);
     $("#no-border").delay(1500).animate({"opacity":"1","margin-top":"15px"}, 700);

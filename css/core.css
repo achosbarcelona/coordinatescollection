@@ -85,6 +85,18 @@ nav{
 #no-border{
 	opacity: 0;
 }
+#title{
+	opacity: 0;
+}
+#mini-desc{
+	opacity: 0;
+}
+#map{
+	opacity: 0;
+}
+#hiw-2{
+	opacity: 0;
+}
 /*------------------------ Container Content ------------------------*/
 .low-container{
 	position:absolute;
