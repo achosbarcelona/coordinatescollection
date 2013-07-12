@@ -31,7 +31,7 @@ $(document).ready(function(){
 
   $("#jump-2").click(function(){
     $("#p-line").delay(1000).animate({"opacity":"1","margin-top":"15px"}, 700);
-    $("#p-desc").delay(1200).animate({"opacity":"1","margin-top":"15px"}, 700);
+    $("#p-desc").delay(1200).animate({"opacity":"1","margin-top":"20%"}, 700);
   });
 
   $("#jump-3").click(function(){
@@ -39,8 +39,6 @@ $(document).ready(function(){
     $("#products-load").delay(1300).animate({"opacity":"1"}, 700);
     $("#no-border").delay(1500).animate({"opacity":"1","margin-top":"15px"}, 700);
   });
-
-
 
 
 });//Closed
