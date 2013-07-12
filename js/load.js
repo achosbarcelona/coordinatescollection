@@ -12,4 +12,11 @@ $(document).ready(function(){
   $(".made-in-la-logo").delay(1500).animate({"opacity":"1"}, 700);
   $("#learn-more-home").delay(1800).animate({"opacity":"1"}, 700);
   $("#p-line").delay(1800).animate({"opacity":"1"}, 700);
+
+
+  $("#product-url").click(function(){
+    $("#overlay-content").delay(500).css({"display":"block"}).animate({"opacity":"1"}, 700);
+  });
+
+
 });
