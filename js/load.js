@@ -14,8 +14,14 @@ $(document).ready(function(){
   $("#p-line").delay(1800).animate({"opacity":"1"}, 700);
 
 
-  $("#product-url").click(function(){
-    $("#overlay-content").delay(500).css({"display":"block"}).animate({"opacity":"1"}, 700);
+  $("#product-url-legend").click(function(){
+    $("#overlay-content-legend").delay(500).css({"display":"block"}).animate({"opacity":"1"}, 700);
+  });
+  $("#product-url-meridian").click(function(){
+    $("#overlay-content-meridian").delay(500).css({"display":"block"}).animate({"opacity":"1"}, 700);
+  });
+  $("#product-url-horizon").click(function(){
+    $("#overlay-content-horizon").delay(500).css({"display":"block"}).animate({"opacity":"1"}, 700);
   });
 
 

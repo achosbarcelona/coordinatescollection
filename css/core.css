@@ -2172,20 +2172,67 @@ body {
     left: 0px;
 }
 
-#overlay-content{
+#overlay-content-legend{
 	display: none;
-	width: 100%;
-	height: 100%;
+	width: 250px;
+	height: 200px;
+	position:absolute;
+	top: 2px;
+	left: 0;
+	background: #fff;
+	opacity: 0;
+	border: 2px solid #fed066;
+	padding: 10px;
+}
+#personalize #overlay-content-legend p{
+	font-size: 11px;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	font: 11px/18px "ProximaNova",sans-serif;
+}
+#overlay-content-meridian{
+	display: none;
+	width: 250px;
+	height: 200px;
+	position:absolute;
+	top: -6px;
+	left: 0;
+	background: #fff;
+	opacity: 0;
+	border: 2px solid #fed066;
+	padding: 10px;
+}
+#personalize #overlay-content-meridian p{
+	font-size: 11px;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	font: 11px/18px "ProximaNova",sans-serif;
+}
+#overlay-content-horizon{
+	display: none;
+	width: 250px;
+	height: 200px;
 	position:absolute;
 	top: 0;
 	left: 0;
 	background: #fff;
 	opacity: 0;
+	border: 2px solid #fed066;
+	padding: 10px;
 }
-#personalize .middle .products .product-names li #overlay-content p{
+#personalize #overlay-content-horizon p{
 	font-size: 11px;
 	padding: 0;
 	margin: 0;
-	line-height: 18px;
 	text-align: left;
+	font: 11px/18px "ProximaNova",sans-serif;
+}
+
+
+
+.bigger{
+	font: 13px/16px "ProximaNova-Bold",sans-serif;
+	text-align: center;
 }
