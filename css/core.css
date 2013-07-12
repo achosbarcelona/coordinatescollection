@@ -866,17 +866,12 @@ footer ul#footer-wrapper li a:hover{
 /* ------------------------------------------------------------------------------- */
 @media only screen and (min-height: 1000px){
 	#about-us {
-		height:auto;
+		/*height:auto;
 		min-height:auto;
-		padding: 70px 0;
+		padding: 70px 0;*/
 	}
-	#about-us .middle {
-		position: relative;
-		height: auto;
-		margin: 0 auto;
-		padding: 0;
-		top: auto;
-		left: auto;
+	#about-us .middle{
+		margin: -360px 0 0 -500px;
 	}
 	#ways{
 		height:auto;
@@ -915,13 +910,6 @@ footer ul#footer-wrapper li a:hover{
 }
 @media only screen and (max-height: 1000px){
 /* ------------------------ About Us Sections -------------------------- */
-
-#about-us {
-	height:auto;
-	min-height:auto;
-
-	padding: 70px 0;
-}
 /* stuff needs to be resized etc...
 #about-us .middle{
 	position: relative;
