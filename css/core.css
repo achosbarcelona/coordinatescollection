@@ -810,6 +810,7 @@ nav{
 #personalize .middle .products .product-names li a{
 	cursor: pointer;
 	border: none;
+  color: #fed066;
 }
 #personalize .middle .products .product-names li a:hover{
 	-webkit-animation: pulsate 3s ease-in-out 0s infinite alternate;
@@ -2340,10 +2341,22 @@ body {
 	text-align: left;
 	font: 11px/18px "ProximaNova",sans-serif;
 }
-
-
-
 .bigger{
 	font: 13px/16px "ProximaNova-Bold",sans-serif;
 	text-align: center;
+}
+#close-overlay-legend{
+  position: absolute;
+  top: 0;
+  right: 9px;
+}
+#close-overlay-meridian{
+  position: absolute;
+  top: 0;
+  right: 9px;
+}
+#close-overlay-horizon{
+  position: absolute;
+  top: 0;
+  right: 9px;
 }

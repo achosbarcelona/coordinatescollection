@@ -34,7 +34,7 @@ $(document).ready(function(){
 
   $("#jump-2").click(function(){
     $("#p-line").delay(1000).animate({"opacity":"1","margin-top":"15px"}, 700);
-    $("#p-desc").delay(1200).animate({"opacity":"1","margin-top":"20%"}, 700);
+    $("#p-desc").delay(1200).animate({"opacity":"1","margin-top":"8%"}, 700);
   });
 
   $("#jump-3").click(function(){
@@ -53,15 +53,15 @@ $(document).ready(function(){
 
   $("#close-overlay-legend").click(function(){
     event.preventDefault();
-    $("#overlay-content-legend").delay(500).animate({"opacity":"0"}, 700);
+    $("#overlay-content-legend").delay(500).animate({"opacity":"0"}, 700).css({"display":"none"});
   });
   $("#close-overlay-meridian").click(function(){
     event.preventDefault();
-    $("#overlay-content-meridian").delay(500).animate({"opacity":"0"}, 700);
+    $("#overlay-content-meridian").delay(500).animate({"opacity":"0","display":"none"}, 700).css({"display":"none"});
   });
   $("#close-overlay-horizon").click(function(){
     event.preventDefault();
-    $("#overlay-content-horizon").delay(500).animate({"display":"none"}, 700);
+    $("#overlay-content-horizon").delay(500).animate({"opacity":"0","display":"none"}, 700).css({"display":"none"});
   });
 
 
