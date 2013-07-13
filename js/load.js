@@ -1,6 +1,9 @@
 //Custom
 google.maps.visualRefresh = true;
 $(document).ready(function(){
+  $(window).bind('beforeunload',function(){
+    $(window).scrollTop(0);
+  });
   $(".scroll").click(function(event){
     event.preventDefault();
     $('html,body').animate({scrollTop:$(this.hash).offset().top}, 1000);
@@ -48,6 +51,21 @@ $(document).ready(function(){
     $("#no-border").delay(1500).animate({"opacity":"1","margin-top":"15px"}, 700);
   });
 
+  $("#close-overlay-legend").click(function(){
+    event.preventDefault();
+    $("#overlay-content-legend").delay(500).animate({"opacity":"0"}, 700);
+  });
+  $("#close-overlay-meridian").click(function(){
+    event.preventDefault();
+    $("#overlay-content-meridian").delay(500).animate({"opacity":"0"}, 700);
+  });
+  $("#close-overlay-horizon").click(function(){
+    event.preventDefault();
+    $("#overlay-content-horizon").delay(500).animate({"display":"none"}, 700);
+  });
+
+
+/*
   $(window).scroll(function(){
         if ($(this).scrollTop() > 100) {
             $('.scrollup').fadeIn();
@@ -60,6 +78,6 @@ $(document).ready(function(){
     $("html, body").animate({ scrollTop: 0 }, 600);
     return false;
     });
-
+*/
 
 });//Closed
