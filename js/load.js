@@ -48,5 +48,18 @@ $(document).ready(function(){
     $("#no-border").delay(1500).animate({"opacity":"1","margin-top":"15px"}, 700);
   });
 
+  $(window).scroll(function(){
+        if ($(this).scrollTop() > 100) {
+            $('.scrollup').fadeIn();
+        } else {
+            $('.scrollup').fadeOut();
+        }
+    });
+
+  $('.scrollup').click(function(){
+    $("html, body").animate({ scrollTop: 0 }, 600);
+    return false;
+    });
+
 
 });//Closed
