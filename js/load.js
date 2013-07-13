@@ -26,7 +26,7 @@ $(document).ready(function(){
     $("#overlay-content-horizon").delay(500).css({"display":"block"}).animate({"opacity":"1"}, 700);
   });
   // Listen for these anchors being called.
-  $("#jump-1").click(function(){
+  /*$("#jump-1").click(function(){
     $("#mini-globe").delay(1000).animate({"opacity":"1","margin-top":"15px"}, 700);
     $("#every-memory").delay(1000).animate({"opacity":"1","margin-top":"15px"}, 700);
     $("#hiw").delay(1200).animate({"opacity":"1","margin-top":"15px"}, 700);
@@ -50,7 +50,7 @@ $(document).ready(function(){
     $("#products-load").delay(1300).animate({"opacity":"1"}, 700);
     $("#no-border").delay(1500).animate({"opacity":"1","margin-top":"15px"}, 700);
   });
-
+*/
   $("#close-overlay-legend").click(function(){
     event.preventDefault();
     $("#overlay-content-legend").delay(500).animate({"opacity":"0"}, 700).css({"display":"none"});
