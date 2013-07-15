@@ -12,26 +12,26 @@
 <meta property="og:title" content="CoordinatesCollection" />
 <meta property="og:description" content="The Coordinates Collection is the world’s first customizable wearable memory. The brand launches June 2013 in the jewelry vertical with a collection consisting of bracelets and rings. Each piece combines chic sophistication and jet set glamour displaying the latitude and longitude of any place that holds a special memory to you." />
 <meta property="og:image" content="/img/favicon/feature_image.jpg" />
-<meta property="og:url" content="http://wwww.coordinatescollection.com/" />
+<meta property="og:url" content="https://wwww.coordinatescollection.com/" />
 <meta name='robots' content='index,follow'>
 <link rel="icon" href="/img/favicon/favicon.png" type="image/x-icon" />
 <link rel="stylesheet" href="css/core.css" />
-<link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' />
+<link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' />
 </head>
 <body>
 <section id="home">
   <section class="navigation">
-  <nav id="contact-us-mini">
-    <ul>
-      <li>
-      <a href="mailto:info@coordinatescollection.com"><i class="icon-envelope"></i> info@coordinatescollection.com</a>
-      </li>
-      <li>
-        <i class="icon-phone"></i>&nbsp;&nbsp;1-888-878-7120
-      </li>
-    </ul>
-  </nav>
-</section>
+    <nav id="contact-us-mini">
+      <ul>
+        <li>
+        <a href="mailto:info@coordinatescollection.com"><i class="icon-envelope"></i> info@coordinatescollection.com</a>
+        </li>
+        <li>
+          <i class="icon-phone"></i>&nbsp;&nbsp;1-888-878-7120
+        </li>
+      </ul>
+    </nav>
+  </section>
   <div class="logo">
     <img src="/img/logo/coordinates-logo.png" alt="CoordinatesCollection Emblem">
   </div>
@@ -256,7 +256,8 @@
     <li><a href="http://www.instagram.com/coordinatescollection" target="_blank"><i class="icon-instagram"></i></a></li>
   </ul>
   <ul id="copyright">
-    <li>&copy; 2013 CoordinatesCollection | An FD9 Group Company</li>
+    <li>&copy; 2013 CoordinatesCollection&nbsp;|&nbsp;An FD9 Group Company</li>
+    <li>&nbsp;|&nbsp;<a href="#" data-reveal-id="emailSignUp">Sign Up for our newsletter</a></li>
   </ul>
 </footer>
 <div id="emailSignUp" class="reveal-modal">
@@ -278,9 +279,18 @@
       </form>
       </div>
       <!--End mc_embed_signup-->
-
-
-
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+<div id="returns" class="reveal-modal">
+  <?php include("returns.html"); ?>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+<div id="terms" class="reveal-modal">
+  <?php include("terms.html"); ?>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+<div id="shipping" class="reveal-modal">
+  <?php include("shipping.html"); ?>
   <a class="close-reveal-modal">&#215;</a>
 </div>
 <a href="#" class="scrollup"><i class="icon-chevron-up"></i></a>
