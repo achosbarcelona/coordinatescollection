@@ -610,6 +610,185 @@ nav{
 
 
 
+
+
+/* ------------------------ Mini-product description Sections -------------------------- */
+.mini-info{
+  position:absolute;
+  bottom: 20%;
+  left:0;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  background: #f5f5f5;
+}
+.mini-info info ul{
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+.mini-info li{
+  display: inline-block;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+.mini-info li img{
+  width: 100%;
+  max-width: 70px;
+  max-height: 100%;
+}
+/* ------------------------------------------------------------------------------------ */
+
+
+
+#collection-pieces{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+}
+#collection-pieces .middle{
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin:-360px 0 0 -500px;
+  padding: 0;
+}
+#collection-pieces .middle .left-icon{
+  float: left;
+  margin: 30px 0 0 0;
+  width: 29%;
+  max-width: 300px;
+  height: auto;
+  text-align: center;
+}
+#collection-pieces .middle .left-icon img{
+  width: 100%;
+}
+#collection-pieces .middle .left-icon .icon-globe{
+  color: #ffd67f;
+  font-size: 259px;
+}
+#collection-pieces .middle .right-content{
+  float: right;
+  color: #888;
+  width: 65%;
+  max-width: 650px;
+  margin: 0;
+  padding: 0;
+  text-transform:inherit;
+}
+#collection-pieces .middle  .right-content h3{
+  font-size: 45px;
+  color: #888;
+  text-transform: uppercase;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+#collection-pieces .middle  .right-content p{
+  color: #888;
+  text-transform: inherit;
+}
+#collection-pieces .middle .right-content .time-font{
+  font: 44px 'Didot',sans-serif;
+  color: #888;
+}
+#collection-pieces .middle .how-it-works{
+  margin: 130px 0 0 0;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+#collection-pieces .middle .how-it-works ul.steps{
+  width: 92%;
+  margin: 0 auto;
+}
+#collection-pieces .middle .how-it-works ul.steps-content{
+  width: 100%;
+  margin: 40px auto 0 auto;
+  padding: 0;
+}
+#collection-pieces .middle .how-it-works ul.steps li{
+  list-style: none;
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+#collection-pieces .middle .how-it-works ul.steps-content li{
+  list-style: none;
+  display: inline-block;
+  width: 23%;
+  text-align: center;
+  font: 16px/30px 'Open Sans',sans-serif;
+  font-weight: 300;
+  color: #888;
+  text-transform: inherit;
+  vertical-align: top;
+  margin: 0 5%;
+}
+#collection-pieces .middle .how-it-works ul.steps-content li img{
+  width: 40%;
+  padding: 5% 0;
+}
+#collection-pieces .middle  .how-it-works ul.steps-content li .circles{
+  display: block;
+  width: 41px;
+  margin: 0 auto;
+}
+#collection-pieces .middle .how-it-works .steps-content p{
+  font: 16px/30px 'Open Sans',sans-serif;
+  font-weight: 300;
+  color: #888;
+  text-transform: inherit;
+  padding: 5px 0 0 0;
+}
+#collection-pieces .middle .product-line{
+  margin: 20px 0 0 0;
+  padding: 0 0 0 0;
+}
+#collection-pieces .middle .product-line img{
+  width: 100%;
+  max-width: 790px;
+  height: auto;
+  margin: 2% 10%;
+}
+#collection-pieces .middle .epier{
+  margin: 0 auto;
+  padding: 0 0 0 0;
+}
+#collection-pieces .middle .epier img{
+  margin: 10% 35%;
+  padding: 0 0 0 0;
+  max-width: 338px;
+  width: 100%;
+}
+#collection-pieces .middle .collection-description{
+  margin: 10% auto;
+  background: #fff;
+  border: 3px solid #a8a8a8;
+  max-width: 600px;
+}
+#collection-pieces .middle .collection-description h3{
+  font: 35px "Didot",sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #666;
+  text-align: center;
+  margin: 0;
+  padding: 15px;
+}
+#collection-pieces .middle .collection-description p{
+  color: #9e9e9e;
+  text-align: center;
+  margin: 0;
+  padding: 0 50px 25px 50px;
+}
+
+
+
+
+
+
 /* -------------------- What Are Yours --------------------- */
 #ways{
 	position:relative;

@@ -103,6 +103,13 @@
       </div>
     </div>
   </div>
+  <div class="mini-info">
+    <ul>
+        <li><img src="/img/icons/custom.png" alt="Customize your Coordinate piece"></li>
+        <li></li>
+        <li></li>
+    </ul>
+  </div>
   <div id="continue-arrow-wrapper">
     <a href="#ways" class="scroll" id="jump-3">
       <i class="icon-angle-down"></i>
