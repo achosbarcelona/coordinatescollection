@@ -412,7 +412,7 @@ nav{
 	margin: 0 auto;
 }
 #about-us .middle .how-it-works .steps-content p{
-	font: 16px/30px 'Open Sans',sans-serif;
+	font: 14px/30px 'Open Sans',sans-serif;
 	font-weight: 300;
 	color: #888;
 	text-transform: inherit;
@@ -1206,11 +1206,14 @@ footer ul#footer-wrapper li a:hover{
 	max-width: 275px;
 	right: 1%;
 }
+nav{
+  text-align: right;
+}
 #home{
 	position: relative;
 	width: 100%;
 	min-height: 100%;
-	background: url(/img/bg/sliderimage-alt.jpg) no-repeat -1000px scroll;
+	background: url(/img/bg/sliderimage-alt.jpg) no-repeat -650px scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -1219,14 +1222,27 @@ footer ul#footer-wrapper li a:hover{
 	position: absolute;
 	top: 20%;
 	right: 2%;
-	width: 90%;
+	width: 100%;
 	height: 100%;
-	max-width: 232px;
-	max-height: 129px;
+	max-width: 370px;
+	max-height: 100%;
 }
 #home .logo img{
-	max-width: 270px;
+	max-width: 100%;
 	width: 100%;
+}
+#home .made-in-la-logo{
+  position:absolute;
+  bottom: 2%;
+  right: 2%;
+  width: 80%;
+  height: 100%;
+  max-width: 131px;
+  max-height: 138px;
+}
+#home .made-in-la-logo img{
+  max-width: 100%;
+  width: 100%;
 }
 #home .middle{
 	margin: 0 auto;
