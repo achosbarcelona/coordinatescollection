@@ -268,8 +268,13 @@
 
 <!-- Footer Section -->
 <footer>
+  <div class="footer-wrapper">
+    <div class="footer-logo">
+    <img src="/img/logo/coordinates-logo.png" alt="CoordinatesCollection Emblem">
+  </div>
   <ul id="newsletter-signup">
     <h2>100% Personalized</h2>
+    <p></p>
     <li>
       <!-- Begin MailChimp Signup Form -->
       <div id="mc_embed_signup">
@@ -287,28 +292,35 @@
       <!--End mc_embed_signup-->
     </li>
   </ul>
-  <ul id="footer-wrapper">
+  <ul id="navigate">
+    <h2>Navigate</h2>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about-us">About</a></li>
+    <li><a href="#collection-pieces">Collection Pieces</a></li>
+    <li><a href="#ways">What Are Yours</a></li>
+    <li><a href="#personalize">Personalize</a></li>
+    <li></li>
+  </ul>
+  <ul id="customer-service">
+    <h2>Customer Service</h2>
     <li><a href="#" data-reveal-id="returns">Returns & Exchanges</a></li>
     <li><a href="#" data-reveal-id="terms">Terms & Conditions</a></li>
     <li><a href="#" data-reveal-id="shipping">Shipping Policy</a></li>
     <li><i class="icon-phone"></i>&nbsp;Toll Free: 1-888-878-7120</li>
   </ul>
-  <ul id="social-icons">
-    <li><a href="http://www.facebook.com/coordinatescollection" target="_blank"><i class="icon-facebook"></i></a></li>
-    <li><a href="http://www.twitter.com/whatareyours" target="_blank"><i class="icon-twitter"></i></a></li>
-    <li><a href="http://www.instagram.com/coordinatescollection" target="_blank"><i class="icon-instagram"></i></a></li>
-  </ul>
-  <ul id="copyright">
-    <li>&copy; 2013 CoordinatesCollection&nbsp;|&nbsp;An FD9 Group Company</li>
-    <li>&nbsp;|&nbsp;<a href="#" data-reveal-id="emailSignUp">Sign Up for our newsletter</a></li>
-  </ul>
   <ul id="share-buttons">
     <h2>Follow Us</h2>
       <li><div class="fb-like" data-href="http://www.coordinatescollection.com" data-send="false" data-layout="button_count" data-width="200" data-show-faces="false"></div></li>
       <li><a href="//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.coordinatescollection.com&media=coordinatescollection.com%2Fimg%2Fproduct%2Flegend-collection.png&description=The%20legend%20bracelet%20and%20ring%20are%20the%20signature%20pieces%20of%20the%20collection.%20They%20are%20the%20most%20sought%20after%20due%20to%20their%20simple%20but%20stunning%20beauty%20and%20design.%20The%20legend%20is%20the%20perfect%20way%20to%20make%20a%20subtle%20but%20sophisticated%20statement." data-pin-do="buttonPin" data-pin-config="beside"><img src="//assets.pinterest.com/images/pidgets/pin_it_button.png" /></a></li>
+    <li><a href="https://twitter.com/whatareyours" class="twitter-follow-button" data-show-count="false">Follow @coordinatescollection</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
+    <li><a href="http://instagram.com/coordinatescollection?ref=badge" target="_blank"><i class="icon-instagram"></i>&nbsp;&nbsp;Follow us on Instagram</a></li>
   </ul>
+  <ul id="copyright">
+    <li>&copy; 2013 CoordinatesCollection&nbsp;|&nbsp;An FD9 Group Company</li>
+  </ul>
+</div>
 </footer>
-<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 <div id="emailSignUp" class="reveal-modal">
   <hr />
     <h3>We're almost here!</h3>
