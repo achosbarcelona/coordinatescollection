@@ -16,7 +16,8 @@
 <meta name='robots' content='index,follow'>
 <link rel="icon" href="/img/favicon/favicon.png" type="image/x-icon" />
 <link rel="stylesheet" href="css/core.css" />
-<link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Quicksand:300,400,700" />
 </head>
 <body>
 <section id="home">
@@ -105,9 +106,22 @@
   </div>
   <div class="mini-info">
     <ul>
-        <li><img src="/img/icons/custom.png" alt="Customize your Coordinate piece"></li>
-        <li></li>
-        <li></li>
+        <li>
+          <img src="/img/icons/custom.png" alt="Customize your Coordinate piece">
+          <h2 class="futura-title">100% Personalized</h2>
+          <p>Each piece is personalized and backed by a full one year warranty.</p>
+        </li>
+        <li>
+          <img src="/img/icons/free-shipping.png" alt="Free Shipping on all our pieces">
+          <h2 class="futura-title">Free Shipping</h2>
+          <p>We ship Worldwide for FREE.</p>
+        </li>
+        <li>
+          <img src="/img/icons/returns.png" alt="90 Day Returns">
+          <h2 class="futura-title">90 Day Returns</h2>
+          <p>Send it back no questions asked.</p>
+        </li>
+        </li>
     </ul>
   </div>
   <div id="continue-arrow-wrapper">

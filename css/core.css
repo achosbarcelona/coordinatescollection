@@ -614,28 +614,50 @@ nav{
 
 /* ------------------------ Mini-product description Sections -------------------------- */
 .mini-info{
-  position:absolute;
-  bottom: 20%;
-  left:0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
   margin: 0 0 0 0;
   padding: 0 0 0 0;
-  background: #f5f5f5;
+  background: #f9f9f9;
+  width: 100%;
+  height: 100%;
+  max-height: 370px;
+  color: #a8a8a8;
 }
-.mini-info info ul{
+.mini-info ul{
   padding: 0 0 0 0;
-  margin: 0 0 0 0;
+  margin: 50px auto;
+  width: 100%;
+  max-width: 1000px;
 }
 .mini-info li{
   display: inline-block;
-  margin: 0 0 0 0;
+  margin: 0 2% 0 2%;
   padding: 0 0 0 0;
+  text-align: center;
+  width: 28%;
+  vertical-align: top;
 }
 .mini-info li img{
   width: 100%;
   max-width: 70px;
   max-height: 100%;
 }
+.mini-info li h2{
+  font-size: 30px;
+  font-weight: 300;
+  text-transform: uppercase;
+  font: 16px/20px "ProximaNova-Bold",sans-serif;
+}
+.mini-info li p{
+  font: 13px/18px 'Open Sans',sans-serif;
+  font-weight: 300;
+}
 /* ------------------------------------------------------------------------------------ */
+
+
+
 
 
 
@@ -748,9 +770,9 @@ nav{
 }
 #collection-pieces .middle .product-line img{
   width: 100%;
-  max-width: 790px;
+  max-width: 600px;
   height: auto;
-  margin: 2% 10%;
+  margin: 0 20%;
 }
 #collection-pieces .middle .epier{
   margin: 0 auto;
@@ -763,13 +785,13 @@ nav{
   width: 100%;
 }
 #collection-pieces .middle .collection-description{
-  margin: 10% auto;
+  margin: 7% auto;
   background: #fff;
   border: 3px solid #a8a8a8;
   max-width: 600px;
 }
 #collection-pieces .middle .collection-description h3{
-  font: 35px "Didot",sans-serif;
+  font: 25px "Didot",sans-serif;
   font-style: normal;
   text-transform: uppercase;
   color: #666;
@@ -782,6 +804,7 @@ nav{
   text-align: center;
   margin: 0;
   padding: 0 50px 25px 50px;
+  font-size: 14px;
 }
 
 
@@ -1239,8 +1262,9 @@ footer ul#footer-wrapper li a:hover{
 }
 
 }
+
+/* --------------------  Max Height changes -------------------- */
 @media only screen and (max-height: 900px){
-/* ------------------------ About Us Sections -------------------------- */
 /*#about-us .middle{
 	position: relative;
 	height:auto;
@@ -1294,9 +1318,10 @@ footer ul#footer-wrapper li a:hover{
 #mc_embed_signup{
 	margin: 5% auto 0 auto;
 }
-
+.mini-info {
+  max-height: 310px;
 }
-
+}
 @media only screen and (max-height: 800px){
 /* ------------------------ About Us Sections -------------------------- */
 #about-us .middle{
