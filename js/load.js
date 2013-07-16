@@ -64,7 +64,7 @@ $(document).ready(function(){
     $("#overlay-content-horizon").delay(500).animate({"opacity":"0","display":"none"}, 700).css({"display":"none"});
   });
   $('.scrollup').click(function(){
-    $("html").animate({ scrollTop: 0 }, 100);
+    $("html, body").animate({ scrollTop: 0 }, 700);
     return false;
     });
 

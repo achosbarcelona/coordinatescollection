@@ -139,6 +139,71 @@ nav{
 #copyright li a{
   color: #fff;
 }
+
+#share-buttons{
+  margin: 30px auto;
+  width: 100%;
+  max-width: 200px;
+  padding-bottom: 20px;
+}
+#share-buttons h2{
+  font-size: 14px;
+  color: #fff;
+}
+#share-buttons li{
+  display: block;
+  text-align: left;
+
+}
+#share-buttons li a{
+  color: #fff;
+}
+
+#newsletter-signup{
+  margin: 30px 0;
+  width: 100%;
+  max-width: 300px;
+  padding-bottom: 20px;
+}
+#newsletter-signup h2{
+  font-size: 13px;
+  font-weight: 300;
+  color: #fff;
+}
+#newsletter-signup li{
+  display: block;
+  text-align: left;
+
+}
+#newsletter-signup li a{
+  color: #fff;
+}
+#newsletter-signup li #mc_embed_signup{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+#newsletter-signup li #mc_embed_signup input[type="email"]{
+  width: 100%;
+  max-width: 150px;
+  padding: 5px;
+  margin: 0;
+  background: #333;
+  border: 1px solid #fff;
+  float:left;
+}
+#newsletter-signup li #mc_embed_signup input[type="submit"]{
+  width: 100%;
+  max-width: 90px;
+  margin: 0 0 0 6px;
+  padding: 4px;
+  background: #c3c3c8;
+  border: 1px solid #fff;
+  font: 13px "Open Sans",sans-serif;
+  float: left;
+  color: #fff;
+}
+
 /*------------------------ Container Content ------------------------*/
 .low-container{
 	position:absolute;
@@ -1151,9 +1216,9 @@ footer ul#footer-wrapper{
 	max-width: 650px;
 }
 footer ul#footer-wrapper li{
-	display: inline-block;
+	display: block;
 	width: 160px;
-	text-align: center;
+	text-align: left;
 }
 footer ul#footer-wrapper li a{
 	color: #fff;
@@ -2607,8 +2672,7 @@ body {
   cursor: pointer;
   outline: 0;
   z-index: 1;
-  background: #999;
-  opacity: 0.1;
+  background: transparent url(/img/icons/arrow-top.png) no-repeat;
 }
 #scrollup .icon-chevron-up{
   color: #fff;

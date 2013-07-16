@@ -264,7 +264,29 @@
     </div>
 
 </section>
+
+
+<!-- Footer Section -->
 <footer>
+  <ul id="newsletter-signup">
+    <h2>100% Personalized</h2>
+    <li>
+      <!-- Begin MailChimp Signup Form -->
+      <div id="mc_embed_signup">
+      <form action="http://fd9group.us7.list-manage1.com/subscribe/post?u=5b67582d39b19a1d332f3bad2&amp;id=33b2de397d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <div class="mc-field-group">
+        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Enter your email">
+        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+      </div>
+        <div id="mce-responses" class="clear">
+          <div class="response" id="mce-error-response" style="display:none"></div>
+          <div class="response" id="mce-success-response" style="display:none"></div>
+        </div>
+      </form>
+      </div>
+      <!--End mc_embed_signup-->
+    </li>
+  </ul>
   <ul id="footer-wrapper">
     <li><a href="#" data-reveal-id="returns">Returns & Exchanges</a></li>
     <li><a href="#" data-reveal-id="terms">Terms & Conditions</a></li>
@@ -280,7 +302,13 @@
     <li>&copy; 2013 CoordinatesCollection&nbsp;|&nbsp;An FD9 Group Company</li>
     <li>&nbsp;|&nbsp;<a href="#" data-reveal-id="emailSignUp">Sign Up for our newsletter</a></li>
   </ul>
+  <ul id="share-buttons">
+    <h2>Follow Us</h2>
+      <li><div class="fb-like" data-href="http://www.coordinatescollection.com" data-send="false" data-layout="button_count" data-width="200" data-show-faces="false"></div></li>
+      <li><a href="//pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.coordinatescollection.com&media=coordinatescollection.com%2Fimg%2Fproduct%2Flegend-collection.png&description=The%20legend%20bracelet%20and%20ring%20are%20the%20signature%20pieces%20of%20the%20collection.%20They%20are%20the%20most%20sought%20after%20due%20to%20their%20simple%20but%20stunning%20beauty%20and%20design.%20The%20legend%20is%20the%20perfect%20way%20to%20make%20a%20subtle%20but%20sophisticated%20statement." data-pin-do="buttonPin" data-pin-config="beside"><img src="//assets.pinterest.com/images/pidgets/pin_it_button.png" /></a></li>
+  </ul>
 </footer>
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 <div id="emailSignUp" class="reveal-modal">
   <hr />
     <h3>We're almost here!</h3>
@@ -315,9 +343,7 @@
   <a class="close-reveal-modal">&#215;</a>
 </div>
 <!-- Scroll Up -->
-<a href="#home" id="scrollup">
-  Top
-</a>
+<a href="#home" id="scrollup"></a>
 <!-- Scroll Up EOF -->
 <script src="js/vendor/jquery.js"></script>
 <script src="https://maps.google.com/maps/api/js?sensor=true"></script>
@@ -329,6 +355,17 @@
 <script src="js/foundation.min.js"></script>
 <script src="js/load.js"></script>
 <script src="js/jquery.ui.map.full.min.js"></script>
+<script src="//assets.pinterest.com/js/pinit.js"></script>
+<!-- FB SDK -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=306741402804589";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- FB SDK -->
 <script>
   $(document).foundation();
 </script>
