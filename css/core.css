@@ -1360,6 +1360,12 @@ footer ul#footer-wrapper li a:hover{
 #mc_embed_signup{
 	margin: 5% auto 0 auto;
 }
+#collection-pieces .middle .collection-description{
+  margin: 3% auto;
+}
+.mini-info li{
+  width: 29%;
+}
 
 }
 @media only screen and (max-height: 700px){
