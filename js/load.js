@@ -33,8 +33,8 @@ $(document).ready(function(){
   });
 
   $("#jump-2").click(function(){
-    $("#p-line").delay(1000).animate({"opacity":"1","margin-top":"15px"}, 700);
-    $("#p-desc").delay(1200).animate({"opacity":"1","margin-top":"8%"}, 700);
+    $("#p-line").delay(1000).animate({"margin-top":"15px"}, 700);
+    $("#p-desc").delay(1200).animate({"margin-top":"8%"}, 700);
   });
 
   $("#jump-3").click(function(){
@@ -51,6 +51,7 @@ $(document).ready(function(){
     $("#no-border").delay(1500).animate({"opacity":"1","margin-top":"15px"}, 700);
   });
 */
+
   $("#close-overlay-legend").click(function(){
     event.preventDefault();
     $("#overlay-content-legend").delay(500).animate({"opacity":"0"}, 700).css({"display":"none"});

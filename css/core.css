@@ -1428,7 +1428,7 @@ footer .footer-wrapper{
   max-height: 310px;
 }
 }
-@media only screen and (max-height: 800px){
+@media only screen and (max-height: 802px){
 /* ------------------------ About Us Sections -------------------------- */
 #about-us .middle{
 	margin: -360px 0 0 -500px;
