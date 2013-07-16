@@ -2596,3 +2596,21 @@ body {
 #emailSignUp .reveal-modal h3{
   font-size: 30px;
 }
+#scrollup{
+  position: fixed;
+  color: #ccc;
+  display: block;
+  width: 40px;
+  height:40px;
+  right: 30px;
+  bottom: 30px;
+  cursor: pointer;
+  outline: 0;
+  z-index: 1;
+  background: #999;
+  opacity: 0.1;
+}
+#scrollup .icon-chevron-up{
+  color: #fff;
+  font-size: 18px;
+}

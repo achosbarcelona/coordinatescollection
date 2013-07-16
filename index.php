@@ -314,7 +314,11 @@
   <?php include("shipping.html"); ?>
   <a class="close-reveal-modal">&#215;</a>
 </div>
-<a href="#" class="scrollup"><i class="icon-chevron-up"></i></a>
+<!-- Scroll Up -->
+<a href="#home" id="scrollup">
+  Top
+</a>
+<!-- Scroll Up EOF -->
 <script src="js/vendor/jquery.js"></script>
 <script src="https://maps.google.com/maps/api/js?sensor=true"></script>
 <script>
