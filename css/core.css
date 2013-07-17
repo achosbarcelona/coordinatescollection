@@ -97,21 +97,6 @@ nav{
 #hiw-2{
 	opacity: 1;
 }
-#social-icons{
-	margin: 30px auto;
-	padding: 0 0 0 0;
-	width: 120px;
-}
-#social-icons li{
-	display: inline-block;
-	margin-right: 20px;
-}
-#social-icons li .icon-facebook,
-#social-icons li .icon-twitter,
-#social-icons li .icon-instagram{
-	font-size: 18px;
-	color: #fff;
-}
 .scrollup{
     width:40px;
     height:40px;
@@ -127,15 +112,115 @@ nav{
 	color: #c3c3c8;
 }
 #copyright{
-	margin: 30px auto;
+	margin: 10% 30%;
 	width: 100%;
 	max-width: 400px;
 	padding-bottom: 20px;
+  float: left;
 }
 #copyright li{
 	display: inline-block;
 	text-align: center;
 }
+#copyright li a{
+  color: #fff;
+}
+
+#share-buttons{
+  margin: 0;
+  width: 100%;
+  max-width: 200px;
+  padding-bottom: 20px;
+  float:left;
+}
+#share-buttons h2{
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+}
+#share-buttons li{
+  display: block;
+  text-align: left;
+
+}
+#share-buttons li a{
+  color: #fff;
+}
+#share-buttons li .icon-facebook,
+#share-buttons li .icon-twitter,
+#share-buttons li .icon-instagram{
+  font-size: 18px;
+  color: #fff;
+}
+
+#navigate{
+  margin: 0;
+  width: 100%;
+  max-width: 200px;
+  padding-bottom: 20px;
+  float:left;
+}
+#navigate h2{
+  font-size: 14px;
+  color: #fff;
+  font-weight: 300;
+}
+#navigate li{
+  display: block;
+  text-align: left;
+
+}
+#navigate li a{
+  color: #fff;
+}
+
+#newsletter-signup{
+  margin: 0;
+  width: 100%;
+  max-width: 265px;
+  padding-bottom: 20px;
+  float: left;
+}
+#newsletter-signup h2{
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+}
+#newsletter-signup li{
+  display: block;
+  text-align: left;
+
+}
+#newsletter-signup li a{
+  color: #fff;
+}
+#newsletter-signup li #mc_embed_signup{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+#newsletter-signup li #mc_embed_signup input[type="email"]{
+  width: 100%;
+  max-width: 150px;
+  padding: 5px;
+  margin: 0;
+  background: #333;
+  border: 1px solid #fff;
+  float:left;
+  color: #fff;
+}
+#newsletter-signup li #mc_embed_signup input[type="submit"]{
+  width: 100%;
+  max-width: 90px;
+  margin: 0 0 0 6px;
+  padding: 4px;
+  background: #c3c3c8;
+  border: 1px solid #fff;
+  font: 13px "Open Sans",sans-serif;
+  float: left;
+  color: #fff;
+}
+
 /*------------------------ Container Content ------------------------*/
 .low-container{
 	position:absolute;
@@ -607,6 +692,208 @@ nav{
 
 
 
+
+
+/* ------------------------ Mini-product description Sections -------------------------- */
+.mini-info{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  background: #f9f9f9;
+  width: 100%;
+  height: 100%;
+  max-height: 370px;
+  color: #a8a8a8;
+}
+.mini-info ul{
+  padding: 0 0 0 0;
+  margin: 50px auto;
+  width: 100%;
+  max-width: 1000px;
+}
+.mini-info li{
+  display: inline-block;
+  margin: 0 2% 0 2%;
+  padding: 0 0 0 0;
+  text-align: center;
+  width: 28%;
+  vertical-align: top;
+}
+.mini-info li img{
+  width: 100%;
+  max-width: 70px;
+  max-height: 100%;
+}
+.mini-info li h2{
+  font-size: 30px;
+  font-weight: 300;
+  text-transform: uppercase;
+  font: 16px/20px "ProximaNova-Bold",sans-serif;
+}
+.mini-info li p{
+  font: 13px/18px 'Open Sans',sans-serif;
+  font-weight: 300;
+}
+/* ------------------------------------------------------------------------------------ */
+
+
+
+
+
+
+#collection-pieces{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+}
+#collection-pieces .middle{
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin:-360px 0 0 -500px;
+  padding: 0;
+}
+#collection-pieces .middle .left-icon{
+  float: left;
+  margin: 30px 0 0 0;
+  width: 29%;
+  max-width: 300px;
+  height: auto;
+  text-align: center;
+}
+#collection-pieces .middle .left-icon img{
+  width: 100%;
+}
+#collection-pieces .middle .left-icon .icon-globe{
+  color: #ffd67f;
+  font-size: 259px;
+}
+#collection-pieces .middle .right-content{
+  float: right;
+  color: #888;
+  width: 65%;
+  max-width: 650px;
+  margin: 0;
+  padding: 0;
+  text-transform:inherit;
+}
+#collection-pieces .middle  .right-content h3{
+  font-size: 45px;
+  color: #888;
+  text-transform: uppercase;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+#collection-pieces .middle  .right-content p{
+  color: #888;
+  text-transform: inherit;
+}
+#collection-pieces .middle .right-content .time-font{
+  font: 44px 'Didot',sans-serif;
+  color: #888;
+}
+#collection-pieces .middle .how-it-works{
+  margin: 130px 0 0 0;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+#collection-pieces .middle .how-it-works ul.steps{
+  width: 92%;
+  margin: 0 auto;
+}
+#collection-pieces .middle .how-it-works ul.steps-content{
+  width: 100%;
+  margin: 40px auto 0 auto;
+  padding: 0;
+}
+#collection-pieces .middle .how-it-works ul.steps li{
+  list-style: none;
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+#collection-pieces .middle .how-it-works ul.steps-content li{
+  list-style: none;
+  display: inline-block;
+  width: 23%;
+  text-align: center;
+  font: 16px/30px 'Open Sans',sans-serif;
+  font-weight: 300;
+  color: #888;
+  text-transform: inherit;
+  vertical-align: top;
+  margin: 0 5%;
+}
+#collection-pieces .middle .how-it-works ul.steps-content li img{
+  width: 40%;
+  padding: 5% 0;
+}
+#collection-pieces .middle  .how-it-works ul.steps-content li .circles{
+  display: block;
+  width: 41px;
+  margin: 0 auto;
+}
+#collection-pieces .middle .how-it-works .steps-content p{
+  font: 16px/30px 'Open Sans',sans-serif;
+  font-weight: 300;
+  color: #888;
+  text-transform: inherit;
+  padding: 5px 0 0 0;
+}
+#collection-pieces .middle .product-line{
+  margin: 20px 0 0 0;
+  padding: 0 0 0 0;
+}
+#collection-pieces .middle .product-line img{
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 0 20%;
+}
+#collection-pieces .middle .epier{
+  margin: 0 auto;
+  padding: 0 0 0 0;
+}
+#collection-pieces .middle .epier img{
+  margin: 10% 35%;
+  padding: 0 0 0 0;
+  max-width: 338px;
+  width: 100%;
+}
+#collection-pieces .middle .collection-description{
+  margin: 7% auto;
+  background: #fff;
+  border: 3px solid #a8a8a8;
+  max-width: 600px;
+}
+#collection-pieces .middle .collection-description h3{
+  font: 25px "Didot",sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #666;
+  text-align: center;
+  margin: 0;
+  padding: 15px;
+}
+#collection-pieces .middle .collection-description p{
+  color: #9e9e9e;
+  text-align: center;
+  margin: 0;
+  padding: 0 50px 25px 50px;
+  font-size: 14px;
+}
+
+
+
+
+
+
 /* -------------------- What Are Yours --------------------- */
 #ways{
 	position:relative;
@@ -929,33 +1216,57 @@ footer{
 	position:relative;
 	bottom: 0%;
 	background: #333;
-	opacity: 0.8;
+	/*opacity: 0.8;*/
 	width: 100%;
 	height: 100%;
-	max-height: 200px;
+	max-height: 380px;
 	font-family: 'Open Sans',sans-serif;
 	color: #fff;
 	font-size: 11px;
 	text-transform: uppercase;
 	padding-top: 20px;
 }
-footer ul#footer-wrapper{
-	margin: 15px auto;
-	padding:0;
+footer ul#customer-service{
+	margin: 0;
+	padding: 0;
 	width: 100%;
-	max-width: 650px;
+	max-width: 180px;
+  float:left;
 }
-footer ul#footer-wrapper li{
-	display: inline-block;
-	width: 160px;
-	text-align: center;
+footer ul#customer-service li{
+	display: block;
+	text-align: left;
 }
-footer ul#footer-wrapper li a{
+footer ul#customer-service li a{
 	color: #fff;
 }
-footer ul#footer-wrapper li a:hover{
+footer ul#customer-service li a:hover{
 	text-decoration: underline;
 	color: #fff;
+}
+footer ul#customer-service h2{
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+}
+footer .footer-wrapper{
+  width: 100%;
+  max-width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.footer-logo{
+  position: absolute;
+  bottom: 40%;
+  left: 5%;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+}
+.footer-logo img{
+  width: 100%;
+  max-width: 100%;
 }
 /* -------------------------------------------------------------------------------- */
 /* ----------------------------- Media Queries ------------------------------------ */
@@ -1057,8 +1368,9 @@ footer ul#footer-wrapper li a:hover{
 }
 
 }
+
+/* --------------------  Max Height changes -------------------- */
 @media only screen and (max-height: 900px){
-/* ------------------------ About Us Sections -------------------------- */
 /*#about-us .middle{
 	position: relative;
 	height:auto;
@@ -1112,10 +1424,11 @@ footer ul#footer-wrapper li a:hover{
 #mc_embed_signup{
 	margin: 5% auto 0 auto;
 }
-
+.mini-info {
+  max-height: 310px;
 }
-
-@media only screen and (max-height: 800px){
+}
+@media only screen and (max-height: 802px){
 /* ------------------------ About Us Sections -------------------------- */
 #about-us .middle{
 	margin: -360px 0 0 -500px;
@@ -1152,6 +1465,12 @@ footer ul#footer-wrapper li a:hover{
 }
 #mc_embed_signup{
 	margin: 5% auto 0 auto;
+}
+#collection-pieces .middle .collection-description{
+  margin: 3% auto;
+}
+.mini-info li{
+  width: 29%;
 }
 
 }
@@ -1983,16 +2302,16 @@ nav{
 		position: fixed;
 		height: 100%;
 		width: 100%;
-		background: #000;
+		background: #ccc;
 		z-index: 100;
 		display: none;
 		top: 0;
 		left: 0;
-		opacity: 0.3;
 		}
 
 	.reveal-modal {
-		visibility: hidden;
+		/*visibility: hidden;*/
+    display: none;
 		top: 100px;
 		left: 50%;
 		margin-left: -300px;
@@ -2027,14 +2346,14 @@ nav{
 		}
 .reveal-modal p, .reveal-modal ul li{
 	font-size: 13px;
-	font: 13px/18px 'Open Sans',sans-serif;
+	font: 13px/24px 'Open Sans',sans-serif;
 	font-weight: 300;
 }
 .reveal-modal ul li{
 	margin-left: 30px;
 }
 .reveal-modal h3{
-	font: 50px'Open Sans',sans-serif;
+	font: 20px'Open Sans',sans-serif;
 	color: #999;
 	text-transform: uppercase;
 	font-weight: 300;
@@ -2375,4 +2694,28 @@ body {
   position: absolute;
   top: 0;
   right: 9px;
+}
+.reveal-modal.open{
+  max-height: 400px !important;
+  overflow: scroll !important;
+}
+#emailSignUp .reveal-modal h3{
+  font-size: 30px;
+}
+#scrollup{
+  position: fixed;
+  color: #ccc;
+  display: block;
+  width: 40px;
+  height:40px;
+  right: 30px;
+  bottom: 30px;
+  cursor: pointer;
+  outline: 0;
+  z-index: 1;
+  background: transparent url(/img/icons/arrow-top.png) no-repeat;
+}
+#scrollup .icon-chevron-up{
+  color: #fff;
+  font-size: 18px;
 }
