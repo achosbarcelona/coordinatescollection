@@ -2041,6 +2041,13 @@ nav{
 #collection-pieces .middle {
   margin: -360px 0 0 -450px;
 }
+#collection-pieces .middle .collection-description{
+  width: 400px;
+}
+#collection-pieces .middle .collection-description p{
+  font-size: 13px;
+  line-height: 22px;
+}
 .mini-info li img{
   width: 100%;
   max-width: 15%;
@@ -2049,25 +2056,19 @@ nav{
 .mini-info {
   max-height: 280px;
 }
-
-#ways .middle .how-it-works ul.steps-content li img{
-	margin: 0 auto;
-	padding: 0 0 0 0;
-	display: block;
-}
-/* -------------------- What Are Yours --------------------- */
 #ways{
 	position:relative;
 	width: 100%;
 	height: 100%;
 	min-height: 100%;
 	background: url(/img/patterns/dust_@2X.png);
+  padding: 0;
 }
 #ways .middle{
 	position: relative;
 	height:auto;
 	margin:0 auto;
-	padding:2% 4%;
+	padding:4% 4%;
 	top:auto;
 	left: auto;
 	width: 92%;
@@ -2152,6 +2153,19 @@ nav{
 	text-transform: inherit;
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+#ways .middle #map{
+  width: 100%;
+  max-width: 100%;
+}
+#ways .middle #map img{
+  width: 100%;
+  max-width: 100%;
+}
+#ways .middle .how-it-works ul.steps-content li img{
+  margin: 0 auto;
+  padding: 0 0 0 0;
+  display: block;
 }
 #personalize .middle{
 	position: relative;
