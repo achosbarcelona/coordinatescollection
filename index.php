@@ -133,7 +133,7 @@
     Go to Whatareyours.com to share your memories and where they happened! If you already own a Coordinates Collection piece you can register it and unlock additional benefits and rewards.
     </article>
     <div id="map">
-      <img src="/img/bg/map-picture.png" alt="Virgin Islands Map" />
+      <img src="/img/bg/map-picture-1k.png" alt="Virgin Islands Map" />
     </div>
     <div class="how-it-works" id="hiw-2">
       <ul class="steps-content">
