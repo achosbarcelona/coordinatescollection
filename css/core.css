@@ -2,7 +2,8 @@
 @import url(normalize.css);
 @import url(font-awesome.css);
 @import url(fonts.css);
-
+@import url(store-styles.css);
+/* ---------------------------------------------------------------------*/
 html,body{
 	width:100%;
 	height: 100%;
@@ -12,6 +13,9 @@ body{
 	font: 16px/30px 'Open Sans',sans-serif;
 	font-weight: 300;
 	color: #888;
+}
+h2{
+  background: transparent;
 }
 h3{
 	font: 50px 'Open Sans',sans-serif;
@@ -731,6 +735,7 @@ nav{
   font-weight: 300;
   text-transform: uppercase;
   font: 16px/20px "ProximaNova-Bold",sans-serif;
+  background: transparent;
 }
 .mini-info li p{
   font: 13px/18px 'Open Sans',sans-serif;
@@ -1852,41 +1857,48 @@ nav{
 
 }
 @media only screen and(max-width: 1000px){
-	.navigation{
-		width: 100%;
-		max-width: 150px;
-	}
-	#home{
-		position: relative;
-		width: 100%;
-		min-height: 100%;
-		background: url(/img/bg/sliderimage-alt.jpg) no-repeat -1000px scroll;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;}
-	#home .logo{
-		position:absolute;
-		top: 20%;
-		right: 8%;
-		width: 100%;
-		height: 100%;
-		max-width: 39px;
-		max-height:46px;
-		background: url(/img/logo/coordinates-logo-sml.png) no-repeat;
-	}
-	#home .logo img{
-		max-width: 270px;
-		width: 100%;
-		display: none;
-	}
-	#home .middle{
-		margin: 0 auto;
-		width: 100%;
-		height: 100%;
-		position:relative;
-		padding: 0;
-	}
+.navigation{
+	width: 100%;
+}
+#home{
+	position: relative;
+	width: 100%;
+	min-height: 100%;
+	background: url(/img/bg/sliderimage-alt.jpg) no-repeat top -100px scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;}
+#home .logo{
+	position:absolute;
+	top: 20%;
+	right: 2%;
+	width: 100%;
+	height: 100%;
+  max-height: 65px;
+  max-width: 270px;
+}
+#home .logo img{
+	max-width: 270px;
+	width: 100%;
+	display: block;
+}
+#home .middle{
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	position:relative;
+	padding: 0;
+}
+#collection-pieces .middle{
+  margin: -360px 0 0 -460px;
+}
+#collection-pieces .middle .product-line img{
+  margin: 0 17%;
+}
+#collection-pieces .middle .collection-description{
+  margin: 4% auto;
+}
 #ways .middle {
 	position: relative;
 	height:auto;
@@ -1899,7 +1911,15 @@ nav{
 	}
 }
 
-
+@media only screen and(max-width: 960px){
+  #home .made-in-la-logo {
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+  width: 80%;
+  height: 100%;
+  max-width: 100px;
+}
 
 @media only screen and(max-width: 900px){
 	.navigation{
@@ -1983,7 +2003,7 @@ nav{
 #about-us {
 	height:auto;
 	min-height:auto;
-	padding: 70px 0 0 0;
+	padding: 0 0 0 0;
 }
 #about-us .middle{
 	position: relative;
@@ -1995,45 +2015,41 @@ nav{
 	width: 92%;
 	max-width: 92%;
 }
-#about-us .middle .left-icon, #about-us .middle .right-content{
-	width: 100%;
-	max-width: 100%;
+#about-us .middle .left-icon{
+	width: 50%;
+  margin-top: 65px;
+}
+#about-us .middle .right-content{
+  margin-top: 50px;
 }
 #about-us .middle .left-icon img{
-	width: 40%;
+	width: 50%;
 	display: inline-block;
 	padding:0 0 40px 0;
 }
 #about-us .middle .how-it-works ul.steps li{
 	width: 100%;
 }
-#about-us .middle .how-it-works ul.steps-content li{
-	width: 100%;
-	margin: 0%;
-	padding-bottom: 40px;
-}
-#about-us .middle .how-it-works ul.steps-content li .circles{
-	margin: 0;
-	padding: 0;
-	display: block;
-	float: left;
-	width: 6%;
-}
-#about-us .middle .how-it-works ul.steps-content li img{
-	margin: 0;
-	padding: 0;
-	display: block;
-	float: left;
-	width: 8%;
-}
+#about-us .middle .right-content p,
 #about-us .middle .how-it-works .steps-content p{
-	width: 70%;
-	margin: 0;
-	padding: 0 6%;
-	text-align: left;
-	display: block;
-	float: left;
+  font-size: 13px;
+  line-height: 22px;
 }
+#about-us .middle .how-it-works ul.steps-content{
+  margin-top: 60px;
+}
+#collection-pieces .middle {
+  margin: -360px 0 0 -450px;
+}
+.mini-info li img{
+  width: 100%;
+  max-width: 15%;
+  max-height: 100%;
+}
+.mini-info {
+  max-height: 280px;
+}
+
 #ways .middle .how-it-works ul.steps-content li img{
 	margin: 0 auto;
 	padding: 0 0 0 0;

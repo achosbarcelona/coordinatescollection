@@ -20,7 +20,6 @@
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Quicksand:300,400,700" />
 </head>
 <body>
-  <!-- Home Section -->
 <section id="home">
   <section class="navigation">
     <nav id="contact-us-mini">
@@ -48,7 +47,9 @@
     </span>
     </div>
 </section>
-<!-- About Us Section -->
+
+
+
 <section id="about-us">
   <div class="middle">
     <div class="left-icon" id="mini-globe">
@@ -88,7 +89,11 @@
     </a>
   </div>
 </section>
-<!-- Collection Pieces -->
+
+
+
+
+
 <section id="collection-pieces">
   <div class="middle">
     <div class="product-line" id="p-line" >
@@ -125,7 +130,9 @@
     </a>
   </div>
 </section>
-<!-- What are yours -->
+
+
+
 <section id="ways">
   <div class="middle">
     <h3 id="title">Whatareyours</h3>
@@ -163,323 +170,100 @@
 
 
 
-
-
-
-
-
-
-  <section id="personalize">
-    <div class="middle">
-      <h3>Select your style</h3>
-      <div class="products">
-        <ul class="product-images">
-          <li style="margin-right: 60px;"><img src="img/product1.png" alt="First step" /></li>
-          <li style="margin-right: 60px;"><img src="img/product2.png" alt="Second step" /></li>
-          <li style="margin-right: 60px;"><img src="img/product3.png" alt="Third step" /></li>
-          <li class="palisades" style="margin-right: 40px; display:none;"><img src="img/product4.png" alt="Third step" /></li>
-        </ul>
+<section id="personalize">
+  <div class="middle">
+      <h3 id="header">Select your style</h3>
+      <div class="products" id="products-load">
         <ul class="product-names">
-          <li style="margin-right: 60px;"><a id="legend"  class="selection" >Legend Collection</a></li>
-          <li style="margin-right: 60px;"><a id="meridian"  class="selection" >Meridian Collection</a></li>
-          <li style="margin-right: 60px;"><a id="horizon"  class="selection" >Horizon Collection</a></li>
+          <li>
+            <a id="product-url-legend"><img src="/img/product/blanks/legend-collection.png" alt="First step" /></a>
+            <p>Legend Collection</p>
+            <div id="overlay-content-legend">
+              <span class="bigger">LEGEND Bracelet starting at $200</span>
+              <br />
+              <span class="bigger">&nbsp;&nbsp;LEGEND Ring starting at $130</span>
+              <br /><br />
+              <p>
+              <strong>Ring</strong></p>
+              <p>
+              inside diameter: 17.46
+              outside diameter: 21.34
+              thickness: 1.98
+              width: 6.30
+              </p>
+              <p>
+                <strong>Bracelet</strong></p>
+                <p>
+                inside diameter: 60.36
+                outside diameter: 64.04
+                thickness: 1.83
+                width 6.47
+              </p>
+              <a href="#" id="close-overlay-legend"><i class="icon-remove"></i></a>
+            </div>
+          </li>
+          <li>
+            <a id="product-url-meridian"><img src="/img/product/blanks/meridian-collection.png" alt="First step" /></a>
+            <p>Meridian Collection</p>
+            <div id="overlay-content-meridian">
+              <span class="bigger">Meridian Bracelet Starting at $215</span>
+              <br />
+              <span class="bigger">&nbsp;&nbsp;Meridian Ring Starting at $140</span>
+              <br /><br />
+              <p>
+              <strong>Ring</strong></p>
+              <p>
+              inside diameter: 17.46
+              outside diameter: 21.34
+              thickness: 1.98
+              width: 6.30
+              </p>
+              <p>
+                <strong>Bracelet</strong></p>
+                <p>
+                inside diameter: 56.29
+                outside diameter: 62.26
+                thickness: 3.39
+                width 6.80
+              </p>
+              <a href="#" id="close-overlay-meridian"><i class="icon-remove"></i></a>
+            </div>
+          </li>
+          <li>
+            <a id="product-url-horizon"><img src="/img/product/blanks/horizon-collection.png" alt="First step" /></a>
+            <p>Horizon Collection</p>
+            <div id="overlay-content-horizon">
+              <span class="bigger">Horizon Bracelet Starting at $225</span>
+              <br />
+              <span class="bigger">&nbsp;&nbsp;Horizon Ring Starting at $155</span>
+              <br /><br />
+              <p>
+              <strong>Ring</strong></p>
+              <p>
+              inside diameter: 17.46
+              outside diameter: 21.34
+              thickness: 1.98
+              width: 6.30
+              </p>
+              <p>
+                <strong>Bracelet</strong></p>
+                <p>
+                inside diameter: 62.90
+                outside diameter: 67.03
+                thickness: 2.06
+                width 12.15
+              </p>
+              <a href="#" id="close-overlay-horizon"><i class="icon-remove"></i></a>
+            </div>
+          </li>
         </ul>
       </div>
-
-      <button class="customize">Continue customizing</button>
-</script>
-    <div id="overlay">
-					<ul id="custom-nav">
-						<li><div id="customize"><span>Customize</span></div></li>
-						<li><div id="designs"><span>Design</span></div></li>
-						<li><div id="metal"><span>metal</span></div></li>
-						<li><div id="finish"><span>finish</span></div></li>
-						<li><div id="stone"><span>stone</span></div></li>
-						<li><div id="size"><span>size</span></div></li>
-						<li><div id="text"><span>text</span></div></li>
-						<li><div id="summary"><span>summary</span></div></li>
-					</ul>
-				<div id="gallery-wrap">
-
-					<div id="gallery-controls">
-					    <a href="#" id="gallery-prev"><i class="icon-double-angle-left icon-2x"></i></a>
-					    <a href="#" id="gallery-next"><i class="icon-double-angle-right icon-2x"></i></a>
-					</div>
-				    <ul id="gallery">
-						<li>
-							<div id="customize">
-								<h2>Customize</h2>
-									<ul class="horizon" id="custom-selections-customize">
-										<li>How it Works:</li>
-									</ul>
-							</div>
-						</li>
-						<li>
-							<div id="custom-selections-designs">
-								<h2>Design</h2>
-									<ul class="horizon" id="custom-selections-design">
-										<li>
-											<h3 id="HB">
-												<img src="img/merchandise/horizon/bracelet/horizon_bracelet_gold.jpg"  height="100" width="100" title="Horizon Bracelet" />
-											</h3>
-										</li>
-										<li>
-											<h3 id="HR">
-												<img src="img/merchandise/horizon/ring/horizon_ring_gold.jpg"  height="100" width="100" title="Horizon Ring "/>
-											</h3>
-										</li>
-									</ul>
-									<ul class="legend" id="custom-selections-design">
-
-										<li>
-											<h3 id="LB">
-												<img src="img/merchandise/legend/bracelet/legend_bracelet_gold.jpg"  height="100" width="100" title="Legend Bracelet"/>
-											</h3>
-
-										</li>
-										<li>
-											<h3 id="LR">
-												<img src="img/merchandise/legend/ring/legend_ring_gold.jpg"  height="100" width="100" title="Legend Ring"/>
-											</h3>
-										</li>
-									</ul>
-									<ul class="meridian" id="custom-selections-design">
-										<li>
-											<h3 id="MB">
-												<img src="img/merchandise/meridian/bracelet/meridian_bracelet_rose_gold.jpg"  height="100" width="100" title="Meridian Bracelet"/>
-											</h3>
-
-										</li>
-										<li>
-											<h3 id="MR">
-												<img src="img/merchandise/meridian/ring/meridian_ring_rose_gold.jpg"  height="100" width="100" title="Meridian Ring"/>
-											</h3>
-
-										</li>
-									</ul>
-									<ul class="palisades" id="custom-selections-design">
-										<li>
-											<h3 id="PB">
-												<img src="img/merchandise/palisades/bracelet/palisades_bracelet_silver.jpg"  height="100" width="100" title="Palisades Bracelet"/>
-											</h3>
-
-										</li>
-										<li>
-											<h3 id="PR">
-												<img src="img/merchandise/palisades/ring/palisades_ring_silver.jpg"  height="100" width="100" title="Palisades Ring"/>
-											</h3>
-
-										</li>
-									</ul>
-
-
-							</div>
-						</li>
-						<li>
-							<div id="metal">
-								<h2>metal</h2>
-									<ul id="custom-selections-metal">
-										<li>
-											<h3 id="B"><img src="img/finishes/brass.jpg" height="30" width="30" alt="Brass" title="Brass" /></h3>
-										</li>
-										<li>
-											<h3 id="S">
-											<img src="img/finishes/sterling.png" height="30" width="30" alt="Sterling Silver" title="Sterling Silver" /></h3>
-
-										</li>
-										<li>
-											<h3 id="G">
-											<img src="img/finishes/gold.png" height="30" width="30"  title="Gold"/></h3>
-
-										</li>
-									</ul>
-
-							</div>
-						</li>
-						<li>
-							<div id="finish">
-								<h2>finish</h2>
-									<ul id="custom-selections-finish">
-										<li>
-											<h3  id="B" class="ANTIQUE BRASS">
-											<img src="img/finishes/brass.jpg" height="30" width="30" />
-											</h3>
-										</li>
-										<li>
-											<h3  id="S" class="ANTIQUE SILVER">
-											<img src="img/finishes/antique-silver.jpg" height="30" width="30" />
-											</h3>
-										</li>
-										<li>
-											<h3  id="G"class="GOLD">
-												<img src="img/finishes/gold.png" height="30" width="30" />
-											</h3>
-										</li>
-										<li>
-											<h3  id="U" class="GUNMETAL">
-											<img src="img/finishes/gunmetal.jpg" height="30" width="30" />
-											</h3>
-										</li>
-										<li>
-											<h3  id="R" class="ROSE GOLD">
-											<img src="img/finishes/rose.jpg" height="30" width="30" />
-											</h3>
-										</li>
-										<li>
-											<h3  id="S" class="SILVER">
-											<img src="img/finishes/silver.jpg" height="30" width="30" />
-											</h3>
-										</li>
-										<li>
-											<h3  id="S" class="STERLING SILVER">
-											<img src="img/finishes/sterling.png" height="30" width="30" />
-											</h3>
-										</li>
-									</ul>
-							</div>
-						</li>
-						<li>
-							<div id="stone">
-
-								<h2>stone</h2>
-								<div>
-									<p class="stone stone-title"></p>
-									<p class="stone stone-size">Stone Size: 2.5mm Round Stone</p>
-									<p class="stone stone-detail"></p>
-								</div>
-									<ul id="custom-selections-stone">
-										<li>
-											<h3 class="diamond april">
-											<img src="img/gems/diamond.jpg" height="30" width="30" />
-											</h3>
-										</li>
-										<li>
-											<h3 class="pearl june">
-											<img src="img/gems/pearl.jpg" height="30" width="30" />
-											</h3>
-										</li>
-										<li>
-											<h3 class="opal october">
-											<img src="img/gems/opal.jpg" height="30" width="30" />
-											</h3>
-										</li>
-										<li>
-											<h3 class="citrine november">
-											<img src="img/gems/citrine.jpg" height="30" width="30" />
-											</h3>
-										</li>
-										<li>
-											<h3 class="emerald may">
-											<img src="img/gems/emerald.jpg" height="30" width="30" />
-											</h3>
-										</li>
-										<li>
-											<h3 class="peridot august">
-											<img src="img/gems/peridot.JPG" height="30" width="30" />
-											</h3>
-										</li>
-										<li>
-											<h3 class="aquamarine march">
-											<img src="img/gems/aquamarine.jpg" height="30" width="30" />
-											</h3>
-										</li>
-										<li>
-											<h3 class="topaz">
-											<img src="img/gems/topaz.jpg" height="30" width="30" />
-											</h3>
-										</li>
-										<li>
-											<h3 class="sapphire september">
-											<img src="img/gems/sapphire.png" height="30" width="30" />
-											</h3>
-										</li>
-										<li>
-											<h3 class="amethyst february">
-											<img src="img/gems/amethyst.jpg" height="30" width="30" />
-											</h3>
-										</li>
-										<li>
-											<h3 class="garnet january">
-											<img src="img/gems/garnet.jpg" style="height:40px; width:40px; background: scroll 200 20 ! important;" />
-											</h3>
-										</li>
-										<li>
-											<h3 class="ruby july">
-											<img src="img/gems/ruby.png" height="30" width="30" />
-											</h3>
-										</li>
-									</ul>
-
-							</div>
-						</li>
-						<li>
-							<div id="size">
-								<h2>size</h2>
-								<ul id="custom-selections-size">
-									<li>
-										<h3 class="icon-check-empty"> xs</h3>
-									</li>
-									<li>
-										<h3 class="icon-check-empty"> s</h3>
-									</li>
-									<li>
-										<h3 class="icon-check-empty"> m</h3>
-
-									</li>
-									<li>
-										<h3 class="icon-check-empty"> l</h3>
-									</li>
-								</ul>
-
-							</div>
-						</li>
-						<li>
-							<div id="text">
-								<h2>engraving</h2>
-								<ul id="custom-selections-text">
-									<li style="display:block;">
-										<h3>outside</h3>
-										<textarea></textarea>
-									</li>
-									<li style="display:block;">
-										<h3>inside</h3>
-										<textarea></textarea>
-									</li>
-								</ul>
-
-							</div>
-						</li>
-						<li>
-							<div id="customize">
-								<h2>Summary</h2>
-								<p><div class="sku"  id="custom-selections-summary">
-
-								</div></p>
-								<p><div class="sku"  id="sku-metal"></div></p>
-								<p><div class="sku"  id="sku-finish"></div></p>
-								<p><div class="sku"  id="sku-stone"></div></p>
-								<p><div class="sku"  id="sku-size"></div></p>
-								<p><div class="sku"  id="sku-text-outside"></div></p>
-								<p><div class="sku"  id="sku-text-inside"></div></p>
-							</div>
-							<p class="summary-footer">
-								<span class="summary-price"></span class="summary-cart"><span>Add to Cart</span>
-							</p>
-						</li>
-				    </ul>
-				</div>
+      <a href="#" data-reveal-id="emailSignUp" id="no-border">
+        <button>Continue customizing <i class="icon-angle-right"></i></button>
+      </a>
     </div>
-	<img class="custom" src="img/merchandise/horizon/bracelet/horizon_bracelet_gold.jpg" height="300" width="300" />
-</div>
 
-    </div>
-</div>
-  </section>
-	    <p>
-        <span class="btn clear">Clear Selections</span> &nbsp; &nbsp; &nbsp; &nbsp;<button class="purchase">Buy</button>
-      </p>
-
-
+</section>
 
 
 <!-- Footer Section -->
@@ -489,9 +273,8 @@
     <img src="/img/logo/coordinates-logo.png" alt="CoordinatesCollection Emblem">
   </div>
   <ul id="newsletter-signup">
-    <h2>What are your Coordinates?</h2>
-    <p>The most important part about the Coordinates Collection is making it your own.  When people ask “What are yours?” the answer will be your unique coordinates tied to your unique memory.
-    Select a memory, Select the place, Select the style and customize your Coordinates</p>
+    <h2>100% Personalized</h2>
+    <p></p>
     <li>
       <!-- Begin MailChimp Signup Form -->
       <div id="mc_embed_signup">
