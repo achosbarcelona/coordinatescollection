@@ -34,6 +34,15 @@
         </li>
       </ul>
     </nav>
+    <nav id="url-list">
+      <ul>
+        <li><a href="#home" class="scroll">Home</a></li>
+        <li><a href="#about-us" class="scroll">About</a></li>
+        <li><a href="#collection-pieces" class="scroll">Collection Pieces</a></li>
+        <li><a href="#ways" class="scroll">What Are Yours</a></li>
+        <li><a href="#personalize" class="scroll">Personalize</a></li>
+      </ul>
+    </nav>
   </section>
   <div class="logo">
     <img src="/img/logo/coordinates-logo.png" alt="CoordinatesCollection Emblem">

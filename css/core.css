@@ -58,6 +58,9 @@ nav{
 	font-size: 11px;
 	text-transform: uppercase;
 }
+#url-list{
+  display: none;
+}
 #contact-us-mini li{
 	list-style: none;
 	display: inline-block;
@@ -1561,7 +1564,23 @@ footer .footer-wrapper{
 
 
 
-
+@media screen and(min-width: 1000px){
+  nav{
+    font-size: 13px;
+  }
+#url-list{
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+#url-list ul{
+  margin: 0;
+  padding: 0;
+}
+#url-list li{
+  display: inline-block;
+}
+}
 @media screen and(max-width: 1440px){
 #home .logo{
 	position:absolute;
