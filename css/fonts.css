@@ -1,40 +1,69 @@
 @font-face {
-    font-family: 'ProximaNova-Regular';
-    src: url('/fonts/proximanova-webfont.eot');
-    src: url('/fonts/proximanova-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/proximanova-webfont.woff') format('woff'),
-         url('/fonts/proximanova-webfont.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
+font-family: 'ProximaNova-Regular';
+src: url('/fonts/proximanova-webfont.eot');
+src: url('/fonts/proximanova-webfont.eot?#iefix') format('embedded-opentype'),
+     url('/fonts/proximanova-webfont.woff') format('woff'),
+     url('/fonts/proximanova-webfont.ttf') format('truetype');
+font-weight: 300;
+font-style: normal;
 }
 @font-face {
-    font-family: 'ProximaNova-Bold';
-    src: url('/fonts/proximanova-sbold-webfont.eot');
-    src: url('/fonts/proximanova-sbold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/proximanova-sbold-webfont.woff') format('woff'),
-         url('/fonts/proximanova-sbold-webfont.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
+font-family: 'ProximaNova-Bold';
+src: url('/fonts/proximanova-sbold-webfont.eot');
+src: url('/fonts/proximanova-sbold-webfont.eot?#iefix') format('embedded-opentype'),
+     url('/fonts/proximanova-sbold-webfont.woff') format('woff'),
+     url('/fonts/proximanova-sbold-webfont.ttf') format('truetype');
+font-weight: 600;
+font-style: normal;
 }
 @font-face {
-    font-family: 'Didot';
-    font-weight: 200;
-    font-style: normal;
-    src: url('/fonts/didot.eot');
-    src: url('/fonts/didot.eot?#iefix') format('embedded-opentype'),
-          url('/fonts/didot.woff') format('woff'),
-          url('/fonts/didot.ttf') format('truetype'),
-          url('/fonts/didot.svg#Didot') format('svg');
+font-family: 'Didot';
+font-weight: 200;
+font-style: normal;
+src: url('/fonts/didot.eot');
+src: url('/fonts/didot.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/didot.woff') format('woff'),
+      url('/fonts/didot.ttf') format('truetype'),
+      url('/fonts/didot.svg#Didot') format('svg');
 
 }
 @font-face {
-    font-family: 'Didot';
-    font-weight: 200;
-    font-style: italic;
-    src: url('/fonts/didot-italic.eot');
-    src: url('/fonts/didot-italic.eot?#iefix') format('embedded-opentype'),
-          url('/fonts/didot-italic.woff') format('woff'),
-          url('/fonts/didot-italic.ttf') format('truetype'),
-          url('/fonts/didot-italic.svg#Didot') format('svg');
+font-family: 'Didot';
+font-weight: 200;
+font-style: italic;
+src: url('/fonts/didot-italic.eot');
+src: url('/fonts/didot-italic.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/didot-italic.woff') format('woff'),
+      url('/fonts/didot-italic.ttf') format('truetype'),
+      url('/fonts/didot-italic.svg#Didot') format('svg');
 
+}
+
+@font-face {
+font-family: 'doubleuserif';
+src: url('/fonts/doubleuserif-medium.eot');
+src: url('/fonts/doubleuserif-medium.eot?#iefix') format('embedded-opentype'), url('/fonts/doubleuserif-medium.woff') format('woff'), url('/fonts/doubleuserif-medium.ttf') format('truetype');
+font-weight: 600;
+font-style: normal;
+}
+@font-face {
+font-family: 'doubleuserif';
+src: url('/fonts/doubleuserif-regularsm-italic.eot');
+src: url('/fonts/doubleuserif-regularsm-italic.eot?#iefix') format('embedded-opentype'), url('/fonts/doubleuserif-regularsm-italic.woff') format('woff'), url('/fonts/doubleuserif-regularsm-italic.ttf') format('truetype');
+font-weight: normal;
+font-style: italic;
+}
+@font-face {
+font-family: 'doubleuserif';
+src: url('/fonts/doubleuserif-boldsm.eot');
+src: url('/fonts/doubleuserif-boldsm.eot?#iefix') format('embedded-opentype'), url('/fonts/doubleuserif-boldsm.woff') format('woff'), url('/fonts/doubleuserif-boldsm.ttf') format('truetype'), url('/fonts/doubleuserif-boldsm.svg#doubleuserifboldsm') format('svg');
+font-weight: bold;
+font-style: normal;
+}
+@font-face {
+font-family: 'doubleuserif';
+src: url('/fonts/doubleuserif-regularsm.eot');
+src: url('/fonts/doubleuserif-regularsm.eot?#iefix') format('embedded-opentype'), url('/fonts/doubleuserif-regularsm.woff') format('woff'), url('/fonts/doubleuserif-regularsm.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
 }

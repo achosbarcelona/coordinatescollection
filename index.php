@@ -95,7 +95,7 @@
     <div class="product-line" id="p-line" >
       <img src="/img/product/legend-collection.png" alt="Legend Collection" />
       <div class="collection-description" id="p-desc">
-        <h3 class="didot">The Legend Collection</h3>
+        <h3 class="doubleuserif">The Legend Collection</h3>
         <p>The legend bracelet and ring are the signature pieces of the collection. They are the most sought after due to their simple but stunning beauty and design.  The legend is the perfect way to make a subtle but sophisticated statement. </p>
       </div>
     </div>
