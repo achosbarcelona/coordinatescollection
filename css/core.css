@@ -141,6 +141,7 @@ nav{
   font-size: 14px;
   font-weight: 300;
   color: #fff;
+  text-align: left;
 }
 #share-buttons li{
   display: block;
@@ -168,6 +169,7 @@ nav{
   font-size: 14px;
   color: #fff;
   font-weight: 300;
+  text-align: left;
 }
 #navigate li{
   display: block;
@@ -189,6 +191,7 @@ nav{
   font-size: 14px;
   font-weight: 300;
   color: #fff;
+  text-align: left;
 }
 #newsletter-signup li{
   display: block;
@@ -223,6 +226,12 @@ nav{
   font: 13px "Open Sans",sans-serif;
   float: left;
   color: #fff;
+}
+#newsletter-signup p{
+  font: 11px "Open Sans",sans-serif;
+  text-transform: lowercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /*------------------------ Container Content ------------------------*/
@@ -1014,6 +1023,7 @@ nav{
 	margin: -300px 0 0 -500px;
 	padding: 0;
 	overflow: hidden;
+  visibility: hidden;
 }
 #personalize .middle h3{
 	font: 50px 'Open Sans',sans-serif;
@@ -1254,6 +1264,7 @@ footer ul#customer-service h2{
   font-size: 14px;
   font-weight: 300;
   color: #fff;
+  text-align: left;
 }
 footer .footer-wrapper{
   width: 100%;
@@ -1269,6 +1280,7 @@ footer .footer-wrapper{
   margin: 0;
   padding: 0;
   width: 200px;
+  display: none;
 }
 .footer-logo img{
   width: 100%;

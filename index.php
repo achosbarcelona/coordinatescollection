@@ -491,7 +491,7 @@
   <ul id="newsletter-signup">
     <h2>What are your Coordinates?</h2>
     <p>The most important part about the Coordinates Collection is making it your own.  When people ask “What are yours?” the answer will be your unique coordinates tied to your unique memory.
-    Select a memory, Select the place, Select the style and customize your Coordinates</p>
+    </p>
     <li>
       <!-- Begin MailChimp Signup Form -->
       <div id="mc_embed_signup">
