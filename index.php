@@ -165,34 +165,34 @@
     </a>
   </div>
 </section>
-
-
-
-
-
-
-
-
-
-
   <section id="personalize">
     <div class="middle">
       <h3>Select your style</h3>
       <div class="products">
-        <ul class="product-images">
-          <li style="margin-right: 60px;"><img src="img/product1.png" alt="First step" /></li>
-          <li style="margin-right: 60px;"><img src="img/product2.png" alt="Second step" /></li>
-          <li style="margin-right: 60px;"><img src="img/product3.png" alt="Third step" /></li>
-          <li class="palisades" style="margin-right: 40px; display:none;"><img src="img/product4.png" alt="Third step" /></li>
-        </ul>
         <ul class="product-names">
-          <li style="margin-right: 60px;"><a id="legend"  class="selection" >Legend Collection</a></li>
-          <li style="margin-right: 60px;"><a id="meridian"  class="selection" >Meridian Collection</a></li>
-          <li style="margin-right: 60px;"><a id="horizon"  class="selection" >Horizon Collection</a></li>
+          <li>
+            <a id="legend" class="selection">
+              <img src="/img/product/blanks/legend-collection.png" alt="Legend Collection" />
+            </a>
+            <p>Legend Collection</p>
+          </li>
+          <li>
+            <a id="meridian" class="selection">
+              <img src="/img/product/blanks/meridian-collection.png" alt="Meridian Collection" />
+            </a>
+            <p>Meridian Collection</p>
+          </li>
+          <li>
+            <a id="horizon" class="selection">
+              <img src="/img/product/blanks/horizon-collection.png" alt="Horizon Collection" />
+            </a>
+            <p>Horizon Collection</p>
+          </li>
         </ul>
       </div>
-
       <button class="customize">Continue customizing</button>
+
+
 </script>
     <div id="overlay">
 					<ul id="custom-nav">

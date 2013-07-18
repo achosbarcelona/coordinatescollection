@@ -1292,991 +1292,785 @@ footer .footer-wrapper{
 /* ----------------------------- Media Queries ------------------------------------ */
 /* ------------------------------------------------------------------------------- */
 @media screen and (min-height: 1001px){
-#about-us {
-	/*height:auto;
-	min-height:auto;
-	padding: 70px 0;*/
+  #about-us {
+  	/*height:auto;
+  	min-height:auto;
+  	padding: 70px 0;*/
+  }
+  #about-us .middle{
+  	margin: -360px 0 0 -500px;
+  }
+  #ways{
+  	height:auto;
+  	min-height:auto;
+  	padding: 0 0;
+  }
+  #ways .middle h3{
+    font-size: 35px;
+    margin-top: 40px;
+  }
+  #ways .middle{
+  	position: relative;
+  	height:auto;
+  	margin:0 auto;
+  	padding:0;
+  	top:auto;
+  	left: auto;
+  }
+  #ways .middle .how-it-works ul.steps-content{
+    margin: 0 auto;
+  }
+  #ways .middle .how-it-works .steps-content p{
+    font-size: 14px;
+    line-height: 25px;
+  }
+  #personalize{
+  	/*height:auto;
+  	min-height:auto;*/
+  	padding: 70px 0;
+  }
+  /*#personalize .middle{
+  	position: relative;
+  	height:auto;
+  	margin:0 auto;
+  	padding:0;
+  	top:auto;
+  	left: auto;
+  }*/
+  #personalize .middle{
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	margin: -400px 0 0 -500px;
+  	padding: 0;
+  	overflow: hidden;
+  }
 }
-#about-us .middle{
-	margin: -360px 0 0 -500px;
-}
-#ways{
-	height:auto;
-	min-height:auto;
-	padding: 0 0;
-}
-#ways .middle h3{
-  font-size: 35px;
-  margin-top: 40px;
-}
-#ways .middle{
-	position: relative;
-	height:auto;
-	margin:0 auto;
-	padding:0;
-	top:auto;
-	left: auto;
-}
-#ways .middle .how-it-works ul.steps-content{
-  margin: 0 auto;
-}
-#ways .middle .how-it-works .steps-content p{
-  font-size: 14px;
-  line-height: 25px;
-}
-#personalize{
-	/*height:auto;
-	min-height:auto;*/
-	padding: 70px 0;
-}
-/*#personalize .middle{
-	position: relative;
-	height:auto;
-	margin:0 auto;
-	padding:0;
-	top:auto;
-	left: auto;
-}*/
-#personalize .middle{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin: -400px 0 0 -500px;
-	padding: 0;
-	overflow: hidden;
-}
-}
-
-
-
-
-
-
-
 @media screen and (max-height: 1000px){
-/* ------------------------ About Us Sections -------------------------- */
-/* stuff needs to be resized etc...
-#about-us .middle{
-	position: relative;
-	height:auto;
-	margin:0 auto;
-	padding:0;
-	top:auto;
-	left: auto;
-}*/
-#about-us .middle .left-icon {
-	width: 26%;
-	max-width: 26%;
+  /* stuff needs to be resized etc...
+  #about-us .middle{
+  	position: relative;
+  	height:auto;
+  	margin:0 auto;
+  	padding:0;
+  	top:auto;
+  	left: auto;
+  }*/
+  #about-us .middle .left-icon {
+  	width: 26%;
+  	max-width: 26%;
+  }
+  #about-us .middle .right-content{
+  	width: 68%;
+  	max-width: 68%;
+  }
+  #about-us .middle  .right-content h3{
+  	font-size: 40px;
+  }
+  #about-us .middle  .right-content p{
+  	font-size:16px;
+  }
+  #about-us .middle .right-content .time-font{
+  	font: 40px 'Didot',sans-serif;
+  }
+  #ways{
+  	height: auto;
+  	min-height: auto;
+  	padding: 70px 0;
+  }
+  #ways .middle{
+  	position: relative;
+  	height:auto;
+  	margin:0 auto;
+  	padding:0;
+  	top:auto;
+  	left: auto;
+  }
+  #ways .middle .how-it-works{
+  	margin: 10px 0 0 0;
+  }
 }
-#about-us .middle .right-content{
-	width: 68%;
-	max-width: 68%;
-}
-#about-us .middle  .right-content h3{
-	font-size: 40px;
-}
-#about-us .middle  .right-content p{
-	font-size:16px;
-}
-#about-us .middle .right-content .time-font{
-	font: 40px 'Didot',sans-serif;
-}
-#ways{
-	height: auto;
-	min-height: auto;
-	padding: 70px 0;
-}
-#ways .middle{
-	position: relative;
-	height:auto;
-	margin:0 auto;
-	padding:0;
-	top:auto;
-	left: auto;
-}
-#ways .middle .how-it-works{
-	margin: 10px 0 0 0;
-}
-
-}
-
-
 /* --------------------  Max Height changes -------------------- */
 @media screen and (max-height: 900px){
-#about-us .middle{
-  margin: -360px 0 0 -500px;
+  #about-us .middle{
+    margin: -360px 0 0 -500px;
+  }
+  #about-us .middle .how-it-works{
+    margin: 26px 0 0 0;
+    padding: 0 0 0 0;
+  }
+  #about-us .middle .how-it-works ul.steps-content{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+  #about-us .middle .how-it-works ul.steps-content li img{
+    width: 30%;
+  }
+  #about-us .middle  .right-content p{
+    font-size:16px;
+  }
+  #ways{
+    height:auto;
+    min-height:auto;
+    padding: 0;
+  }
+  #ways .middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -410px 0 0 -500px;
+    padding: 0;
+  }
+  #ways .middle #map{
+    width: 90%;
+    max-height: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #ways .middle #map img{
+    width: 90%;
+    max-width: 90%;
+  }
+  #ways .middle .how-it-works{
+    margin: 10px 0 0 0;
+  }
+  #ways .middle .how-it-works ul.steps-content{
+    margin: 0px auto;
+  }
+  #ways .middle h3{
+    font-size: 35px;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  #ways .middle article{
+    font-size: 13px;
+    line-height: 20px;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+  }
+  #ways .middle .how-it-works .steps-content p{
+    font-size: 13px;
+    line-height: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  #ways .middle .how-it-works ul.steps-content li{
+    width: 20%;
+    margin: 0 6%;
+  }
+  #ways .middle #continue-arrow-wrapper {
+    width: 35px;
+    height: 50px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    position: absolute;
+    left: 50%;
+    bottom: 1%;
+  }
+
+  #personalize .middle {
+    position: relative;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 50px;
+    top: auto;
+    left: auto;
+  }
+  #mc_embed_signup{
+    margin: 5% auto 0 auto;
+  }
+  .mini-info {
+    max-height: 270px;
+
+  }
 }
-#about-us .middle .how-it-works{
-  margin: 26px 0 0 0;
-  padding: 0 0 0 0;
+@media screen and (max-height: 800px){
+  #about-us .middle{
+    margin: -360px 0 0 -500px;
+  }
+  #about-us .middle .how-it-works{
+    margin: 50px 0 0 0;
+    padding: 0 0 0 0;
+  }
+  #about-us .middle .how-it-works ul.steps-content{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+  #about-us .middle .how-it-works ul.steps-content li img{
+    width: 20%;
+  }
+  #ways{
+    height:auto;
+    min-height:auto;
+    padding: 0 0;
+  }
+  #ways .middle{
+    position: relative;
+    height:auto;
+    margin:0 auto;
+    padding:0;
+    top:auto;
+    left: auto;
+  }
+  #ways .middle article{
+    margin-bottom: 5px;
+  }
+  #ways .middle .how-it-works{
+    margin-top: 0;
+  }
+  #ways .middle .how-it-works ul.steps-content li .circles{
+    width: 31px;
+    height: 31px;
+  }
+  #ways .middle #map img{
+    width: 88%;
+    max-width: 88%;
+  }
+  #ways .middle .how-it-works .steps-content p{
+    padding-top: 0;
+  }
+  #ways .middle h3{
+    margin-top: 10px;
+  }
+  #ways #continue-arrow-wrapper{
+    bottom: 0;
+  }
+  #personalize .middle{
+    /*margin: -157px 0 0 -500px;*/
+  }
+  #mc_embed_signup{
+    margin: 5% auto 0 auto;
+  }
+  #collection-pieces .middle .collection-description{
+    margin: 3% auto;
+  }
+  .mini-info li{
+    width: 29%;
+  }
 }
-#about-us .middle .how-it-works ul.steps-content{
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
+/* ---------------------- Responsive Widths ------------------------- */
+@media screen and (min-width: 1000px){
+  nav{
+    font-size: 12px;
+    color: #c3c3c8;
+  }
+  .navigation{
+    max-width: 1000px;
+  }
+  #url-list{
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+  #url-list ul{
+    margin: 0;
+    padding: 0;
+  }
+  #url-list li{
+    display: inline-block;
+  }
+  #contact-us-mini li a{
+    color: #999;
+  }
 }
-#about-us .middle .how-it-works ul.steps-content li img{
-  width: 30%;
+/* ----------------------------- 1440px ------------------------------- */
+@media screen and (max-width: 1440px){
+  #home .logo{
+  	position:absolute;
+  	top: 20%;
+  	right: 2%;
+  	width: 90%;
+  	height: 100%;
+  	max-width: 532px;
+  	max-height:129px;
+    }
+  #home .made-in-la-logo{
+  	position:absolute;
+  	bottom: 2%;
+  	right: 2%;
+  	width: 100%;
+  	height: 100%;
+  	max-width: 131px;
+  	max-height:138px;
+    }
 }
-#about-us .middle  .right-content p{
-  font-size:16px;
+/* ----------------------------- 1100px ------------------------------- */
+@media screen and (max-width: 1100px){
+  #learn-more-home{
+  	left: 40%;
+  }
+  .navigation{
+  	width: 100%;
+  	max-width: 100%;
+  	right: 1%;
+  }
+  nav{
+    text-align: right;
+  }
+  #home{
+  	position: relative;
+  	width: 100%;
+  	min-height: 100%;
+  	background: url(/img/bg/sliderimage-alt.jpg) no-repeat center right scroll;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;}
+  #home .logo{
+  	position: absolute;
+  	top: 20%;
+  	right: 2%;
+  	width: 100%;
+  	height: 100%;
+  	max-width: 370px;
+  	max-height: 100%;
+  }
+  #home .logo img{
+  	max-width: 100%;
+  	width: 100%;
+  }
+  #home .made-in-la-logo{
+    position:absolute;
+    bottom: 2%;
+    right: 2%;
+    width: 80%;
+    height: 100%;
+    max-width: 131px;
+    max-height: 138px;
+  }
+  #home .made-in-la-logo img{
+    max-width: 100%;
+    width: 100%;
+  }
+  #home .middle{
+  	margin: 0 auto;
+  	width: 100%;
+  	height: 100%;
+  	position:relative;
+  	padding: 0;
+  }
+  #home .middle button{
+  	position:absolute;
+  	right: 0;
+  	bottom: 22%;
+  	width: 300px;
+  	color: #fff;
+  	padding: 10px;
+  	text-transform: uppercase;
+  	background: #888;
+  	border: none;
+  	font: 18px "Didot", sans-serif;
+  	font-style: italic;
+  	border-style: solid;
+  	border-width: 1px;
+  }
+  #home .middle button:hover{
+  	background: #ccc;
+  	color: #fff;
+  }
+  #about-us{
+  	position: relative;
+  	width: 100%;
+  	height: 100%;
+  	min-height: 100%;
+  }
+  #about-us .middle{
+  	position: absolute;
+  	top:50%;
+  	left:50%;
+  	margin:-360px 0 0 -475px;
+  	padding: 0;
+  	width: 100%;
+  	max-width: 900px;
+  }
+  #about-us .middle .left-icon{
+  	float: left;
+  	margin: 30px 0 0 0;
+  	width: 29%;
+  	max-width: 300px;
+  	height: auto;
+  	text-align: center;
+  }
+  #about-us .middle .left-icon img{
+  	width: 100%;
+  }
+  #about-us .middle .left-icon .icon-globe{
+  	color: #ffd67f;
+  	font-size: 259px;
+  }
+  #about-us .middle .right-content{
+  	float: right;
+  	color: #888;
+  	width: 65%;
+  	max-width: 650px;
+  	margin: 0;
+  	padding: 0;
+  	text-transform:inherit;
+  }
+  #about-us .middle  .right-content h3{
+  	font-size: 40px;
+  	color: #888;
+  	text-transform: uppercase;
+  	text-align: left;
+  	margin: 0;
+  	padding: 0;
+  }
+  #about-us .middle  .right-content p{
+  	color: #888;
+  	text-transform: inherit;
+    font-size: 13px;
+    line-height: 25px;
+  }
+  #about-us .middle .right-content .time-font{
+  	font: 40px 'Didot',sans-serif;
+  	font-weight: 200;
+  	color: #888;
+  }
+  #about-us .middle .how-it-works{
+  	margin: 130px 0 0 0;
+  	width: 100%;
+  	height: auto;
+  	margin: 0;
+  	padding: 0;
+  }
+  #about-us .middle .how-it-works ul.steps{
+  	width: 92%;
+  	margin: 0 auto;
+  }
+  #about-us .middle .how-it-works ul.steps-content{
+  	width: 100%;
+  	margin: 40px auto 0 auto;
+  	padding: 0;
+  }
+  #about-us .middle .how-it-works ul.steps li{
+  	list-style: none;
+  	display: inline-block;
+  	width: 33%;
+  	text-align: center;
+  }
+  #about-us .middle .how-it-works ul.steps-content li{
+  	list-style: none;
+  	display: inline-block;
+  	width: 23%;
+  	text-align: center;
+  	font: 16px/30px 'Open Sans',sans-serif;
+  	font-weight: 300;
+  	color: #888;
+  	text-transform: inherit;
+  	vertical-align: top;
+  	margin: 0 5%;
+  }
+
+  #about-us .middle .how-it-works .steps-content p{
+  	font: 13px/25px 'Open Sans',sans-serif;
+  	font-weight: 300;
+  	color: #888;
+  	text-transform: inherit;
+  	padding: 5px 0 10px 0;
+  }
+  /* -------------------- What Are Yours --------------------- */
+  #ways{
+  	position:relative;
+  	width: 100%;
+  	height: 100%;
+  	min-height: 100%;
+  	background: url(/img/patterns/dust_@2X.png);
+  }
+  #ways .middle{
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	margin: -375px 0 0 -500px;
+  	padding: 0;
+  }
+  #ways .middle h3{
+  	color: #888;
+  	text-transform: uppercase;
+  	margin: 0 auto;
+  	padding: 0 0 0 0;
+    max-width: 675px;
+  }
+  #ways .middle article{
+  	margin-bottom: 20px;
+    max-width: 675px;
+  }
+  #ways .middle #map_canvas{
+  }
+  #ways .wrap #map_canvas p{
+  	font: 13px Arial,Helvetica,sans-serif;
+  	color: #999;
+  	padding-top: 8px;
+  }
+  #ways .middle .right-content .time-font{
+  	font: 53px 'Times',sans-serif;
+  	font-weight: 300;
+  	color: #888;
+  	font-style: italic;
+  }
+  #ways a,
+  #ways a:link,
+  #ways a:active{
+  	text-decoration: none;
+  	color: #999;
+  	font-weight: 400;
+  }
+  #ways a:hover{
+  	text-decoration: none;
+  	color: #888;
+  }
+  #ways .middle .how-it-works{
+  	float: left;
+  	margin: 0 13%;
+  	width: 100%;
+    max-width: 800px;
+  }
+  #ways .middle .how-it-works ul.steps{
+  	width: 92%;
+  	margin: 0 auto;
+  }
+  #ways .middle .how-it-works ul.steps-content{
+  	max-width: 100%;
+  	margin: 0 auto;
+  	padding: 0;
+  }
+  #ways .middle .how-it-works ul.steps li{
+  	list-style: none;
+  	display: inline-block;
+  	width: 22%;
+  	text-align: center;
+  }
+  #ways .middle .how-it-works ul.steps-content li{
+  	list-style: none;
+  	display: inline-block;
+  	width: 23%;
+  	text-align: center;
+  	font: 16px/30px 'Open Sans',sans-serif;
+  	font-weight: 300;
+  	color: #888;
+  	text-transform: inherit;
+  	vertical-align: top;
+  	margin: 0 4%;
+  }
+  #ways .middle .how-it-works ul.steps-content li .circles{
+  	display: block;
+  	width: 31px;
+  	height: 31px;
+  	margin: 0 auto;
+  }
+  #ways .middle #map img {
+    width: 75%;
+    max-width: 75%;
+  }
+  #ways .middle .how-it-works .steps-content p{
+  	font: 13px/22px 'Open Sans',sans-serif;
+  	font-weight: 300;
+  	color: #888;
+  	text-transform: inherit;
+  	padding-top: 0;
+  	padding-bottom: 20px;
+  }
+  /* -------------------- Personalize --------------------- */
+  #personalize{
+  	position:relative;
+  	width: 100%;
+  	height: 100%;
+  	min-height: 100%;
+  }
+  #personalize .middle{
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	margin: -300px 0 0 -500px;
+  	padding: 0;
+  }
+  #personalize .middle h3{
+  	font: 60px 'Open Sans',sans-serif;
+  	font-weight: 300;
+  	color: #888;
+  	text-transform: uppercase;
+  	margin: 0;
+  	padding: 0;
+  	text-align: center;
+  }
+  #personalize .middle p{
+  	font: 16px/30px 'Open Sans',sans-serif;
+  	font-weight: 300;
+  	color: #888;
+  	text-transform: inherit;
+  }
+  #personalize .middle .right-content .time-font{
+  	font: 53px 'Times',sans-serif;
+  	font-weight: 300;
+  	color: #888;
+  	font-style: italic;
+  }
+  #personalize .middle a,
+  #personalize .middle a:link,
+  #personalize .middle a:active{
+  	text-decoration: none;
+  	color: #999;
+  	border-bottom: 1px solid #999;
+  	padding-bottom: 2px;
+  	font-weight: 400;
+  }
+  #personalize .middle a:hover{
+  	text-decoration: none;
+  	color: #888;
+  	border-bottom: 1px solid #888;
+  	padding-bottom: 2px;
+  }
+  #personalize .wrap button .icon-angle-right{
+  	padding-left: 10px;
+  	font-size: 25px;
+  }
+  #personalize .wrap button:hover{
+  	border-color: #999;
+  	color: #999;
+  }
+  #personalize .middle .pixel-line{
+  	border-bottom:1px solid #ccc;
+  	width: 400px;
+  	max-width: 400px;
+  }
+  #personalize .middle #mc_embed_signup h1{
+  }
+  #collection-pieces .middle .collection-description{
+    margin: 4% auto;
+  }
 }
-#ways{
-  height:auto;
-  min-height:auto;
+/* ----------------------------- 1000px ------------------------------- */
+@media screen and (max-width: 1000px){
+  .navigation{
+  	width: 100%;
+  }
+  #home{
+  	position: relative;
+  	width: 100%;
+  	min-height: 100%;
+  	background: url(/img/bg/sliderimage-alt.jpg) no-repeat top -100px scroll;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;}
+  #home .logo{
+  	position:absolute;
+  	top: 20%;
+  	right: 2%;
+  	width: 100%;
+  	height: 100%;
+    max-height: 65px;
+    max-width: 370px;
+  }
+  #home .logo img{
+  	max-width: 370px;
+  	width: 100%;
+  	display: block;
+  }
+  #home .middle{
+  	margin: 0 auto;
+  	width: 100%;
+  	height: 100%;
+  	position:relative;
+  	padding: 0;
+  }
+  #collection-pieces .middle{
+    margin: -360px 0 0 -460px;
+  }
+  #collection-pieces .middle .product-line img{
+    margin: 0 17%;
+  }
+  #collection-pieces .middle .collection-description{
+    margin: 4% auto;
+  }
+  #ways .middle {
+  	position: relative;
+  	height:auto;
+  	margin:0 auto;
+  	padding:0 4%;
+  	top:auto;
+  	left: auto;
+  	width: 92%;
+  	max-width: 92%;
+  	}
+}
+/* ----------------------------- 900px ------------------------------- */
+@media screen and (max-width: 900px){
+  .navigation{
+  right:0%;
+  width: 100%;
+  max-width: 100%;
+  background: transparent;
+  opacity: 1;
+  }
+  .navigation nav{
+  float: right;
+  width: 100%;
+  max-width: 150px;
+  margin: 0;
   padding: 0;
-}
-#ways .middle{
+  }
+  #home{
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  background: url(/img/bg/sliderimage-alt.jpg) no-repeat -1000px scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+  #home .logo{
+  position:absolute;
+  top: 0;
+  right: 25%;
+  width: 100%;
+  height: 100%;
+  max-width: 398px;
+  max-height: 51px;
+  background: none;
+  z-index: 2;
+  padding-top: 6px;
+  }
+  #home .logo img{
+  max-width: 80%;
+  width: 100%;
+  display: block;
+  opacity: 0.5;
+  }
+  #home .middle{
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  position:relative;
+  padding: 0;
+  }
+  #about-us .middle .right-content h3{
+  text-align: center;
+  }
+  /*#ways .middle{
   position: absolute;
   top: 50%;
   left: 50%;
-  margin: -410px 0 0 -500px;
+  margin: -470px 0 0 -415px;
   padding: 0;
-}
-#ways .middle #map{
-  width: 90%;
-  max-height: 100%;
-  margin: 0 auto;
-  text-align: center;
-}
-#ways .middle #map img{
-  width: 90%;
-  max-width: 90%;
-}
-#ways .middle .how-it-works{
-  margin: 10px 0 0 0;
-}
-#ways .middle .how-it-works ul.steps-content{
-  margin: 0px auto;
-}
-#ways .middle h3{
-  font-size: 35px;
-  margin: 0 auto;
-  max-width: 800px;
-}
-#ways .middle article{
-  font-size: 13px;
-  line-height: 20px;
-  max-width: 800px;
-  margin: 0 auto 20px auto;
-}
-#ways .middle .how-it-works .steps-content p{
-  font-size: 13px;
-  line-height: 20px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-#ways .middle .how-it-works ul.steps-content li{
-  width: 20%;
-  margin: 0 6%;
-}
-#ways .middle #continue-arrow-wrapper {
-  width: 35px;
-  height: 50px;
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
-  position: absolute;
-  left: 50%;
-  bottom: 1%;
-}
-
-#personalize .middle {
-  position: relative;
-  height: auto;
-  margin: 0 auto;
-  padding-top: 50px;
-  top: auto;
-  left: auto;
-}
-#mc_embed_signup{
-  margin: 5% auto 0 auto;
-}
-.mini-info {
-  max-height: 270px;
-
-}
-}
-@media screen and (max-height: 800px){
-/* ------------------------ About Us Sections -------------------------- */
-#about-us .middle{
-  margin: -360px 0 0 -500px;
-}
-#about-us .middle .how-it-works{
-  margin: 50px 0 0 0;
-  padding: 0 0 0 0;
-}
-#about-us .middle .how-it-works ul.steps-content{
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
-}
-#about-us .middle .how-it-works ul.steps-content li img{
-  width: 20%;
-}
-#ways{
-  height:auto;
-  min-height:auto;
-  padding: 0 0;
-}
-#ways .middle{
+  }*/
+  #ways .middle{
   position: relative;
   height:auto;
   margin:0 auto;
-  padding:0;
+  padding:0 4%;
   top:auto;
   left: auto;
-}
-#ways .middle article{
-  margin-bottom: 5px;
-}
-#ways .middle .how-it-works{
-  margin-top: 0;
-}
-#ways .middle .how-it-works ul.steps-content li .circles{
-  width: 31px;
-  height: 31px;
-}
-#ways .middle #map img{
-  width: 88%;
-  max-width: 88%;
-}
-#ways .middle .how-it-works .steps-content p{
-  padding-top: 0;
-}
-#ways .middle h3{
-  margin-top: 10px;
-}
-#ways #continue-arrow-wrapper{
-  bottom: 0;
-}
-#personalize .middle{
-  /*margin: -157px 0 0 -500px;*/
-}
-#mc_embed_signup{
-  margin: 5% auto 0 auto;
-}
-#collection-pieces .middle .collection-description{
-  margin: 3% auto;
-}
-.mini-info li{
-  width: 29%;
-}
-
-}
-
-
-/* Minimum Width contents */
-@media screen and(min-width: 1000px){
-nav{
-  font-size: 12px;
-  color: #c3c3c8;
-}
-.navigation{
-  max-width: 1000px;
-}
-#url-list{
-  margin: 0;
-  padding: 0;
-  display: block;
-}
-#url-list ul{
-  margin: 0;
-  padding: 0;
-}
-#url-list li{
-  display: inline-block;
-}
-#contact-us-mini li a{
-  color: #999;
-}
-
-
-}
-
-@media screen and(max-width: 1440px){
-#home .logo{
-	position:absolute;
-	top: 20%;
-	right: 2%;
-	width: 90%;
-	height: 100%;
-	max-width: 532px;
-	max-height:129px;
-}
-#home .made-in-la-logo{
-	position:absolute;
-	bottom: 2%;
-	right: 2%;
-	width: 100%;
-	height: 100%;
-	max-width: 131px;
-	max-height:138px;
-}
-}
-@media screen and (max-width: 1100px){
-#learn-more-home{
-	left: 40%;
-}
-.navigation{
-	width: 100%;
-	max-width: 100%;
-	right: 1%;
-}
-nav{
-  text-align: right;
-}
-#home{
-	position: relative;
-	width: 100%;
-	min-height: 100%;
-	background: url(/img/bg/sliderimage-alt.jpg) no-repeat center right scroll;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;}
-#home .logo{
-	position: absolute;
-	top: 20%;
-	right: 2%;
-	width: 100%;
-	height: 100%;
-	max-width: 370px;
-	max-height: 100%;
-}
-#home .logo img{
-	max-width: 100%;
-	width: 100%;
-}
-#home .made-in-la-logo{
-  position:absolute;
-  bottom: 2%;
-  right: 2%;
-  width: 80%;
-  height: 100%;
-  max-width: 131px;
-  max-height: 138px;
-}
-#home .made-in-la-logo img{
-  max-width: 100%;
-  width: 100%;
-}
-#home .middle{
-	margin: 0 auto;
-	width: 100%;
-	height: 100%;
-	position:relative;
-	padding: 0;
-}
-#home .middle button{
-	position:absolute;
-	right: 0;
-	bottom: 22%;
-	width: 300px;
-	color: #fff;
-	padding: 10px;
-	text-transform: uppercase;
-	background: #888;
-	border: none;
-	font: 18px "Didot", sans-serif;
-	font-style: italic;
-	border-style: solid;
-	border-width: 1px;
-}
-#home .middle button:hover{
-	background: #ccc;
-	color: #fff;
-}
-#about-us{
-	position: relative;
-	width: 100%;
-	height: 100%;
-	min-height: 100%;
-}
-#about-us .middle{
-	position: absolute;
-	top:50%;
-	left:50%;
-	margin:-360px 0 0 -475px;
-	padding: 0;
-	width: 100%;
-	max-width: 900px;
-}
-#about-us .middle .left-icon{
-	float: left;
-	margin: 30px 0 0 0;
-	width: 29%;
-	max-width: 300px;
-	height: auto;
-	text-align: center;
-}
-#about-us .middle .left-icon img{
-	width: 100%;
-}
-#about-us .middle .left-icon .icon-globe{
-	color: #ffd67f;
-	font-size: 259px;
-}
-#about-us .middle .right-content{
-	float: right;
-	color: #888;
-	width: 65%;
-	max-width: 650px;
-	margin: 0;
-	padding: 0;
-	text-transform:inherit;
-}
-#about-us .middle  .right-content h3{
-	font-size: 40px;
-	color: #888;
-	text-transform: uppercase;
-	text-align: left;
-	margin: 0;
-	padding: 0;
-}
-#about-us .middle  .right-content p{
-	color: #888;
-	text-transform: inherit;
-  font-size: 13px;
-  line-height: 25px;
-}
-#about-us .middle .right-content .time-font{
-	font: 40px 'Didot',sans-serif;
-	font-weight: 200;
-	color: #888;
-}
-#about-us .middle .how-it-works{
-	margin: 130px 0 0 0;
-	width: 100%;
-	height: auto;
-	margin: 0;
-	padding: 0;
-}
-#about-us .middle .how-it-works ul.steps{
-	width: 92%;
-	margin: 0 auto;
-}
-#about-us .middle .how-it-works ul.steps-content{
-	width: 100%;
-	margin: 40px auto 0 auto;
-	padding: 0;
-}
-#about-us .middle .how-it-works ul.steps li{
-	list-style: none;
-	display: inline-block;
-	width: 33%;
-	text-align: center;
-}
-#about-us .middle .how-it-works ul.steps-content li{
-	list-style: none;
-	display: inline-block;
-	width: 23%;
-	text-align: center;
-	font: 16px/30px 'Open Sans',sans-serif;
-	font-weight: 300;
-	color: #888;
-	text-transform: inherit;
-	vertical-align: top;
-	margin: 0 5%;
-}
-
-#about-us .middle .how-it-works .steps-content p{
-	font: 13px/25px 'Open Sans',sans-serif;
-	font-weight: 300;
-	color: #888;
-	text-transform: inherit;
-	padding: 5px 0 10px 0;
-}
-/* -------------------- What Are Yours --------------------- */
-#ways{
-	position:relative;
-	width: 100%;
-	height: 100%;
-	min-height: 100%;
-	background: url(/img/patterns/dust_@2X.png);
-}
-#ways .middle{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin: -375px 0 0 -500px;
-	padding: 0;
-}
-#ways .middle h3{
-	color: #888;
-	text-transform: uppercase;
-	margin: 0 auto;
-	padding: 0 0 0 0;
-  max-width: 675px;
-}
-#ways .middle article{
-	margin-bottom: 20px;
-  max-width: 675px;
-}
-#ways .middle #map_canvas{
-}
-#ways .wrap #map_canvas p{
-	font: 13px Arial,Helvetica,sans-serif;
-	color: #999;
-	padding-top: 8px;
-}
-#ways .middle .right-content .time-font{
-	font: 53px 'Times',sans-serif;
-	font-weight: 300;
-	color: #888;
-	font-style: italic;
-}
-#ways a,
-#ways a:link,
-#ways a:active{
-	text-decoration: none;
-	color: #999;
-	font-weight: 400;
-}
-#ways a:hover{
-	text-decoration: none;
-	color: #888;
-}
-#ways .middle .how-it-works{
-	float: left;
-	margin: 0 13%;
-	width: 100%;
-  max-width: 800px;
-}
-#ways .middle .how-it-works ul.steps{
-	width: 92%;
-	margin: 0 auto;
-}
-#ways .middle .how-it-works ul.steps-content{
-	max-width: 100%;
-	margin: 0 auto;
-	padding: 0;
-}
-#ways .middle .how-it-works ul.steps li{
-	list-style: none;
-	display: inline-block;
-	width: 22%;
-	text-align: center;
-}
-#ways .middle .how-it-works ul.steps-content li{
-	list-style: none;
-	display: inline-block;
-	width: 23%;
-	text-align: center;
-	font: 16px/30px 'Open Sans',sans-serif;
-	font-weight: 300;
-	color: #888;
-	text-transform: inherit;
-	vertical-align: top;
-	margin: 0 4%;
-}
-#ways .middle .how-it-works ul.steps-content li .circles{
-	display: block;
-	width: 31px;
-	height: 31px;
-	margin: 0 auto;
-}
-#ways .middle #map img {
-  width: 75%;
-  max-width: 75%;
-}
-#ways .middle .how-it-works .steps-content p{
-	font: 13px/22px 'Open Sans',sans-serif;
-	font-weight: 300;
-	color: #888;
-	text-transform: inherit;
-	padding-top: 0;
-	padding-bottom: 20px;
-}
-/* -------------------- Personalize --------------------- */
-#personalize{
-	position:relative;
-	width: 100%;
-	height: 100%;
-	min-height: 100%;
-}
-#personalize .middle{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin: -300px 0 0 -500px;
-	padding: 0;
-}
-#personalize .middle h3{
-	font: 60px 'Open Sans',sans-serif;
-	font-weight: 300;
-	color: #888;
-	text-transform: uppercase;
-	margin: 0;
-	padding: 0;
-	text-align: center;
-}
-#personalize .middle p{
-	font: 16px/30px 'Open Sans',sans-serif;
-	font-weight: 300;
-	color: #888;
-	text-transform: inherit;
-}
-#personalize .middle .right-content .time-font{
-	font: 53px 'Times',sans-serif;
-	font-weight: 300;
-	color: #888;
-	font-style: italic;
-}
-#personalize .middle a,
-#personalize .middle a:link,
-#personalize .middle a:active{
-	text-decoration: none;
-	color: #999;
-	border-bottom: 1px solid #999;
-	padding-bottom: 2px;
-	font-weight: 400;
-}
-#personalize .middle a:hover{
-	text-decoration: none;
-	color: #888;
-	border-bottom: 1px solid #888;
-	padding-bottom: 2px;
-}
-#personalize .wrap button .icon-angle-right{
-	padding-left: 10px;
-	font-size: 25px;
-}
-#personalize .wrap button:hover{
-	border-color: #999;
-	color: #999;
-}
-#personalize .middle .pixel-line{
-	border-bottom:1px solid #ccc;
-	width: 400px;
-	max-width: 400px;
-}
-#personalize .middle #mc_embed_signup h1{
-}
-#collection-pieces .middle .collection-description{
-  margin: 4% auto;
-}
-}
-@media screen and(max-width: 1000px){
-.navigation{
-	width: 100%;
-}
-#home{
-	position: relative;
-	width: 100%;
-	min-height: 100%;
-	background: url(/img/bg/sliderimage-alt.jpg) no-repeat top -100px scroll;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;}
-#home .logo{
-	position:absolute;
-	top: 20%;
-	right: 2%;
-	width: 100%;
-	height: 100%;
-  max-height: 65px;
-  max-width: 370px;
-}
-#home .logo img{
-	max-width: 370px;
-	width: 100%;
-	display: block;
-}
-#home .middle{
-	margin: 0 auto;
-	width: 100%;
-	height: 100%;
-	position:relative;
-	padding: 0;
-}
-#collection-pieces .middle{
-  margin: -360px 0 0 -460px;
-}
-#collection-pieces .middle .product-line img{
-  margin: 0 17%;
-}
-#collection-pieces .middle .collection-description{
-  margin: 4% auto;
-}
-#ways .middle {
-	position: relative;
-	height:auto;
-	margin:0 auto;
-	padding:0 4%;
-	top:auto;
-	left: auto;
-	width: 92%;
-	max-width: 92%;
-	}
-}
-
-@media screen and(max-width: 960px){
-  #home .made-in-la-logo {
+  width: 92%;
+  max-width: 92%;
+  }
+  #personalize .middle{
   position: absolute;
-  bottom: 2%;
-  right: 2%;
-  width: 80%;
-  height: 100%;
-  max-width: 100px;
-}
-
-@media screen and(max-width: 900px){
-.navigation{
-	right:0%;
-	width: 100%;
-	max-width: 100%;
-	background: transparent;
-	opacity: 1;
-}
-.navigation nav{
-	float: right;
-	width: 100%;
-	max-width: 150px;
-	margin: 0;
-	padding: 0;
-}
-#home{
-	position: relative;
-	width: 100%;
-	min-height: 100%;
-	background: url(/img/bg/sliderimage-alt.jpg) no-repeat -1000px scroll;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;}
-#home .logo{
-	position:absolute;
-	top: 0;
-	right: 25%;
-	width: 100%;
-	height: 100%;
-	max-width: 398px;
-	max-height: 51px;
-	background: none;
-	z-index: 2;
-	padding-top: 6px;
-}
-#home .logo img{
-	max-width: 80%;
-	width: 100%;
-	display: block;
-	opacity: 0.5;
-}
-#home .middle{
-	margin: 0 auto;
-	width: 100%;
-	height: 100%;
-	position:relative;
-	padding: 0;
-}
-#about-us .middle .right-content h3{
-	text-align: center;
-}
-/*#ways .middle{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin: -470px 0 0 -415px;
-	padding: 0;
-}*/
-#ways .middle{
-	position: relative;
-	height:auto;
-	margin:0 auto;
-	padding:0 4%;
-	top:auto;
-	left: auto;
-	width: 92%;
-	max-width: 92%;
-}
-#personalize .middle{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin: -200px 0 0 -430px;
-	padding: 0;
-}
-}
-@media screen and (max-width: 960px){
-#about-us {
-	height:auto;
-	min-height:auto;
-	padding: 0 0 0 0;
-}
-#about-us .middle{
-	position: relative;
-	height:auto;
-	margin:0 auto;
-	padding:0 4%;
-	top:auto;
-	left: auto;
-	width: 92%;
-	max-width: 92%;
-}
-#about-us .middle .left-icon{
-	width: 50%;
-  margin-top: 65px;
-}
-#about-us .middle .right-content{
-  margin-top: 50px;
-}
-#about-us .middle .left-icon img{
-	width: 50%;
-	display: inline-block;
-	padding:0 0 40px 0;
-}
-#about-us .middle .how-it-works ul.steps li{
-	width: 100%;
-}
-#about-us .middle .right-content p,
-#about-us .middle .how-it-works .steps-content p{
-  font-size: 14px;
-  line-height: 28px;
-}
-#about-us .middle .how-it-works ul.steps-content{
-  margin-top: 60px;
-}
-#collection-pieces .middle {
-  margin: -360px 0 0 -450px;
-}
-#collection-pieces .middle .collection-description{
-  width: 400px;
-}
-#collection-pieces .middle .collection-description p{
-  font-size: 13px;
-  line-height: 22px;
-}
-.mini-info li img{
-  width: 100%;
-  max-width: 15%;
-  max-height: 100%;
-}
-.mini-info {
-  max-height: 280px;
-}
-#ways{
-	position:relative;
-	width: 100%;
-	height: 100%;
-	min-height: 100%;
-	background: url(/img/patterns/dust_@2X.png);
+  top: 50%;
+  left: 50%;
+  margin: -200px 0 0 -430px;
   padding: 0;
-}
-#ways .middle{
-	position: relative;
-	height:auto;
-	margin:0 auto;
-	padding:4% 4%;
-	top:auto;
-	left: auto;
-	width: 92%;
-	max-width: 92%;
-}
-#ways .middle h3{
-	color: #888;
-	text-transform: uppercase;
-	margin: 0 0 0 0;
-	padding: 0 0 0 0;
-}
-#ways .middle article{
-	margin-bottom: 20px;
-}
-#ways .middle #map_canvas{
-
-}
-#ways .wrap #map_canvas p{
-	font: 13px Arial,Helvetica,sans-serif;
-	color: #999;
-	padding-top: 8px;
-}
-#ways .middle .right-content .time-font{
-	font: 53px 'Times',sans-serif;
-	font-weight: 300;
-	color: #888;
-	font-style: italic;
-}
-#ways a,
-#ways a:link,
-#ways a:active{
-	text-decoration: none;
-	color: #999;
-	font-weight: 400;
-}
-#ways a:hover{
-	text-decoration: none;
-	color: #888;
-}
-#ways .middle .how-it-works{
-	float: left;
-	margin: 50px 0 0 0;
-	width: 100%;
-}
-#ways .middle .how-it-works ul.steps{
-	width: 92%;
-	margin: 0 auto;
-}
-#ways .middle .how-it-works ul.steps-content{
-	max-width: 100%;
-	margin: 20px auto;
-	padding: 0;
-}
-#ways .middle .how-it-works ul.steps li{
-	list-style: none;
-	display: inline-block;
-	width: 22%;
-	text-align: center;
-}
-#ways .middle .how-it-works ul.steps-content li{
-	list-style: none;
-	display: inline-block;
-	width: 22%;
-	text-align: center;
-	font: 16px/30px 'Open Sans',sans-serif;
-	font-weight: 300;
-	color: #888;
-	text-transform: inherit;
-	vertical-align: top;
-	margin: 0 5%;
-}
-#ways .middle .how-it-works ul.steps-content li .circles{
-	display: block;
-	width: 41px;
-	height: 41px;
-	margin: 0 auto;
-}
-#ways .middle .how-it-works .steps-content p{
-	font: 16px/30px 'Open Sans',sans-serif;
-	font-weight: 300;
-	color: #888;
-	text-transform: inherit;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-#ways .middle #map{
-  width: 100%;
-  max-width: 100%;
-}
-#ways .middle #map img{
-  width: 100%;
-  max-width: 100%;
-}
-#ways .middle .how-it-works ul.steps-content li img{
-  margin: 0 auto;
-  padding: 0 0 0 0;
-  display: block;
-}
-#personalize .middle{
-	position: relative;
-	height:auto;
-	margin:0 auto;
-	padding:25% 4%;
-	top:auto;
-	left: auto;
-	width: 92%;
-	max-width: 92%;
-	}
-}
-@media screen and(max-width: 900px){
-#about-us .middle .left-icon {
+  }
+  #about-us .middle .left-icon {
   float: left;
   margin: 30px 0 0 0;
   width: 29%;
@@ -2298,165 +2092,341 @@ nav{
     width: 90%;
     margin-top: 35px;
   }
+  #collection-pieces .middle{
+    margin: -360px 0 0 -420px;
+  }
 }
+/* ----------------------------- 960px ------------------------------- */
+@media screen and (max-width: 960px){
+  #about-us {
+  	height:auto;
+  	min-height:auto;
+  	padding: 0 0 0 0;
+  }
+  #about-us .middle{
+  	position: relative;
+  	height:auto;
+  	margin:0 auto;
+  	padding:0 4%;
+  	top:auto;
+  	left: auto;
+  	width: 92%;
+  	max-width: 92%;
+  }
+  #about-us .middle .left-icon{
+  	width: 50%;
+    margin-top: 65px;
+  }
+  #about-us .middle .right-content{
+    margin-top: 50px;
+  }
+  #about-us .middle .left-icon img{
+  	width: 50%;
+  	display: inline-block;
+  	padding:0 0 40px 0;
+  }
+  #about-us .middle .how-it-works ul.steps li{
+  	width: 100%;
+  }
+  #about-us .middle .right-content p,
+  #about-us .middle .how-it-works .steps-content p{
+    font-size: 14px;
+    line-height: 28px;
+  }
+  #about-us .middle .how-it-works ul.steps-content{
+    margin-top: 60px;
+  }
+  #collection-pieces .middle {
+    margin: -360px 0 0 -450px;
+  }
+  #collection-pieces .middle .collection-description{
+    width: 400px;
+  }
+  #collection-pieces .middle .collection-description p{
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .mini-info li img{
+    width: 100%;
+    max-width: 15%;
+    max-height: 100%;
+  }
+  .mini-info {
+    max-height: 280px;
+  }
+  #ways{
+  	position:relative;
+  	width: 100%;
+  	height: 100%;
+  	min-height: 100%;
+  	background: url(/img/patterns/dust_@2X.png);
+    padding: 0;
+  }
+  #ways .middle{
+  	position: relative;
+  	height:auto;
+  	margin:0 auto;
+  	padding:4% 4%;
+  	top:auto;
+  	left: auto;
+  	width: 92%;
+  	max-width: 92%;
+  }
+  #ways .middle h3{
+  	color: #888;
+  	text-transform: uppercase;
+  	margin: 0 0 0 0;
+  	padding: 0 0 0 0;
+  }
+  #ways .middle article{
+  	margin-bottom: 20px;
+  }
+  #ways .middle #map_canvas{
 
-
-
-
-
-
-@media screen and(max-width: 850px){
+  }
+  #ways .wrap #map_canvas p{
+  	font: 13px Arial,Helvetica,sans-serif;
+  	color: #999;
+  	padding-top: 8px;
+  }
+  #ways .middle .right-content .time-font{
+  	font: 53px 'Times',sans-serif;
+  	font-weight: 300;
+  	color: #888;
+  	font-style: italic;
+  }
+  #ways a,
+  #ways a:link,
+  #ways a:active{
+  	text-decoration: none;
+  	color: #999;
+  	font-weight: 400;
+  }
+  #ways a:hover{
+  	text-decoration: none;
+  	color: #888;
+  }
+  #ways .middle .how-it-works{
+  	float: left;
+  	margin: 50px 0 0 0;
+  	width: 100%;
+  }
+  #ways .middle .how-it-works ul.steps{
+  	width: 92%;
+  	margin: 0 auto;
+  }
+  #ways .middle .how-it-works ul.steps-content{
+  	max-width: 100%;
+  	margin: 20px auto;
+  	padding: 0;
+  }
+  #ways .middle .how-it-works ul.steps li{
+  	list-style: none;
+  	display: inline-block;
+  	width: 22%;
+  	text-align: center;
+  }
+  #ways .middle .how-it-works ul.steps-content li{
+  	list-style: none;
+  	display: inline-block;
+  	width: 22%;
+  	text-align: center;
+  	font: 16px/30px 'Open Sans',sans-serif;
+  	font-weight: 300;
+  	color: #888;
+  	text-transform: inherit;
+  	vertical-align: top;
+  	margin: 0 5%;
+  }
+  #ways .middle .how-it-works ul.steps-content li .circles{
+  	display: block;
+  	width: 41px;
+  	height: 41px;
+  	margin: 0 auto;
+  }
+  #ways .middle .how-it-works .steps-content p{
+  	font: 16px/30px 'Open Sans',sans-serif;
+  	font-weight: 300;
+  	color: #888;
+  	text-transform: inherit;
+  	padding-top: 20px;
+  	padding-bottom: 20px;
+  }
+  #ways .middle #map{
+    width: 100%;
+    max-width: 100%;
+  }
+  #ways .middle #map img{
+    width: 100%;
+    max-width: 100%;
+  }
+  #ways .middle .how-it-works ul.steps-content li img{
+    margin: 0 auto;
+    padding: 0 0 0 0;
+    display: block;
+  }
+  #personalize .middle{
+  	position: relative;
+  	height:auto;
+  	margin:0 auto;
+  	padding:25% 4%;
+  	top:auto;
+  	left: auto;
+  	width: 92%;
+  	max-width: 92%;
+  	}
+}
+/* ----------------------------- 850px ------------------------------- */
+@media screen and (max-width: 850px){
 
 }
-@media screen and(max-width: 800px){
+/* ----------------------------- 800px ------------------------------- */
+@media screen and (max-width: 800px){
 
 }
+/* ----------------------------- 500px ------------------------------- */
 @media screen and (max-width: 500px){
-#about-us {
-	height:auto;
-	min-height:auto;
-	padding: 70px 0;
-}
-#about-us .middle{
-	position: relative;
-	height:auto;
-	margin:0 auto;
-	padding:0;
-	top:auto;
-	left: auto;
-}
-#about-us .middle .left-icon, #about-us .middle .right-content{
-	width: 100%;
-	max-width: 100%;
-}
-#about-us .middle .right-content h3{
-	text-align: center;
-}
-#about-us .middle .left-icon img{
-	width: 40%;
-	display: inline-block;
-	padding:0 0 40px 0;
-}
-#about-us .middle .how-it-works ul.steps li{
-	width: 100%;
-}
-#about-us .middle .how-it-works ul.steps-content li{
-	width: 100%;
-	margin: 0 0 15% 0;
-	padding: 0;
-}
-#about-us .middle .how-it-works ul.steps-content li .circles{
-	margin: 0 auto 5% auto;
-	padding: 0;
-}
-#about-us .middle .how-it-works .steps-content p{
-	width: 90%;
-	margin: 0;
-	padding: 0;
-	text-align: center;
-}
-#ways{
-	position:relative;
-	width: 100%;
-	height: 100%;
-	min-height: 100%;
-	background: url(/img/patterns/dust_@2X.png);
-}
-#ways .middle{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin: -470px 0 0 -325px;
-	padding: 0;
-}
-#ways .middle h3{
-	color: #888;
-	text-transform: uppercase;
-	margin: 0 0 0 0;
-	padding: 0 0 0 0;
-}
-#ways .middle article{
-	margin-bottom: 20px;
-}
-#ways .middle #map_canvas{
+  #about-us {
+  	height:auto;
+  	min-height:auto;
+  	padding: 70px 0;
+  }
+  #about-us .middle{
+  	position: relative;
+  	height:auto;
+  	margin:0 auto;
+  	padding:0;
+  	top:auto;
+  	left: auto;
+  }
+  #about-us .middle .left-icon, #about-us .middle .right-content{
+  	width: 100%;
+  	max-width: 100%;
+  }
+  #about-us .middle .right-content h3{
+  	text-align: center;
+  }
+  #about-us .middle .left-icon img{
+  	width: 40%;
+  	display: inline-block;
+  	padding:0 0 40px 0;
+  }
+  #about-us .middle .how-it-works ul.steps li{
+  	width: 100%;
+  }
+  #about-us .middle .how-it-works ul.steps-content li{
+  	width: 100%;
+  	margin: 0 0 15% 0;
+  	padding: 0;
+  }
+  #about-us .middle .how-it-works ul.steps-content li .circles{
+  	margin: 0 auto 5% auto;
+  	padding: 0;
+  }
+  #about-us .middle .how-it-works .steps-content p{
+  	width: 90%;
+  	margin: 0;
+  	padding: 0;
+  	text-align: center;
+  }
+  #ways{
+  	position:relative;
+  	width: 100%;
+  	height: 100%;
+  	min-height: 100%;
+  	background: url(/img/patterns/dust_@2X.png);
+  }
+  #ways .middle{
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	margin: -470px 0 0 -325px;
+  	padding: 0;
+  }
+  #ways .middle h3{
+  	color: #888;
+  	text-transform: uppercase;
+  	margin: 0 0 0 0;
+  	padding: 0 0 0 0;
+  }
+  #ways .middle article{
+  	margin-bottom: 20px;
+  }
+  #ways .middle #map_canvas{
 
+  }
+  #ways .wrap #map_canvas p{
+  	font: 13px Arial,Helvetica,sans-serif;
+  	color: #999;
+  	padding-top: 8px;
+  }
+  #ways .middle .right-content .time-font{
+  	font: 53px 'Times',sans-serif;
+  	font-weight: 300;
+  	color: #888;
+  	font-style: italic;
+  }
+  #ways a,
+  #ways a:link,
+  #ways a:active{
+  	text-decoration: none;
+  	color: #999;
+  	font-weight: 400;
+  }
+  #ways a:hover{
+  	text-decoration: none;
+  	color: #888;
+  }
+  #ways .middle .how-it-works{
+  	float: left;
+  	margin: 50px 0 0 0;
+  	width: 100%;
+  }
+  #ways .middle .how-it-works ul.steps{
+  	width: 92%;
+  	margin: 0 auto;
+  }
+  #ways .middle .how-it-works ul.steps-content{
+  	max-width: 100%;
+  	margin: 20px auto;
+  	padding: 0;
+  }
+  #ways .middle .how-it-works ul.steps li{
+  	list-style: none;
+  	display: inline-block;
+  	width: 22%;
+  	text-align: center;
+  }
+  #ways .middle .how-it-works ul.steps-content li{
+  	list-style: none;
+  	display: inline-block;
+  	width: 22%;
+  	text-align: center;
+  	font: 16px/30px 'Open Sans',sans-serif;
+  	font-weight: 300;
+  	color: #888;
+  	text-transform: inherit;
+  	vertical-align: top;
+  	margin: 0 5%;
+  }
+  #ways .middle .how-it-works ul.steps-content li .circles{
+  	display: block;
+  	width: 41px;
+  	height: 41px;
+  	margin: 0 auto;
+  }
+  #ways .middle .how-it-works .steps-content p{
+  	font: 16px/30px 'Open Sans',sans-serif;
+  	font-weight: 300;
+  	color: #888;
+  	text-transform: inherit;
+  	padding-top: 20px;
+  	padding-bottom: 20px;
+  	}
 }
-#ways .wrap #map_canvas p{
-	font: 13px Arial,Helvetica,sans-serif;
-	color: #999;
-	padding-top: 8px;
-}
-#ways .middle .right-content .time-font{
-	font: 53px 'Times',sans-serif;
-	font-weight: 300;
-	color: #888;
-	font-style: italic;
-}
-#ways a,
-#ways a:link,
-#ways a:active{
-	text-decoration: none;
-	color: #999;
-	font-weight: 400;
-}
-#ways a:hover{
-	text-decoration: none;
-	color: #888;
-}
-#ways .middle .how-it-works{
-	float: left;
-	margin: 50px 0 0 0;
-	width: 100%;
-}
-#ways .middle .how-it-works ul.steps{
-	width: 92%;
-	margin: 0 auto;
-}
-#ways .middle .how-it-works ul.steps-content{
-	max-width: 100%;
-	margin: 20px auto;
-	padding: 0;
-}
-#ways .middle .how-it-works ul.steps li{
-	list-style: none;
-	display: inline-block;
-	width: 22%;
-	text-align: center;
-}
-#ways .middle .how-it-works ul.steps-content li{
-	list-style: none;
-	display: inline-block;
-	width: 22%;
-	text-align: center;
-	font: 16px/30px 'Open Sans',sans-serif;
-	font-weight: 300;
-	color: #888;
-	text-transform: inherit;
-	vertical-align: top;
-	margin: 0 5%;
-}
-#ways .middle .how-it-works ul.steps-content li .circles{
-	display: block;
-	width: 41px;
-	height: 41px;
-	margin: 0 auto;
-}
-#ways .middle .how-it-works .steps-content p{
-	font: 16px/30px 'Open Sans',sans-serif;
-	font-weight: 300;
-	color: #888;
-	text-transform: inherit;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	}
-}
-
-
-/* ----------------------------- Modals ------------------------------------------- */
-/*	--------------------------------------------------
-	Reveal Modals
-	-------------------------------------------------- */
-
+/* -------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------- */
+/* ----------------------------- Modals ----------------------------- */
 .reveal-modal-bg {
 	position: fixed;
 	height: 100%;
@@ -2873,6 +2843,7 @@ body {
   outline: 0;
   z-index: 1;
   background: transparent url(/img/icons/arrow-top.png) no-repeat;
+  display: none;
 }
 #scrollup .icon-chevron-up{
   color: #fff;
