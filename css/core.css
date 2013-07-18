@@ -1563,11 +1563,15 @@ footer .footer-wrapper{
 }
 
 
-
+/* Minimum Width contents */
 @media screen and(min-width: 1000px){
-  nav{
-    font-size: 13px;
-  }
+nav{
+  font-size: 12px;
+  color: #c3c3c8;
+}
+.navigation{
+  max-width: 1000px;
+}
 #url-list{
   margin: 0;
   padding: 0;
@@ -1580,7 +1584,13 @@ footer .footer-wrapper{
 #url-list li{
   display: inline-block;
 }
+#contact-us-mini li a{
+  color: #999;
 }
+
+
+}
+
 @media screen and(max-width: 1440px){
 #home .logo{
 	position:absolute;
@@ -1607,7 +1617,7 @@ footer .footer-wrapper{
 }
 .navigation{
 	width: 100%;
-	max-width: 275px;
+	max-width: 100%;
 	right: 1%;
 }
 nav{
@@ -1964,10 +1974,10 @@ nav{
 	width: 100%;
 	height: 100%;
   max-height: 65px;
-  max-width: 270px;
+  max-width: 370px;
 }
 #home .logo img{
-	max-width: 270px;
+	max-width: 370px;
 	width: 100%;
 	display: block;
 }
@@ -2014,7 +2024,7 @@ nav{
 	right:0%;
 	width: 100%;
 	max-width: 100%;
-	background: #fff;
+	background: transparent;
 	opacity: 1;
 }
 .navigation nav{
@@ -2119,8 +2129,8 @@ nav{
 }
 #about-us .middle .right-content p,
 #about-us .middle .how-it-works .steps-content p{
-  font-size: 13px;
-  line-height: 22px;
+  font-size: 14px;
+  line-height: 28px;
 }
 #about-us .middle .how-it-works ul.steps-content{
   margin-top: 60px;
@@ -2265,6 +2275,36 @@ nav{
 	max-width: 92%;
 	}
 }
+@media screen and(max-width: 900px){
+#about-us .middle .left-icon {
+  float: left;
+  margin: 30px 0 0 0;
+  width: 29%;
+  max-width: 250px;
+  height: auto;
+  text-align: center;
+  }
+  #about-us .middle .right-content h3,
+  #about-us .middle .right-content .time-font{
+    text-align: left;
+    font-size: 30px;
+  }
+  #about-us .middle .right-content p,
+  #about-us .middle .how-it-works .steps-content p{
+    font-size: 14px;
+    line-height: 28px;
+  }
+  #about-us .middle .left-icon img{
+    width: 90%;
+    margin-top: 35px;
+  }
+}
+
+
+
+
+
+
 @media screen and(max-width: 850px){
 
 }

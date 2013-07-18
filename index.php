@@ -25,6 +25,11 @@
   <section class="navigation">
     <nav id="contact-us-mini">
       <ul>
+        <li><a href="#home" class="scroll" id="hide-me">Home</a></li>
+        <li><a href="#about-us" class="scroll" id="hide-me">About</a></li>
+        <li><a href="#collection-pieces" class="scroll" id="hide-me">Collection Pieces</a></li>
+        <li><a href="#ways" class="scroll" id="hide-me">What Are Yours</a></li>
+        <li><a href="#personalize" class="scroll" id="hide-me">Personalize</a></li>
         <li>
         <a href="mailto:info@coordinatescollection.com"><i class="icon-envelope">
 </i>&nbsp;Contact Us</a>
@@ -32,15 +37,6 @@
         <li id="phone">
           <a><i class="icon-phone"></i>&nbsp;&nbsp;1-888-878-7120</a>
         </li>
-      </ul>
-    </nav>
-    <nav id="url-list">
-      <ul>
-        <li><a href="#home" class="scroll">Home</a></li>
-        <li><a href="#about-us" class="scroll">About</a></li>
-        <li><a href="#collection-pieces" class="scroll">Collection Pieces</a></li>
-        <li><a href="#ways" class="scroll">What Are Yours</a></li>
-        <li><a href="#personalize" class="scroll">Personalize</a></li>
       </ul>
     </nav>
   </section>
