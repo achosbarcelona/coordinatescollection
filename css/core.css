@@ -727,7 +727,7 @@ nav{
 }
 .mini-info li img{
   width: 100%;
-  max-width: 70px;
+  max-width: 50px;
   max-height: 100%;
 }
 .mini-info li h2{
@@ -1277,6 +1277,8 @@ footer .footer-wrapper{
 /* -------------------------------------------------------------------------------- */
 /* ----------------------------- Media Queries ------------------------------------ */
 /* ------------------------------------------------------------------------------- */
+
+
 @media only screen and (min-height: 1001px){
 #about-us {
 	/*height:auto;
@@ -1387,27 +1389,6 @@ footer .footer-wrapper{
 }
 
 
-@media only screen and (max-height: 700px){
-	#about-us .middle{
-
-	}
-	#home .logo{
-		width: 100%;
-		max-width: 320px;
-	}
-	#home .logo img{
-		width: 100%;
-		max-width: 100%;
-	}
-	#home .made-in-la-logo{
-		width: 100%;
-		max-width: 131px;
-	}
-	#home .made-in-la-logo img{
-		width: 100%;
-		max-width: 100%;
-	}
-}
 /* --------------------  Max Height changes -------------------- */
 @media only screen and (max-height: 900px){
 #about-us .middle{
@@ -1501,6 +1482,10 @@ footer .footer-wrapper{
   max-height: 310px;
 }
 }
+
+
+
+
 @media only screen and (max-height: 800px){
 /* ------------------------ About Us Sections -------------------------- */
 #about-us .middle{
@@ -1568,6 +1553,9 @@ footer .footer-wrapper{
 
 }
 
+
+
+
 @media only screen and(max-width: 1440px){
 #home .logo{
 	position:absolute;
@@ -1604,7 +1592,7 @@ nav{
 	position: relative;
 	width: 100%;
 	min-height: 100%;
-	background: url(/img/bg/sliderimage-alt.jpg) no-repeat -1100px scroll;
+	background: url(/img/bg/sliderimage-alt.jpg) no-repeat center right scroll;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -1711,6 +1699,8 @@ nav{
 #about-us .middle  .right-content p{
 	color: #888;
 	text-transform: inherit;
+  font-size: 13px;
+  line-height: 25px;
 }
 #about-us .middle .right-content .time-font{
 	font: 40px 'Didot',sans-serif;
@@ -1754,11 +1744,11 @@ nav{
 }
 
 #about-us .middle .how-it-works .steps-content p{
-	font: 16px/30px 'Open Sans',sans-serif;
+	font: 13px/25px 'Open Sans',sans-serif;
 	font-weight: 300;
 	color: #888;
 	text-transform: inherit;
-	padding: 5px 0 0 0;
+	padding: 5px 0 10px 0;
 }
 /* -------------------- What Are Yours --------------------- */
 #ways{
@@ -1772,17 +1762,19 @@ nav{
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	margin: -480px 0 0 -500px;
+	margin: -375px 0 0 -500px;
 	padding: 0;
 }
 #ways .middle h3{
 	color: #888;
 	text-transform: uppercase;
-	margin: 0 0 0 0;
+	margin: 0 auto;
 	padding: 0 0 0 0;
+  max-width: 675px;
 }
 #ways .middle article{
 	margin-bottom: 20px;
+  max-width: 675px;
 }
 #ways .middle #map_canvas{
 }
@@ -1810,8 +1802,9 @@ nav{
 }
 #ways .middle .how-it-works{
 	float: left;
-	margin: 0 0 0 0;
+	margin: 0 13%;
 	width: 100%;
+  max-width: 800px;
 }
 #ways .middle .how-it-works ul.steps{
 	width: 92%;
@@ -1819,7 +1812,7 @@ nav{
 }
 #ways .middle .how-it-works ul.steps-content{
 	max-width: 100%;
-	margin: 20px auto;
+	margin: 0 auto;
 	padding: 0;
 }
 #ways .middle .how-it-works ul.steps li{
@@ -1831,23 +1824,27 @@ nav{
 #ways .middle .how-it-works ul.steps-content li{
 	list-style: none;
 	display: inline-block;
-	width: 22%;
+	width: 23%;
 	text-align: center;
 	font: 16px/30px 'Open Sans',sans-serif;
 	font-weight: 300;
 	color: #888;
 	text-transform: inherit;
 	vertical-align: top;
-	margin: 0 5%;
+	margin: 0 4%;
 }
 #ways .middle .how-it-works ul.steps-content li .circles{
 	display: block;
-	width: 41px;
-	height: 41px;
+	width: 31px;
+	height: 31px;
 	margin: 0 auto;
 }
+#ways .middle #map img {
+  width: 75%;
+  max-width: 75%;
+}
 #ways .middle .how-it-works .steps-content p{
-	font: 16px/26px 'Open Sans',sans-serif;
+	font: 13px/22px 'Open Sans',sans-serif;
 	font-weight: 300;
 	color: #888;
 	text-transform: inherit;
@@ -1919,9 +1916,9 @@ nav{
 }
 #personalize .middle #mc_embed_signup h1{
 }
-
-
-
+#collection-pieces .middle .collection-description{
+  margin: 4% auto;
+}
 }
 @media only screen and(max-width: 1000px){
 .navigation{
@@ -2389,6 +2386,8 @@ nav{
 	padding-bottom: 20px;
 	}
 }
+
+
 /* ----------------------------- Modals ------------------------------------------- */
 /*	--------------------------------------------------
 	Reveal Modals
