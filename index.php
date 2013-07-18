@@ -26,10 +26,11 @@
     <nav id="contact-us-mini">
       <ul>
         <li>
-        <a href="mailto:info@coordinatescollection.com"><i class="icon-envelope"></i> info@coordinatescollection.com</a>
+        <a href="mailto:info@coordinatescollection.com"><i class="icon-envelope">
+</i>&nbsp;Contact Us</a>
         </li>
-        <li>
-          <i class="icon-phone"></i>&nbsp;&nbsp;1-888-878-7120
+        <li id="phone">
+          <a><i class="icon-phone"></i>&nbsp;&nbsp;1-888-878-7120</a>
         </li>
       </ul>
     </nav>
@@ -44,7 +45,7 @@
   </div>
   <div id="learn-more-home">
     <span>
-      <a href="#about-us" class="scroll" id="jump-1">The Collection is here &nbsp; <i class="icon-angle-right"></i></a>
+      <a href="#about-us" class="scroll" id="jump-1">Learn More &nbsp; <i class="icon-angle-right"></i></a>
     </span>
     </div>
 </section>
