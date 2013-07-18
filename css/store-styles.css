@@ -14,4 +14,5 @@ a{text-decoration:none;}
 .selection{cursor:pointer;}
 .custom{position:absolute;z-index:34500000;margin-left:630px;float: left;margin-top: -350px;}
 h2{text-align:center; background:#eaeaea; font-size:2em; text-transform:uppercase; }
+/* ---- Overlay Contents -------- /
 #overlay{ display:none;}
