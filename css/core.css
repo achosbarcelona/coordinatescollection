@@ -1289,7 +1289,7 @@ footer .footer-wrapper{
 /* -------------------------------------------------------------------------------- */
 /* ----------------------------- Media Queries ------------------------------------ */
 /* ------------------------------------------------------------------------------- */
-@media only screen and (min-height: 1001px){
+@media screen and (min-height: 1001px){
 #about-us {
 	/*height:auto;
 	min-height:auto;
@@ -1351,7 +1351,7 @@ footer .footer-wrapper{
 
 
 
-@media only screen and (max-height: 1000px){
+@media screen and (max-height: 1000px){
 /* ------------------------ About Us Sections -------------------------- */
 /* stuff needs to be resized etc...
 #about-us .middle{
@@ -1400,7 +1400,7 @@ footer .footer-wrapper{
 
 
 /* --------------------  Max Height changes -------------------- */
-@media only screen and (max-height: 900px){
+@media screen and (max-height: 900px){
 #about-us .middle{
   margin: -360px 0 0 -500px;
 }
@@ -1496,7 +1496,7 @@ footer .footer-wrapper{
 
 
 
-@media only screen and (max-height: 800px){
+@media screen and (max-height: 800px){
 /* ------------------------ About Us Sections -------------------------- */
 #about-us .middle{
   margin: -360px 0 0 -500px;
@@ -1566,7 +1566,7 @@ footer .footer-wrapper{
 
 
 
-@media only screen and(max-width: 1440px){
+@media screen and(max-width: 1440px){
 #home .logo{
 	position:absolute;
 	top: 20%;
@@ -1586,7 +1586,7 @@ footer .footer-wrapper{
 	max-height:138px;
 }
 }
-@media only screen and (max-width: 1100px){
+@media screen and (max-width: 1100px){
 #learn-more-home{
 	left: 32%;
 }
@@ -1930,7 +1930,7 @@ nav{
   margin: 4% auto;
 }
 }
-@media only screen and(max-width: 1000px){
+@media screen and(max-width: 1000px){
 .navigation{
 	width: 100%;
 }
@@ -1985,7 +1985,7 @@ nav{
 	}
 }
 
-@media only screen and(max-width: 960px){
+@media screen and(max-width: 960px){
   #home .made-in-la-logo {
   position: absolute;
   bottom: 2%;
@@ -1995,7 +1995,7 @@ nav{
   max-width: 100px;
 }
 
-@media only screen and(max-width: 900px){
+@media screen and(max-width: 900px){
 .navigation{
 	right:0%;
 	width: 100%;
@@ -2072,7 +2072,7 @@ nav{
 	padding: 0;
 }
 }
-@media only screen and (max-width: 960px){
+@media screen and (max-width: 960px){
 #about-us {
 	height:auto;
 	min-height:auto;
@@ -2251,13 +2251,13 @@ nav{
 	max-width: 92%;
 	}
 }
-@media only screen and(max-width: 850px){
+@media screen and(max-width: 850px){
 
 }
-@media only screen and(max-width: 800px){
+@media screen and(max-width: 800px){
 
 }
-@media only screen and (max-width: 500px){
+@media screen and (max-width: 500px){
 #about-us {
 	height:auto;
 	min-height:auto;
@@ -2826,7 +2826,7 @@ body {
 }
 
 /* Mobile Sections */
-@media only screen and (min-width : 320px) and (max-width : 568px){
+@media screen and (min-width : 320px) and (max-width : 568px){
 #home {
 position: relative;
 width: 100%;
@@ -2915,5 +2915,95 @@ width: 100%;
 footer{
   display: none;
 }
+}
+/* Lesser iphones */
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+  #home {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  background: url(/img/bg/sliderimage-alt.jpg) no-repeat -600px 50px scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+  #home .logo {
+  position: absolute;
+  top: 0%;
+  left: 5%;
+  width: 100%;
+  height: 100%;
+  max-height: 65px;
+  max-width: 170px;
+  }
+  .navigation{
+    background: #111;
+    width: 100%;
+    max-height: 50px;
+  }
+  .navigation #contact-us-mini{
+    max-width: 50%;
+  }
+  .navigation #contact-us-mini ul{
+    padding: 0;
+    margin: 0;
+    height: 50px;
+  }
+  .navigation #contact-us-mini li{
+    cursor: pointer;
+    line-height: 8px;
+    padding-top: 20px;
+  }
+  .navigation #contact-us-mini li#phone{
+    display: none;
+  }
+  .navigation #contact-us-mini li a{
+    font-size: 10px;
+    color: #999;
+    line-height: 0;
+  }
+  .navigation #contact-us-mini li a:hover{
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  #home .made-in-la-logo {
+  position: absolute;
+  bottom: 1%;
+  right: 1%;
+  width: 80%;
+  height: 100%;
+  max-width: 50px;
+  max-height: 53px;
+  }
+  #home .made-in-la-logo img {
+  max-width: 80%;
+  width: 100%;
+  }
+  #learn-more-home{
+    width: 100%;
+    max-width: 129px;
+  }
+  #learn-more-home span{
+    font-size: 15px;
+  }
+  #about-us{
+    display: none;
+  }
+  #collection-pieces{
+    display: none;
+  }
 
+  #ways{
+    display:none;
+  }
+  #personalize{
+    display:none;
+  }
+  #scrollup{
+    display: none;
+  }
+  footer{
+    display: none;
+  }
 }
