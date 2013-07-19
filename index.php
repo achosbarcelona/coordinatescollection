@@ -191,9 +191,6 @@
         </ul>
       </div>
       <button class="customize">Continue customizing</button>
-
-
-</script>
     <div id="overlay">
 					<ul id="custom-nav">
 						<li><div id="customize"><span>Customize</span></div></li>
@@ -208,15 +205,17 @@
 				<div id="gallery-wrap">
 
 					<div id="gallery-controls">
-					    <a href="#" id="gallery-prev"><i class="icon-double-angle-left icon-2x"></i></a>
-					    <a href="#" id="gallery-next"><i class="icon-double-angle-right icon-2x"></i></a>
+					    <a href="#" id="gallery-prev"><i class="icon-angle-left icon-2x"></i></a>
+					    <a href="#" id="gallery-next"><i class="icon-angle-right icon-2x"></i></a>
 					</div>
 				    <ul id="gallery">
 						<li>
 							<div id="customize">
 								<h2>Customize</h2>
 									<ul class="horizon" id="custom-selections-customize">
-										<li>How it Works:</li>
+										<li>How it Works:
+                      <p>Lorem ipsum dolore sit amet consectuer adiscipling consectuer adiscipling</p>
+                    </li>
 									</ul>
 							</div>
 						</li>
@@ -459,7 +458,6 @@
 							<div id="customize">
 								<h2>Summary</h2>
 								<p><div class="sku"  id="custom-selections-summary">
-
 								</div></p>
 								<p><div class="sku"  id="sku-metal"></div></p>
 								<p><div class="sku"  id="sku-finish"></div></p>
@@ -474,8 +472,9 @@
 						</li>
 				    </ul>
 				</div>
+        <img class="custom" src="img/merchandise/horizon/bracelet/horizon_bracelet_gold.jpg" height="300" width="300" id="image-rep" />
     </div>
-	<img class="custom" src="img/merchandise/horizon/bracelet/horizon_bracelet_gold.jpg" height="300" width="300" />
+
 </div>
 
     </div>
