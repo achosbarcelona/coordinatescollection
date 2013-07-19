@@ -1484,7 +1484,7 @@ footer .footer-wrapper{
 
   }
 }
-@media screen and (max-height: 800px){
+@media screen and (max-height: 802px){
   #about-us .middle{
     margin: -360px 0 0 -500px;
   }
@@ -1508,12 +1508,13 @@ footer .footer-wrapper{
     position: relative;
     height:auto;
     margin:0 auto;
-    padding:0;
+    padding: 10px 0 0 0;
     top:auto;
     left: auto;
   }
   #ways .middle article{
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    max-width: 775px;
   }
   #ways .middle .how-it-works{
     margin-top: 0;
@@ -1523,14 +1524,15 @@ footer .footer-wrapper{
     height: 31px;
   }
   #ways .middle #map img{
-    width: 88%;
-    max-width: 88%;
+    width: 86%;
+    max-width: 86%;
   }
   #ways .middle .how-it-works .steps-content p{
     padding-top: 0;
   }
   #ways .middle h3{
     margin-top: 10px;
+    max-width: 775px;
   }
   #ways #continue-arrow-wrapper{
     bottom: 0;
