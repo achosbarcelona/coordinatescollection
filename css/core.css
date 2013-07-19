@@ -37,9 +37,7 @@ a:hover{
 	max-width: 400px;
 }
 .navigation a:hover{
-	text-decoration: none;
-	border-bottom: 1px solid #333;
-	padding-bottom: 3px;
+	text-decoration: underline;
 	color: #333;
 	-webkit-transition-property: color;
 	-webkit-transition-duration: .4s, .4s;
@@ -282,11 +280,11 @@ nav{
 #learn-more-home span{
 	border: 3px solid #fff;
 	color: #fff;
-	font: 30px "Open Sans",sans-serif;
+	font: 30px "doubleuserif",sans-serif;
 	font-weight: 300;
 	text-transform: uppercase;
 	padding: 8px 8px 8px 8px;
-	background: #c3c3c8;
+	background: transparent;
 }
 #learn-more-home a,
 #learn-more-home a:active,
