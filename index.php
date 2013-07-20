@@ -269,6 +269,7 @@
 <!-- Scroll Up -->
 <a href="#home" id="scrollup"></a>
 <!-- Scroll Up EOF -->
+<!-- JS Controls DO NOT REMOVE -->
 <script src="js/vendor/jquery.js"></script>
 <script src="https://maps.google.com/maps/api/js?sensor=true"></script>
 <script>
