@@ -165,328 +165,18 @@
     </a>
   </div>
 </section>
-  <section id="personalize">
-    <div class="middle">
-      <h3>Select your style</h3>
+<section id="personalize">
+  <div class="middle">
       <div class="products">
-        <ul class="product-names">
-          <li>
-            <a id="legend" class="selection">
-              <img src="/img/product/blanks/legend-collection.png" alt="Legend Collection" />
-            </a>
-            <p>Legend Collection</p>
-          </li>
-          <li>
-            <a id="meridian" class="selection">
-              <img src="/img/product/blanks/meridian-collection.png" alt="Meridian Collection" />
-            </a>
-            <p>Meridian Collection</p>
-          </li>
-          <li>
-            <a id="horizon" class="selection">
-              <img src="/img/product/blanks/horizon-collection.png" alt="Horizon Collection" />
-            </a>
-            <p>Horizon Collection</p>
-          </li>
+        <ul class="bxslider">
+          <li><a href="#" data-reveal-id="emailSignUp"><img src="/img/bg/legend-collection-lrg.png" alt="Legend Collection" /></a></li>
+          <li><a href="#" data-reveal-id="emailSignUp"><img src="/img/bg/meridian-collection-lrg.png" alt="Meridian Collection" /></a></li>
+          <li><a href="#" data-reveal-id="emailSignUp"><img src="/img/bg/horizon-collection-lrg.png" alt="Horizon Collection" /></a></li>
         </ul>
       </div>
       <button class="customize">Continue customizing</button>
-    <div id="overlay">
-					<ul id="custom-nav">
-						<li><div id="customize"><span>Customize</span></div></li>
-						<li><div id="designs"><span>Design</span></div></li>
-						<li><div id="metal"><span>metal</span></div></li>
-						<li><div id="finish"><span>finish</span></div></li>
-						<li><div id="stone"><span>stone</span></div></li>
-						<li><div id="size"><span>size</span></div></li>
-						<li><div id="text"><span>text</span></div></li>
-						<li><div id="summary"><span>summary</span></div></li>
-					</ul>
-				<div id="gallery-wrap">
-
-					<div id="gallery-controls">
-					    <a href="#" id="gallery-prev"><i class="icon-angle-left icon-2x"></i></a>
-					    <a href="#" id="gallery-next"><i class="icon-angle-right icon-2x"></i></a>
-					</div>
-				    <ul id="gallery">
-						<li>
-							<div id="customize">
-								<h2>Customize</h2>
-									<ul class="horizon" id="custom-selections-customize">
-										<li>How it Works:
-                      <p>Lorem ipsum dolore sit amet consectuer adiscipling consectuer adiscipling</p>
-                    </li>
-									</ul>
-							</div>
-						</li>
-						<li>
-							<div id="custom-selections-designs">
-								<h2>Design</h2>
-									<ul class="horizon" id="custom-selections-design">
-										<li>
-											<h3 id="HB">
-												<img src="img/merchandise/horizon/bracelet/horizon_bracelet_gold.jpg"  height="100" width="100" title="Horizon Bracelet" />
-											</h3>
-										</li>
-										<li>
-											<h3 id="HR">
-												<img src="img/merchandise/horizon/ring/horizon_ring_gold.jpg"  height="100" width="100" title="Horizon Ring "/>
-											</h3>
-										</li>
-									</ul>
-									<ul class="legend" id="custom-selections-design">
-
-										<li>
-											<h3 id="LB">
-												<img src="img/merchandise/legend/bracelet/legend_bracelet_gold.jpg"  height="100" width="100" title="Legend Bracelet"/>
-											</h3>
-
-										</li>
-										<li>
-											<h3 id="LR">
-												<img src="img/merchandise/legend/ring/legend_ring_gold.jpg"  height="100" width="100" title="Legend Ring"/>
-											</h3>
-										</li>
-									</ul>
-									<ul class="meridian" id="custom-selections-design">
-										<li>
-											<h3 id="MB">
-												<img src="img/merchandise/meridian/bracelet/meridian_bracelet_rose_gold.jpg"  height="100" width="100" title="Meridian Bracelet"/>
-											</h3>
-
-										</li>
-										<li>
-											<h3 id="MR">
-												<img src="img/merchandise/meridian/ring/meridian_ring_rose_gold.jpg"  height="100" width="100" title="Meridian Ring"/>
-											</h3>
-
-										</li>
-									</ul>
-									<ul class="palisades" id="custom-selections-design">
-										<li>
-											<h3 id="PB">
-												<img src="img/merchandise/palisades/bracelet/palisades_bracelet_silver.jpg"  height="100" width="100" title="Palisades Bracelet"/>
-											</h3>
-
-										</li>
-										<li>
-											<h3 id="PR">
-												<img src="img/merchandise/palisades/ring/palisades_ring_silver.jpg"  height="100" width="100" title="Palisades Ring"/>
-											</h3>
-
-										</li>
-									</ul>
-
-
-							</div>
-						</li>
-						<li>
-							<div id="metal">
-								<h2>metal</h2>
-									<ul id="custom-selections-metal">
-										<li>
-											<h3 id="B"><img src="img/finishes/brass.jpg" height="30" width="30" alt="Brass" title="Brass" /></h3>
-										</li>
-										<li>
-											<h3 id="S">
-											<img src="img/finishes/sterling.png" height="30" width="30" alt="Sterling Silver" title="Sterling Silver" /></h3>
-
-										</li>
-										<li>
-											<h3 id="G">
-											<img src="img/finishes/gold.png" height="30" width="30"  title="Gold"/></h3>
-
-										</li>
-									</ul>
-
-							</div>
-						</li>
-						<li>
-							<div id="finish">
-								<h2>finish</h2>
-									<ul id="custom-selections-finish">
-										<li>
-											<h3  id="B" class="ANTIQUE BRASS">
-											<img src="img/finishes/brass.jpg" height="30" width="30" />
-											</h3>
-										</li>
-										<li>
-											<h3  id="S" class="ANTIQUE SILVER">
-											<img src="img/finishes/antique-silver.jpg" height="30" width="30" />
-											</h3>
-										</li>
-										<li>
-											<h3  id="G"class="GOLD">
-												<img src="img/finishes/gold.png" height="30" width="30" />
-											</h3>
-										</li>
-										<li>
-											<h3  id="U" class="GUNMETAL">
-											<img src="img/finishes/gunmetal.jpg" height="30" width="30" />
-											</h3>
-										</li>
-										<li>
-											<h3  id="R" class="ROSE GOLD">
-											<img src="img/finishes/rose.jpg" height="30" width="30" />
-											</h3>
-										</li>
-										<li>
-											<h3  id="S" class="SILVER">
-											<img src="img/finishes/silver.jpg" height="30" width="30" />
-											</h3>
-										</li>
-										<li>
-											<h3  id="S" class="STERLING SILVER">
-											<img src="img/finishes/sterling.png" height="30" width="30" />
-											</h3>
-										</li>
-									</ul>
-							</div>
-						</li>
-						<li>
-							<div id="stone">
-
-								<h2>stone</h2>
-								<div>
-									<p class="stone stone-title"></p>
-									<p class="stone stone-size">Stone Size: 2.5mm Round Stone</p>
-									<p class="stone stone-detail"></p>
-								</div>
-									<ul id="custom-selections-stone">
-										<li>
-											<h3 class="diamond april">
-											<img src="img/gems/diamond.jpg" height="30" width="30" />
-											</h3>
-										</li>
-										<li>
-											<h3 class="pearl june">
-											<img src="img/gems/pearl.jpg" height="30" width="30" />
-											</h3>
-										</li>
-										<li>
-											<h3 class="opal october">
-											<img src="img/gems/opal.jpg" height="30" width="30" />
-											</h3>
-										</li>
-										<li>
-											<h3 class="citrine november">
-											<img src="img/gems/citrine.jpg" height="30" width="30" />
-											</h3>
-										</li>
-										<li>
-											<h3 class="emerald may">
-											<img src="img/gems/emerald.jpg" height="30" width="30" />
-											</h3>
-										</li>
-										<li>
-											<h3 class="peridot august">
-											<img src="img/gems/peridot.JPG" height="30" width="30" />
-											</h3>
-										</li>
-										<li>
-											<h3 class="aquamarine march">
-											<img src="img/gems/aquamarine.jpg" height="30" width="30" />
-											</h3>
-										</li>
-										<li>
-											<h3 class="topaz">
-											<img src="img/gems/topaz.jpg" height="30" width="30" />
-											</h3>
-										</li>
-										<li>
-											<h3 class="sapphire september">
-											<img src="img/gems/sapphire.png" height="30" width="30" />
-											</h3>
-										</li>
-										<li>
-											<h3 class="amethyst february">
-											<img src="img/gems/amethyst.jpg" height="30" width="30" />
-											</h3>
-										</li>
-										<li>
-											<h3 class="garnet january">
-											<img src="img/gems/garnet.jpg" style="height:40px; width:40px; background: scroll 200 20 ! important;" />
-											</h3>
-										</li>
-										<li>
-											<h3 class="ruby july">
-											<img src="img/gems/ruby.png" height="30" width="30" />
-											</h3>
-										</li>
-									</ul>
-
-							</div>
-						</li>
-						<li>
-							<div id="size">
-								<h2>size</h2>
-								<ul id="custom-selections-size">
-									<li>
-										<h3 class="icon-check-empty"> xs</h3>
-									</li>
-									<li>
-										<h3 class="icon-check-empty"> s</h3>
-									</li>
-									<li>
-										<h3 class="icon-check-empty"> m</h3>
-
-									</li>
-									<li>
-										<h3 class="icon-check-empty"> l</h3>
-									</li>
-								</ul>
-
-							</div>
-						</li>
-						<li>
-							<div id="text">
-								<h2>engraving</h2>
-								<ul id="custom-selections-text">
-									<li style="display:block;">
-										<h3>outside</h3>
-										<textarea></textarea>
-									</li>
-									<li style="display:block;">
-										<h3>inside</h3>
-										<textarea></textarea>
-									</li>
-								</ul>
-
-							</div>
-						</li>
-						<li>
-							<div id="customize">
-								<h2>Summary</h2>
-								<p><div class="sku"  id="custom-selections-summary">
-								</div></p>
-								<p><div class="sku"  id="sku-metal"></div></p>
-								<p><div class="sku"  id="sku-finish"></div></p>
-								<p><div class="sku"  id="sku-stone"></div></p>
-								<p><div class="sku"  id="sku-size"></div></p>
-								<p><div class="sku"  id="sku-text-outside"></div></p>
-								<p><div class="sku"  id="sku-text-inside"></div></p>
-							</div>
-							<p class="summary-footer">
-								<span class="summary-price"></span class="summary-cart"><span>Add to Cart</span>
-							</p>
-						</li>
-				    </ul>
-				</div>
-        <img class="custom" src="img/merchandise/horizon/bracelet/horizon_bracelet_gold.jpg" height="300" width="300" id="image-rep" />
-    </div>
-
-</div>
-
-    </div>
-</div>
-  </section>
-	    <p>
-        <span class="btn clear">Clear Selections</span> &nbsp; &nbsp; &nbsp; &nbsp;<button class="purchase">Buy</button>
-      </p>
-
-
-
-
+  </div>
+</section>
 <!-- Footer Section -->
 <footer>
   <div class="footer-wrapper">
@@ -516,11 +206,11 @@
   </ul>
   <ul id="navigate">
     <h2>Navigate</h2>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#about-us">About</a></li>
-    <li><a href="#collection-pieces">Collection Pieces</a></li>
-    <li><a href="#ways">What Are Yours</a></li>
-    <li><a href="#personalize">Personalize</a></li>
+    <li><a href="#home" class="scroll">Home</a></li>
+    <li><a href="#about-us" class="scroll">About</a></li>
+    <li><a href="#collection-pieces" class="scroll">Collection Pieces</a></li>
+    <li><a href="#ways" class="scroll">What Are Yours</a></li>
+    <li><a href="#personalize" class="scroll">Personalize</a></li>
     <li></li>
   </ul>
   <ul id="customer-service">
@@ -589,6 +279,7 @@
 <script src="js/foundation.min.js"></script>
 <script src="js/load.js"></script>
 <script src="js/jquery.ui.map.full.min.js"></script>
+<script src="js/vendor/bxslider.min.js"></script>
 <script src="//assets.pinterest.com/js/pinit.js"></script>
 <!-- FB SDK -->
 <div id="fb-root"></div>

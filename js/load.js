@@ -36,6 +36,11 @@ $(document).ready(function(){
     $("html, body").animate({ scrollTop: 0 }, 700);
     return false;
     });
+  $('.bxslider').bxSlider({
+    controls : false,
+
+  });
+
 // Store functionality changes
 //Collection selection
     $("body").on( "click", "a.selection", function()
